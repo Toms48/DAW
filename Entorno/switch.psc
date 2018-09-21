@@ -3,8 +3,10 @@ Algoritmo switch
 	Escribir "1 ---> Coche"
 	Escribir "2 ---> Moto"
 	Escribir "3 ---> Camión"
-	Leer tipoCarnet
-	Segun tipoCarnet Hacer
+	
+	Leer opcionMenu
+	
+	Segun opcionMenu Hacer
 		1:
 			Escribir "Supermiso es el B"
 		2:
@@ -14,4 +16,5 @@ Algoritmo switch
 		De Otro Modo:
 			Escribir "La opcion escogida no es valida"
 	Fin Segun
+	
 FinAlgoritmo
