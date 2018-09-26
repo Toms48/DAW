@@ -24,10 +24,12 @@ public class tema2Ejercicio1 {
 		System.out.println(" ");
 		
 		System.out.println("Resta: x - y = " + (x-y));
+		System.out.println("Resta: y - x = " + (y-x));
 		
 		System.out.println(" ");
 		
-		System.out.println("Division: x : y = " + (x/y));
+		System.out.println("Division: x : y = " + ((double)x/(double)y));
+		System.out.println("Division: y : x = " + ((double)y/(double)x));
 		
 		System.out.println(" ");
 		
