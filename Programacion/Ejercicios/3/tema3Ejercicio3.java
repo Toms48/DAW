@@ -47,7 +47,7 @@ public class tema3Ejercicio3 {
 			euro = ((peseta*euroConstante)/pesetaConstante);
 			
 			//Mostrar por pantalla la cantidad de euros
-			System.out.println(peseta +" peseta/s es en euro/s: " + (double)Math.round(euro);
+			System.out.println(peseta +" peseta/s es en euro/s: " + euro);
 			
 		//Fin
 		
