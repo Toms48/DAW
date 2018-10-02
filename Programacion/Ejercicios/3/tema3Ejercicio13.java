@@ -28,28 +28,30 @@ public class tema3Ejercicio13 {
 	public static void main (String[] args) {
 		
 		//Declaración de variables
-		double notaExamen1 = 0.0;
-		double notaMedia = 0.0;
+		double nota1 = 0.0;
+		double notaTrimestre = 0.0;
 		
-		double notaExamen2 = 0.0;
+		double nota2 = 0.0;
 		
 		//Inicializaciones
 		Scanner teclado = new Scanner (System.in);
 		
 		//Inicio
 			//Preguntar y leer la nota del primer examen
-			System.out.print("Introduzca la nota de su primer examen: ");
-			notaExamen1 = teclado.nextDouble();
+			System.out.print("Introduce la nota del primer examen: ");
+			nota1 = teclado.nextDouble();
 			
 			//Preguntar y leer la media que se desea tener
-			System.out.print("Qué nota desea tener de media? Nota media: ");
-			notaMedia = teclado.nextDouble();
+			System.out.print("¿Qué nota quieres sacar en el trimestre? ");
+			notaTrimestre = teclado.nextDouble();
 			
 			//Calcular la nota del segundo examen para obtener esa media
-			notaExamen2 = (notaMedia) - (double)((notaExamen1*40)/100);
+			nota1 = ((40*nota1)/100);
+			
+			nota2 = (((notaTrimestre-nota1)*100)/60);
 			
 			//Mostrar la segunda nota necesaria
-			System.out.println("Necesita un " +notaExamen2 +" para tener de nota media un " +notaMedia);
+			System.out.println("Para tener un " +notaTrimestre +" en el trimestre necesitas sacar un " +nota2 +" en el segundo examen.");
 		//Fin
 		
 	}
