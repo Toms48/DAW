@@ -13,33 +13,6 @@
  * 
  */
 
-//PG
-/*
-Inicio
-	Preguntar y leer año
-	Preguntar y leer mes
-	Preguntar y leer dia
-	
-	Si mes es 2 y dia igual o menor que 28
-		Mostrar mensaje correcto
-	Sino
-		Si mes es 1 o 3 o 5 o 7 o 8 o 10 o 12
-			Si dia es igual o menor que 31
-				Mostrar mensaje correcto
-			Sino
-				Mostrar error
-			Fin_Si
-		Sino
-			Si dia es igual o menor que 30
-				Mostrar mensaje correcto
-			Sino
-				Mostrar error
-			Fin si
-		Fin_Si
-	Fin_Si	
-Fin
-*/
-
 import java.util.Scanner;
 
 public class ej10Extra {
@@ -54,7 +27,7 @@ public class ej10Extra {
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
 		
-		//Inicio
+		/*//Inicio
 			//Preguntar y leer año
 			System.out.print("Introduzca el año: ");
 			anio = teclado.nextInt();
@@ -101,7 +74,66 @@ public class ej10Extra {
 					}
 				}
 
-			}	
+			}
+		//Fin*/
+		
+		//Inicio
+			//Preguntar y leer año
+			System.out.print("Introduzca el año: ");
+			anio = teclado.nextInt();
+			
+			//Preguntar y leer mes
+			System.out.print("Introduzca el mes: ");
+			mes = teclado.nextInt();
+			
+			//Preguntar y leer dia
+			System.out.print("Introduzca el día: ");
+			dia = teclado.nextInt();
+			
+			switch(mes){ //Según el mes
+				case 2:
+					if(dia>=1 && dia<=28){ //Si dia está entre 1 y 28 (ambos incluidos)
+						//Mostrar fecha correcta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es correcta");
+					}
+					else{ //Sino
+						//Mostrar fecha incorrecta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es incorrecta");
+					}
+				break;
+				
+				case 1:
+				case 3:
+				case 5:
+				case 7:
+				case 8:
+				case 10:
+				case 12:
+					if(dia>=1 && dia<=31){ //Si dia está entre 1 y 31 (ambos incluidos)
+						//Mostrar fecha correcta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es correcta");
+					}
+					else{ //Sino
+						//Mostrar fecha incorrecta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es incorrecta");
+					}
+				break;
+				
+				case 4:
+				case 6:
+				case 9:
+				case 11:
+					if(dia>=1 && dia<=30){ //Si el dia está entre 1 y 30 (ambos incluidos)
+						//Mostrar fecha correcta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es correcta");
+					}
+					else{
+						//Mostrar fecha incorrecta
+						System.out.println("Su fecha " +dia +"-" +mes +"-" +anio +" es incorrecta");
+					}
+				break;
+				
+			}
 		//Fin
 		
 	}
