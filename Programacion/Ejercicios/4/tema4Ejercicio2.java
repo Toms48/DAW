@@ -57,7 +57,7 @@ public class tema4Ejercicio2 {
 					System.out.println("¡Buenas tardes!");
 				}
 				else{
-					if((hora>=21 && hora<= 23) || (hora>=1 && hora<=5)){
+					if((hora>=21 && hora<= 23) || (hora>=0 && hora<=5)){
 						//Mostrar buenas noches
 						System.out.println("¡Buenas noches!");
 					}
