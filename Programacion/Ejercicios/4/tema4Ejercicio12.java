@@ -109,6 +109,8 @@ public class tema4Ejercicio12 {
 			}
 			//Fin_Si
 			
+			System.out.println(" ");
+			
 			//Mostrar pregunta 3 y respuestas
 			System.out.println("\tPregunta 3");
 			System.out.println("¿Se puede utilizar la funcionalidad .next de Scanner para leer un número?");
@@ -129,6 +131,8 @@ public class tema4Ejercicio12 {
 			}
 			//Fin_Si
 			
+			System.out.println(" ");
+			
 			//Mostrar pregunta 4 y respuestas
 			System.out.println("\tPregunta 4");
 			System.out.println("El if se utiliza para muchas condiciones y el switch para pocos casos");
@@ -144,6 +148,8 @@ public class tema4Ejercicio12 {
 				//Puntuacion + 1
 				puntuacion++;
 			}
+			
+			System.out.println(" ");
 			
 			//Según puntuacion
 			switch(puntuacion){

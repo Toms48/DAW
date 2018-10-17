@@ -10,7 +10,7 @@
  * Análisis
  * 
  * 		Entradas:
- * 			- boolean para la respuesta del usuario
+ * 			- char para la respuesta del usuario
  * 
  * 		Salidas: Por pantalla
  * 
@@ -104,74 +104,180 @@ Te aconsejamos que indagues un poco más y averigües que es lo que está pasando p
 		
 	//Fin
 
+import java.util.Scanner;
+
 public class tema4Ejercicio16 {
 	
 	public static void main (String[] args) {
 		
 		//Declaracion de variables
+		char respuesta = ' ';
+		int puntuacion = 0;
 		
 		//Inicializaciones
+		Scanner teclado = new Scanner (System.in);
 		
 		//Inicio
 			//Hacer pregunta 1 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 1");
+			System.out.println("Tu pareja parece estar más inquieta de lo normal sin ningún motivo aparente.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 2 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 2");
+			System.out.println("Ha aumentado sus gastos de vestuario.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 3 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 3");
+			System.out.println("Ha perdido el interés que mostraba anteriormente por ti.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 4 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 4");
+			System.out.println("Ahora se afeita y se asea con más frecuencia (si es hombre) o ahora se arregla el pelo y se asea con más frecuencia (si es mujer).");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 5 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 5");
+			System.out.println("No te deja que mires la agenda de su teléfono móvil.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 6 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 6");
+			System.out.println("A veces tiene llamadas que dice no querer contestar cuando estás tú delante.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 7 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 7");
+			System.out.println("Últimamente se preocupa más en cuidar la línea y/o estar bronceado/a.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 8 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 8");
+			System.out.println("Muchos días viene tarde después de trabajar porque dice tener mucho más trabajo.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 9 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 9");
+			System.out.println("Has notado que últimamente se perfuma más.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Hacer pregunta 10 y leer respuesta
+			System.out.println(" ");
+			System.out.println("\tPregunta 10");
+			System.out.println("Se confunde y te dice que ha estado en sitios donde no ha ido contigo.");
+			System.out.println(" ");
+			System.out.print("Responda con una S para Sí o con una N para No: ");
+			respuesta = Character.toLowerCase(teclado.next().charAt(0));
+			
 			//Si es verdad
+			if(respuesta=='s'){
 				//Sumar 3 puntos
-			//Fin_Si
+				puntuacion = puntuacion+3;
+			}//Fin_Si
 			
 			//Si la puntuación está entre 0 y 10 (incluidos)
+			if(puntuacion>=0 && puntuacion<=10){
 				//Mostrar mensaje
-			//Sino
+				System.out.println(" ");
+				System.out.println("¡Enhorabuena! tu pareja parece ser totalmente fiel.");
+			}
+			else{
 				//Si la puntuación está entre 11 y 22 (incluidos)
+				if(puntuacion>=11 && puntuacion<=22){
 					//Mostrar mensaje
-				//Sino
+					System.out.println(" ");
+					System.out.println("Quizás exista el peligro de otra persona en su vida o en su mente, aunque seguramente será algo sin importancia. No bajes la guardia.");
+				}
+				else{
 					//Mostrar mensaje
-				//Fin_Si
-			//Fin_Si
+					System.out.println(" ");
+					System.out.println("Tu pareja tiene todos los ingredientes para estar viviendo un romance con otra persona.");
+					System.out.println("Te aconsejamos que indagues un poco más y averigües que es lo que está pasando por su cabeza.");
+				}//Fin_Si
+			}//Fin_Si
 			
 		//Fin
 		
