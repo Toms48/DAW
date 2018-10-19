@@ -34,10 +34,10 @@
 			//caso Viernes
 				//Calcular tiempo hasta el viernes
 		//Fin_Según
-		//Si dia no es viernes
+		//Si dia es viernes
 			//Mostrar los minutos que quedan
 		//Sino
-			//Mostrar los minutos que quedan (más el viernes)
+			//Mostrar los minutos que quedan
 		//Fin_Si
 	//Fin
 
