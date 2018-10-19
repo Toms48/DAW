@@ -79,7 +79,7 @@ public class tema4Ejercicio20 {
 						while(iNumero != 0) {
 							int digit = iNumero % 10;
 							iNumeroInvertido = iNumeroInvertido * 10 + digit;
-							iNumero /= 10;
+							iNumero = iNumero/10;
 						}
 						
 						//Si numero y su invertido son iguales
