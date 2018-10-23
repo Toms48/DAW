@@ -55,6 +55,8 @@ public class tema4Ejercicio22 {
 		int minutoRest = 0;
 		int minutosPorMedio = 0; //Los minutos que hay en los dias de por medio hasta el viernes
 		
+		boolean error = false;
+		
 		String dia = "";
 		
 		//Inicializaciones
