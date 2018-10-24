@@ -18,6 +18,20 @@
 		//Leer y validar el numero
 		//Mostrar cantidad de digitos
 	//Fin
+	
+	//Inicio
+		//Leer y validar el numero
+		//Si el numero es negativo
+			//Pasar numero a positivo
+		//Fin_Si
+		//Si el numero está entre 0 y 9
+			//Mostrar cantidad de digitos
+		//Sino
+			//Contar los digitos del numero
+			//Mostrar cantidad de digitos
+		//Fin_Si
+		
+	//Fin
 
 import java.util.Scanner;
 
@@ -26,12 +40,15 @@ public class t5Ej9 {
 	public static void main (String[] args) {
 		
 		//Declaración de variables
-		String numero = "";
+		//String numero = "";
+		int numero = 0;
+		int nDigitos = 0;
+		int aux = 0;
 		
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
 		
-		//Inicio
+		/*//Inicio
 			//Leer y validar el numero
 			System.out.print("Introduzca un número, le diré cuantos digitos tiene: ");
 			numero = teclado.next();
@@ -46,6 +63,38 @@ public class t5Ej9 {
 			}
 			System.out.println(" ");
 			
+		//Fin*/
+		
+		//Inicio
+			//Leer y validar el numero
+			System.out.print("Introduzca un número, le diré cuantos digitos tiene: ");
+			numero = teclado.nextInt();
+			
+			//Si el numero es negativo
+			if(numero<0){
+				//Pasar numero a positivo
+				numero = numero*-1;
+			}//Fin_Si
+			
+			//Si el numero está entre 0 y 9
+			if(numero>=0 && numero<=9){
+				//Mostrar cantidad de digitos
+				System.out.println("El numero " +numero +" tiene 1 dígito");
+			}
+			else{
+				//Contar los digitos del numero
+				aux = numero;
+				while(aux>0){
+					/*System.out.println(aux%10);  Código de prueba
+					System.out.println(aux/10);*/
+					aux = aux/10;
+					
+					nDigitos++;
+				}
+				//Mostrar cantidad de digitos
+				System.out.println("El número " +numero +" tiene " +nDigitos +" dígitos");
+				
+			}//Fin_Si
 		//Fin
 		
 	}
