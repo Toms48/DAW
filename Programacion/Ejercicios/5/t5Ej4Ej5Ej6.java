@@ -1,5 +1,5 @@
 /*
- * Nombre: t4Ej4Ej5Ej6
+ * Nombre: t5Ej4Ej5Ej6
  * 
  * Comentario: Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás utilizando un bucle for, while, do-while.
  * 
@@ -11,7 +11,7 @@
  * 
  */
 
-public class t4Ej4Ej5Ej6 {
+public class t5Ej4Ej5Ej6 {
 	
 	public static void main (String[] args) {
 		
