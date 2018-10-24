@@ -21,7 +21,6 @@
 	//Fin
 
 import java.util.Scanner;
-import java.util.Formatter;
 
 public class t5Ej11 {
 	
