@@ -69,6 +69,7 @@ public class t5Ej9 {
 			//Leer y validar el numero
 			System.out.print("Introduzca un número, le diré cuantos digitos tiene: ");
 			numero = teclado.nextInt();
+			aux = numero;
 			
 			//Si el numero es negativo
 			if(numero<0){
@@ -83,16 +84,18 @@ public class t5Ej9 {
 			}
 			else{
 				//Contar los digitos del numero
-				aux = numero;
-				while(aux>0){
-					/*System.out.println(aux%10);  Código de prueba
-					System.out.println(aux/10);*/
-					aux = aux/10;
+				while(numero>0){
+					/***** Código de prueba *****
+					*System.out.println(numero%10); %10 quita la primera cifra del número
+					*System.out.println(numero/10); /10 quita la cifra de las unidades de nuestro número
+					****************************/
+					
+					numero = numero/10;
 					
 					nDigitos++;
 				}
 				//Mostrar cantidad de digitos
-				System.out.println("El número " +numero +" tiene " +nDigitos +" dígitos");
+				System.out.println("El número " +aux  +" tiene " +nDigitos +" dígitos");
 				
 			}//Fin_Si
 		//Fin
