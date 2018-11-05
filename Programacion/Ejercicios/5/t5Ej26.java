@@ -34,6 +34,9 @@ public class t5Ej26 {
 		
 		int numeroInvertido = 0;
 		
+		int contadorDigito = 0;
+		int posicion = 0;
+		
 		//int posicion
 		
 		//Inicializaciones
@@ -49,21 +52,39 @@ public class t5Ej26 {
 			
 			//Calcular la/s posicion/es
 			
-			/*System.out.println(numero/10);
-			System.out.println(numero%10);*/
+			/*System.out.println(numero/10); //quita el ultimo numero
+			System.out.println(numero%10); //Te dice el ultimo numero*/
 			
 			while(numero != 0){
 				numeroInvertido = (numeroInvertido*10) + (numero%10);
 				numero = numero/10;
 			}
 			
+			System.out.println(" ");
+			
+			System.out.println("Su numero esta en la/s posicion/es: ");
+			
 			while(numeroInvertido>0){
-				/*if(){
+				
+				posicion++;
+				
+				if(numeroInvertido%10 == digito){
+					contadorDigito++;
 					
-				}*/
+					System.out.println(posicion);
+					
+				}
+				numeroInvertido = numeroInvertido/10;
 			}
 			
 			//Mostrar resultados
+			if(contadorDigito == 1){
+				System.out.println("El " +digito +" sale " +contadorDigito +" vez");
+			}
+			else{
+				System.out.println("El " +digito +" sale " +contadorDigito +" veces");
+			}
+			
 		//Fin
 		
 	}
