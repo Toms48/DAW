@@ -25,12 +25,31 @@ Tema 4
 	- Horóscopo		      ---> tema4Ejercicio10
 	- Segundos hasta la medinoche ---> tema4Ejercicio11
 	- Ordenar tres numeros >      ---> tema4Ejercicio13
+	- Numero capicua              ---> tema4Ejercicio20
+	- h y s entre dias            ---> tema4Ejercicio22
+
+Tema 5
+	- Bucle for             ---> t5Ej1Ej2Ej3
+	- Caja fuerte           ---> t5Ej7
+	- Contador de digitos   ---> t5Ej9
+	- printf                ---> t5Ej11
+	- Fibonacci	        ---> t5Ej12
+	- Exponente	        ---> t5Ej14
+	- Numero primo          ---> t5Ej16
+	- Pintar pirámide       ---> t5Ej19
+	- Pintar pirámide hueca ---> t5Ej20
+	- Pirámide de números   ---> t5Ej24
+	- Número invertido      ---> t5Ej25
+	- Posición de una cifra ---> t5Ej26
+	- Factorial		---> t5Ej29
+	- Separar par e impar   ---> t5Ej34
 
 
+printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
 Math ---> java.lang.Math
 Scanner ---> java.util.Scanner
 
-numero%10 ---> 
-numero/10 ---> 
-	
+numero%2==0  ---> Para números pares
+numero%10    ---> Nos dice la última cifra de un número
+numero/10    ---> Nos da el numero sin la última cifra
