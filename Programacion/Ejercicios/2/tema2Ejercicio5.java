@@ -19,7 +19,7 @@ public class tema2Ejercicio5 {
 		double pesetaConstante = 166.0;
 		
 		double euro = 0.0;
-		double peseta = 2.0;
+		double peseta = 1000.0;
 		
 		//Inicializaciones
 		//DecimalFormat truncador = new DecimalFormat("#0.00");

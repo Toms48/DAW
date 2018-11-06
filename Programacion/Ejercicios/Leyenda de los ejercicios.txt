@@ -1,0 +1,36 @@
+Tema 1
+	- System.out.println(""); ---> tema1Ejercicio2
+	- \t			  ---> tema1Ejercicio3
+	- colores en cmd	  ---> tema1Ejercicio5
+	- Logo de coca-cola	  ---> tema1Ejercicio9
+
+Tema 2
+	- Declaración de variables ---> tema2Ejercicio1
+	- Casteo (a double)        ---> tema2Ejercicio1
+	- Conversión euro/pesetas  ---> tema2Ejercicio4
+	- Math.round *****MIRAR EN LOS OTROS BOLETIONES*****
+
+Tema 3
+	- Inicialización Scanner ---> tema3Ejercicio2
+	- teclado.nextInt/Double ---> tema3Ejercicio2
+
+Tema 4
+	- nombreCadena.toLowerCase    ---> tema4Ejercicio1
+	- switch 		      ---> tema4Ejercicio1
+	- .equals("cadena")	      ---> tema4Ejercicio1
+	- BuenosDias/Tardes/Noche     ---> tema4Ejercicio2
+	- Ecuación de 1º grado        ---> tema4Ejercicio5
+	- if()else if()		      ---> tema4Ejercicio8
+	- Ecuación de 2º grado        ---> tema4Ejercicio9
+	- Horóscopo		      ---> tema4Ejercicio10
+	- Segundos hasta la medinoche ---> tema4Ejercicio11
+	- Ordenar tres numeros >      ---> tema4Ejercicio13
+
+
+
+Math ---> java.lang.Math
+Scanner ---> java.util.Scanner
+
+numero%10 ---> 
+numero/10 ---> 
+	

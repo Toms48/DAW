@@ -7,7 +7,7 @@
  * 
  * Análisis
  * 
- * 		Entradas: Un int para la altura de la L
+ * 		Entradas: Un int para la altura de la U
  * 
  * 		Salidas: Por pantalla
  * 
@@ -36,7 +36,7 @@ public class t5Ej33 {
 			
 			System.out.print("* ");
 			
-			for(int espacio=1; espacio<=altura-2; espacio++){
+			for(int espacio=1; espacio<=(altura/2)+1; espacio++){
 				System.out.print(" ");
 				System.out.print(" ");
 			}
@@ -50,7 +50,7 @@ public class t5Ej33 {
 		//Pintamos la base de la U
 		System.out.print(" ");
 		
-		for(int j=1; j<=altura-2; j++){
+		for(int j=1; j<=(altura/2)+1; j++){
 			System.out.print(" ");
 			System.out.print("*");
 		}
