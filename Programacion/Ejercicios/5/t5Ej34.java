@@ -19,6 +19,7 @@
 	//Inicio
 		//Leer y validar numeros
 		//Comprobar digitos
+		//Mostrar par e impar
 	//Fin
 
 import java.util.Scanner;
@@ -30,6 +31,12 @@ public class t5Ej34 {
 		//Declaracion de variables
 		long num1 = 0;
 		long num2 = 0;
+		
+		long num1Invertido = 0;
+		long num2Invertido = 0;
+		
+		long par = 0;
+		long impar = 0;
 		
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
@@ -54,15 +61,47 @@ public class t5Ej34 {
 				num1 = num1/10;
 			}
 			
+			//System.out.println(num1Invertido);	//Linea para ver si se invierte correctamente el numero 1
+			
 			while(num2 != 0){
 				num2Invertido = (num2Invertido*10) + (num2%10);
 				num2 = num2/10;
 			}
 			
-			while(num2Invertido>0){
-				par = (par*10) + (num1Invertido%10);
-				num1Invertido = num1Invertido/10;
+			//System.out.println(num2Invertido);	//Linea para ver si se invierte correctamente el numero 2
+			
+			for(long i=num2Invertido; i>0; i=i/10){
+				
+				/*System.out.println(" ");		//Codigo para ver como van cambiando las variables i(num2Invertido) y num1Invertido
+				System.out.println(num1Invertido);
+				System.out.println(i);
+				System.out.println(" ");*/
+				
+				if((num1Invertido%10)%2 == 0){
+					par = (par*10) + (num1Invertido%10);
+					num1Invertido = num1Invertido/10;
+				}
+				else{
+					impar = (impar*10) + (num1Invertido%10);
+					num1Invertido = num1Invertido/10;
+				}
+				
+				if((i%10)%2 == 0){
+					par = (par*10) + (i%10);
+				}
+				else{
+					impar = (impar*10) + (i%10);
+				}
+				
+				/*System.out.println(" ");		//Codigo para ir viendo como se añaden los numeros a las variables par e impar
+				System.out.println("Par: " +par);
+				System.out.println("Impar: " +impar);
+				System.out.println(" ");*/
 			}
+			
+			//Mostrar par e impar
+			System.out.println("El numero formado por los digitos pares es " +par);
+			System.out.println("El numero formado por los digitos impares es " +impar);
 			
 		//Fin
 		
