@@ -20,7 +20,6 @@
 			//Crear numero aleatorio entre minimo y maximo
 			//Si numero del pc es distinto al secreto
 				//Mostrar fallo y cantidad de intentos restantes
-				//Preguntar si es mayor o menor
 				//Leer y validar respuesta del usuario
 				
 				//Si es mayor
@@ -51,7 +50,7 @@ public class t6Ej14 {
 		int contadorIntentos = 1;
 		
 		int min = 0;
-		int max = 101;
+		int max = 100;
 		
 		boolean correcto = false;
 		
@@ -71,7 +70,7 @@ public class t6Ej14 {
 			//Hacer
 			do{
 				//Crear numero aleatorio entre minimo y maximo
-				numeroPc = (int)(Math.random()*(max-min))+min;
+				numeroPc = (int)(Math.random()*(max-min+1))+min;
 				System.out.println(numeroPc);
 				
 				//Si numero del pc es distinto al secreto
@@ -80,20 +79,16 @@ public class t6Ej14 {
 					//Mostrar fallo y cantidad de intentos restantes
 					System.out.println("No es correcto. Le queda " +(5-contadorIntentos) +" intentos.");
 					
-					//Preguntar si es mayor o menor
-					System.out.println("Humano, indiqueme si su numero es mayor o menor al mio.");
-					System.out.print("Respuesta (mayor/menor): ");
-					
-					//Leer y validar respuesta del usuario
-					do{
-						respuesta = teclado.next();
-						
-					}
-					while(respuesta.equals("mayor")==false && respuesta.equals("menor")==false);
-					
-					System.out.println("Contador de intentos antes: " +contadorIntentos);
-					
 					if(contadorIntentos!=5){
+						//Leer y validar respuesta del usuario
+						do{
+							System.out.println("Humano, indiqueme si su numero es mayor o menor al mio.");
+							System.out.print("Respuesta (mayor/menor): ");
+							respuesta = teclado.next();
+							
+						}
+						while(respuesta.equals("mayor")==false && respuesta.equals("menor")==false);
+						
 						//Si es mayor
 						if(respuesta.equals("mayor")==true){
 							//Minimo es el último numero que ha dicho el pc
@@ -102,7 +97,7 @@ public class t6Ej14 {
 						}
 						else{
 							//Maximo es el último número qeu ha dicho el pc
-							max = numeroPc;
+							max = numeroPc-1;
 							System.out.println("Nuevo maximo " +max);
 						}//Fin_Si
 					}
@@ -116,9 +111,8 @@ public class t6Ej14 {
 				}//Fin_Si
 				
 				//teclado.nextLine();
-				System.out.println("Contador de intentos despues: " +contadorIntentos);
 			}
-			while(contadorIntentos<5 && correcto!=true);//Mientras intentos sean menor o igual que 5 y correcto sea false
+			while(contadorIntentos<=5 && correcto!=true);//Mientras intentos sean menor o igual que 5 y correcto sea false
 			
 			if(contadorIntentos>5){
 				System.out.println(" ");
