@@ -27,12 +27,72 @@
 //PG
 	//Inicio
 		//Generar numero de compases (entre 1 y 7 incluidos)
-		
+		//Para contador=1, mientras contador sea menor o igual que numero de compases, aumentar contador
+			//Para contador=1, mientras contador sea menor o igual que 4, aumentar contador
+				//Generar numero de la nota
+				//Según numero de nota
+					//Imprimir nota 
+				//Fin_Segun
+			//Fin_Para
+		//Fin_Para
 	//Fin
+
+import java.lang.Math;
 
 public class T6Ej15 {
 	
 	public static void main (String[] args) {
+		
+		//Declaracion de variables
+		int nCompases = 0;
+		int nNota = 0;
+		
+		//Inicializaciones
+		
+		//Inicio
+			//Generar numero de compases (entre 1 y 7 incluidos)
+			nCompases = (int)(Math.random()*7)+1;
+			
+			//Para contador=1, mientras contador sea menor o igual que numero de compases, aumentar contador
+			for(int i=1; i<=nCompases; i++){
+				//Para contador=1, mientras contador sea menor o igual que 4, aumentar contador
+				for(int j=1; j<=4; j++){
+					//Generar numero de la nota
+					nNota = (int)(Math.random()*7)+1;
+					
+					//Según numero de nota
+					switch(nNota){
+						case 1:
+							System.out.print(" Do");
+						break;
+						
+						case 2:
+							System.out.print(" Re");
+						break;
+						
+						case 3:
+							System.out.print(" Mi");
+						break;
+						
+						case 4:
+							System.out.print(" Fa");
+						break;
+						
+						case 5:
+							System.out.print("Sol");
+						break;
+						
+						case 6:
+							System.out.print(" La");
+						break;
+						
+						case 7:
+							System.out.print(" Si");
+						break;
+					}//Fin_Segun
+				}//Fin_Para
+			}//Fin_Para
+		//Fin
 		
 	}
 }
