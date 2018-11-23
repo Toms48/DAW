@@ -43,143 +43,215 @@ public class T6Ej15 {
 
     public static void main (String[] args) {
 
-        //Declaracion de variables
-        int nCompases = 0;
-        int nNota = 0;
+        /*int compases = (int)(Math.random()*7);
 
-        int ultimaNota = 0;
+        int nota1 = (int)(Math.random()*7);
+        int nota2 = (int)(Math.random()*7);
+        int nota3 = (int)(Math.random()*7);
+        int nota4 = (int)(Math.random()*7);
 
-        //Inicializaciones
+        String[][] arraycompases = new String[11][compases];
 
-        //Inicio
-        //Generar numero de compases (entre 1 y 7 incluidos)
-        nCompases = (int)(Math.random()*7)+1;
+        String[] arrayDo  ={"---", "   ", "---", "   ", "---", "   ", "---", "   ", "---", "   ", "-O-"};
+        String[] arrayRe  ={"---", "   ", "---", "   ", "---", "   ", "---", "   ", "---", " O ", "   "};
+        String[] arrayMi  ={"---", "   ", "---", "   ", "---", "   ", "---", "   ", "-O-", "   ", "   "};
+        String[] arrayFa  ={"---", "   ", "---", "   ", "---", "   ", "---", " O ", "---", "   ", "   "};
+        String[] arraySol ={"---", "   ", "---", "   ", "---", "   ", "-O-", "   ", "---", "   ", "   "};
+        String[] arrayLa  ={"---", "   ", "---", "   ", "---", " O ", "---", "   ", "---", "   ", "   "};
+        String[] arraySi  ={"---", "   ", "---", "   ", "-O-", "   ", "---", "   ", "---", "   ", "   "};
 
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
-        System.out.print("|");
+        for(int k=0; k<=10; k++){
+            switch (nota1) {
+                case 0:
+                    System.out.print(arrayDo[k]);
+                    break;
+                case 1:
+                    System.out.print(arrayRe[i]);
+                    break;
+                case 2:
+                    System.out.print(arrayMi[i]);
+                    break;
+                case 3:
+                    System.out.print(arrayFa[i]);
+                    break;
+                case 4:
+                    System.out.print(arraySol[i]);
+                    break;
+                case 5:
+                    System.out.print(arrayLa[i]);
+                    break;
+                case 6:
+                    System.out.print(arraySi[i]);
+                    break;
+            }
+            switch (nota2) {
+                case 0:
+                    System.out.print(arrayDo[i]);
+                    break;
+                case 1:
+                    System.out.print(arrayRe[i]);
+                    break;
+                case 2:
+                    System.out.print(arrayMi[i]);
+                    break;
+                case 3:
+                    System.out.print(arrayFa[i]);
+                    break;
+                case 4:
+                    System.out.print(arraySol[i]);
+                    break;
+                case 5:
+                    System.out.print(arrayLa[i]);
+                    break;
+                case 6:
+                    System.out.print(arraySi[i]);
+                    break;
+            }
+            switch (nota3) {
+                case 0:
+                    System.out.print(arrayDo[i]);
+                    break;
+                case 1:
+                    System.out.print(arrayRe[i]);
+                    break;
+                case 2:
+                    System.out.print(arrayMi[i]);
+                    break;
+                case 3:
+                    System.out.print(arrayFa[i]);
+                    break;
+                case 4:
+                    System.out.print(arraySol[i]);
+                    break;
+                case 5:
+                    System.out.print(arrayLa[i]);
+                    break;
+                case 6:
+                    System.out.print(arraySi[i]);
+                    break;
+            }
+            switch (nota4) {
+                case 0:
+                    System.out.print(arrayDo[i]);
+                    break;
+                case 1:
+                    System.out.print(arrayRe[i]);
+                    break;
+                case 2:
+                    System.out.print(arrayMi[i]);
+                    break;
+                case 3:
+                    System.out.print(arrayFa[i]);
+                    break;
+                case 4:
+                    System.out.print(arraySol[i]);
+                    break;
+                case 5:
+                    System.out.print(arrayLa[i]);
+                    break;
+                case 6:
+                    System.out.print(arraySi[i]);
+                    break;
+            }
+        }*/
 
-        //Para contador=1, mientras contador sea menor o igual que numero de compases, aumentar contador
-        for(int i=1; i<=nCompases; i++){
-            //Para contador=1, mientras contador sea menor o igual que 4, aumentar contador
-            for(int j=1; j<=4; j++){
-                //Generar numero de la nota
-                nNota = (int)(Math.random()*7)+1;
-
-                if(i==1 && j==1){
-                    ultimaNota = nNota;
-                }
-                else{
-                    if(i==nCompases && j==4){
-                        nNota = ultimaNota;
-                    }
-                }
-
-                System.out.print(" ");
-
-                //Según numero de nota
-                switch(nNota){
+        /*for(int j=0; j<=compases; j++) {
+            for (int i = 0; i <= 10; i++) {
+                switch (nota1) {
+                    case 0:
+                        System.out.print(arrayDo[i]);
+                        break;
                     case 1:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("─\u25CF─");
-                    break;
-
+                        System.out.print(arrayRe[i]);
+                        break;
                     case 2:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("\u25CF");
-                    break;
-
+                        System.out.print(arrayMi[i]);
+                        break;
                     case 3:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("─\u25CF─");
-                    break;
-
+                        System.out.print(arrayFa[i]);
+                        break;
                     case 4:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println(" \u25CF ");
-                        System.out.println("───");
-                    break;
-
+                        System.out.print(arraySol[i]);
+                        break;
                     case 5:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("─\u25CF─");
-                        System.out.println("   ");
-                        System.out.println("───");
-                    break;
-
+                        System.out.print(arrayLa[i]);
+                        break;
                     case 6:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println(" \u25CF ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                    break;
+                        System.out.print(arraySi[i]);
+                        break;
+                }
+                switch (nota2) {
+                    case 0:
+                        System.out.print(arrayDo[i]);
+                        break;
+                    case 1:
+                        System.out.print(arrayRe[i]);
+                        break;
+                    case 2:
+                        System.out.print(arrayMi[i]);
+                        break;
+                    case 3:
+                        System.out.print(arrayFa[i]);
+                        break;
+                    case 4:
+                        System.out.print(arraySol[i]);
+                        break;
+                    case 5:
+                        System.out.print(arrayLa[i]);
+                        break;
+                    case 6:
+                        System.out.print(arraySi[i]);
+                        break;
+                }
+                switch (nota3) {
+                    case 0:
+                        System.out.print(arrayDo[i]);
+                        break;
+                    case 1:
+                        System.out.print(arrayRe[i]);
+                        break;
+                    case 2:
+                        System.out.print(arrayMi[i]);
+                        break;
+                    case 3:
+                        System.out.print(arrayFa[i]);
+                        break;
+                    case 4:
+                        System.out.print(arraySol[i]);
+                        break;
+                    case 5:
+                        System.out.print(arrayLa[i]);
+                        break;
+                    case 6:
+                        System.out.print(arraySi[i]);
+                        break;
+                }
+                switch (nota4) {
+                    case 0:
+                        System.out.print(arrayDo[i]);
+                        break;
+                    case 1:
+                        System.out.print(arrayRe[i]);
+                        break;
+                    case 2:
+                        System.out.print(arrayMi[i]);
+                        break;
+                    case 3:
+                        System.out.print(arrayFa[i]);
+                        break;
+                    case 4:
+                        System.out.print(arraySol[i]);
+                        break;
+                    case 5:
+                        System.out.print(arrayLa[i]);
+                        break;
+                    case 6:
+                        System.out.print(arraySi[i]);
+                        break;
+                }
+                System.out.println();
+            }
+        }*/
 
-                    case 7:
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("─\u25CF─");
-                        System.out.println("   ");
-                        System.out.println("───");
-                        System.out.println("   ");
-                        System.out.println("───");
-                    break;
-                }//Fin_Segun
-            }//Fin_Para
-
-            System.out.print(" |");
-
-        }//Fin_Para
-
-        System.out.print("|");
-
-        //Fin
     }
 }
