@@ -47,11 +47,12 @@ public class t7Ej6 {
             //Para contador=0, mientras sea menor o igual que 14. aumentar contador
             for(int i=0; i<=14; i++) {
                 //Leer y cargar numero en el array
+                System.out.print("Intruduzca el valor de la posicion " +(i+1) +": ");
                 array[i] = teclado.nextInt();
             }//Fin_Para
 
             //Para contador=0, mientras sea menor o igual que 14, aumentar contador
-            for(i=0; i<=14; i++) {
+            for(int i=0; i<=14; i++) {
                 //Cargar array rotado
                 if(i!=14) {
                     arrayRotado[i+1] = array[i];
@@ -61,10 +62,16 @@ public class t7Ej6 {
                 }
             }//Fin_Para
 
-            //Para contador=1, mientras sea menor o igual que 15, aumentar contador
-            for() {
+            System.out.println(" ");
+
+            //Para contador=0, mientras sea menor o igual que 14, aumentar contador
+            for(int i=0; i<=14; i++) {
                 //Mostrar la posicion contador del array
+                System.out.print(arrayRotado[i] +" ");
             }//Fin_Para
+
+            System.out.println(" ");
+
         //Fin
     }
 }
