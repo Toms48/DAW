@@ -21,7 +21,7 @@
  *       Salidas: Por pantalla
  *
  *       Requisitos:
- *       	- El valor de la posicion "final" no puede ser mayor que "inicial"
+ *       	- El valor de la posicion "inicial" no puede ser mayor que "final"
  *       	- Los valores de "inicial" y "final" tienen que estar entre 0 y 9
  *
  *
@@ -55,14 +55,17 @@ public class t7Ej12 {
 		//Declaración de variables
 		int[] arrayInicial = new int[10];
 		int[] arrayFinal = new int[10];
-		
+
+		int inicial = 0;
+		int finall = 0;
+
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
 		
 		//Inicio
 			//Leer y cargar numeros en el array inicial
 			for(int i=0; i<=9; i++){
-				System.out.print("Escriba el numero para la posicion " +(i+1) +" del array: ");
+				System.out.print("Escriba el numero para la posicion " +(i) +" del array: ");
 				arrayInicial[i] = teclado.nextInt();
 			}
 			
@@ -73,26 +76,77 @@ public class t7Ej12 {
 			System.out.println("| Array Inicial |");
 			System.out.println("o---------------o");
 			for(int i=0; i<=9; i++){
-				System.out.printf("Posicion %2d ---> "+arrayInicial[i] +"\n", (i+1));
+				System.out.printf("Posicion %2d ---> "+arrayInicial[i] +"\n", (i));
 			}
-		
+
+			System.out.println(" ");
+
 			//Leer y validar posicion inicial y final
+			do{
+
+				do{
+					System.out.print("Introduzca el valor de la pocision inicial: ");
+					inicial = teclado.nextInt();
+				}
+				while(inicial<0 || inicial>9);
+
+				do{
+					System.out.print("Introduzca el valor de la pocision final: ");
+					finall = teclado.nextInt();
+				}
+				while(finall<0 || finall>9);
+
+				if(inicial>finall){
+					System.out.println("La posicion inicial no puede ser mayor que la final.\nVuelva a introducir los datos");
+				}
+			}
+			while(inicial>finall);
+
 			//Cargar la posicion final del array final con el numero de la posicion inicial del array incial
+			arrayFinal[finall] = arrayInicial[inicial];
 			
-			//Si inicial es 9
-			/*if() {
+			/*//Si inicial es 9
+			if(finall==9) {
 				//inicial = 0
+				finall = 0;
 			}
 			else {
 				//aumentar inicial
+				finall++;
 			}//Fin_Si*/
 			
 			//Para contador=inicial, mientras contador sea menor o igual que 8, aumentar contador
-			/*for() {
+			for(int i=finall+1; i>=inicial+1; i++) {
 				//array final con posicion contador = array inicial posicion contador
-			}//Fin_Para*/
+
+				if(i>9){
+					i = 0;
+				}
+
+				if(finall==inicial){
+					finall++;
+				}
+
+				if(finall>9){
+					finall = 0;
+				}
+
+				arrayFinal[i] = arrayInicial[finall];
+
+				finall++;
+
+			}//Fin_Para
 			
 			//Mostrar array final
+			System.out.println(" ");
+
+			System.out.println("o---------------o");
+			System.out.println("|  Array Final  |");
+			System.out.println("o---------------o");
+			for(int i=0; i<=9; i++){
+				System.out.printf("Posicion %2d ---> "+arrayFinal[i] +"\n", (i+1));
+			}
+
 		//Fin
 		
 	}
