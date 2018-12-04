@@ -60,6 +60,8 @@ public class t7Ej12 {
 		int finall = 0;
 
 		int otraVariable = 0;
+		
+		boolean inicialSaltado = false;
 
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
@@ -120,7 +122,7 @@ public class t7Ej12 {
 		otraVariable = finall+1;
 
 			//Para contador=inicial, mientras contador sea menor o igual que 8, aumentar contador
-			for(int i=finall+1; i!=(finall-1); i++) {
+			for(int i=finall+1; i!=(finall); i++) {
 				//array final con posicion contador = array inicial posicion contador
 
 
@@ -131,6 +133,7 @@ public class t7Ej12 {
 
 				if((otraVariable-1)==inicial){
 					otraVariable++;
+					inicialSaltado = true;
 				}
 
 				if(otraVariable>10){
@@ -138,8 +141,15 @@ public class t7Ej12 {
 				}
 
 				arrayFinal[i] = arrayInicial[otraVariable-1];
-
+				
 				otraVariable++;
+				
+				/*if(inicialSaltado==false) {
+				
+				}
+				else{
+					otraVariable = otraVariable+2;
+				}*/
 
 			}//Fin_Para
 			
