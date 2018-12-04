@@ -45,44 +45,36 @@
     <session id="-751072896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1889" />
+          <entry key="java" value="3789" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1889" />
+          <entry key="JAVA" value="3789" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t7Ej3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/t7Ej6.java">
           <provider selected="true" editor-type-id="text-editor" />
@@ -122,7 +114,10 @@
         <entry file="file://$PROJECT_DIR$/src/t7Ej10.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#3323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/t7Ej11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="70" column="13" selection-start-line="63" selection-start-column="12" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="-815">
+              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
               <folding>
                 <element signature="e#0#3308#0" expanded="true" />
               </folding>
@@ -139,22 +134,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/t7Ej12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state relative-caret-position="83">
+              <caret line="122" column="53" lean-forward="true" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#3824#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/t7Ej13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+            <state relative-caret-position="231">
+              <caret line="96" column="13" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="96" selection-end-column="13" />
               <folding>
-                <element signature="e#0#859#0" expanded="true" />
+                <element signature="e#0#3105#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t7Ej14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1002">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
+              <folding>
+                <element signature="e#0#1470#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/t7Ej16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="53">
+              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#803#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -183,8 +206,10 @@
         <option value="$PROJECT_DIR$/src/t7Ej9.java" />
         <option value="$PROJECT_DIR$/src/t7Ej10.java" />
         <option value="$PROJECT_DIR$/src/t7Ej11.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej12.java" />
         <option value="$PROJECT_DIR$/src/t7Ej13.java" />
+        <option value="$PROJECT_DIR$/src/t7Ej14.java" />
+        <option value="$PROJECT_DIR$/src/t7Ej16.java" />
+        <option value="$PROJECT_DIR$/src/t7Ej12.java" />
       </list>
     </option>
   </component>
@@ -200,6 +225,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,11 +242,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543789810564" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543883742865" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -239,16 +264,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.t7Ej13">
+  <component name="RunManager" selected="Application.t7Ej12">
     <configuration name="t7Ej10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="t7Ej10" />
-      <module name="7IJ" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t7Ej11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="t7Ej11" />
       <module name="7IJ" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -268,27 +286,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="t7Ej9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="t7Ej9" />
+    <configuration name="t7Ej14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="t7Ej14" />
+      <module name="7IJ" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="t7Ej16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="t7Ej16" />
       <module name="7IJ" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.t7Ej9" />
       <item itemvalue="Application.t7Ej10" />
-      <item itemvalue="Application.t7Ej11" />
       <item itemvalue="Application.t7Ej12" />
       <item itemvalue="Application.t7Ej13" />
+      <item itemvalue="Application.t7Ej14" />
+      <item itemvalue="Application.t7Ej16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.t7Ej13" />
         <item itemvalue="Application.t7Ej12" />
+        <item itemvalue="Application.t7Ej16" />
+        <item itemvalue="Application.t7Ej14" />
+        <item itemvalue="Application.t7Ej13" />
         <item itemvalue="Application.t7Ej10" />
-        <item itemvalue="Application.t7Ej11" />
-        <item itemvalue="Application.t7Ej9" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +342,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,7 +352,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4189189" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23804574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5966736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
@@ -353,63 +378,42 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>105</line>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>121</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>125</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>129</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>133</line>
-          <properties />
+          <line>139</line>
+          <properties>
+            <option name="count-filter" value="5" />
+            <option name="count-filter-enabled" value="true" />
+          </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>135</line>
+          <url>file://$PROJECT_DIR$/src/t7Ej14.java</url>
+          <line>107</line>
           <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>130</line>
+          <url>file://$PROJECT_DIR$/src/t7Ej14.java</url>
+          <line>110</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>126</line>
+          <url>file://$PROJECT_DIR$/src/t7Ej14.java</url>
+          <line>112</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/t7Ej12.java</url>
-          <line>122</line>
+          <url>file://$PROJECT_DIR$/src/t7Ej14.java</url>
+          <line>115</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -452,34 +456,61 @@
     <entry file="file://$PROJECT_DIR$/src/t7Ej10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="54" column="56" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t7Ej14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1002">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="e#0#1470#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/t7Ej11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="70" column="13" selection-start-line="63" selection-start-column="12" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="-815">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding>
             <element signature="e#0#3308#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/t7Ej12.java">
+    <entry file="file://$PROJECT_DIR$/src/t7Ej13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="231">
+          <caret line="96" column="13" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3105#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/t7Ej13.java">
+    <entry file="file://$PROJECT_DIR$/src/t7Ej16.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+        <state relative-caret-position="53">
+          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
           <folding>
-            <element signature="e#0#859#0" expanded="true" />
+            <element signature="e#0#803#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t7Ej12.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="122" column="53" lean-forward="true" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#3824#0" expanded="true" />
           </folding>
         </state>
       </provider>

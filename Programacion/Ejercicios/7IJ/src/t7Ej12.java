@@ -59,6 +59,8 @@ public class t7Ej12 {
 		int inicial = 0;
 		int finall = 0;
 
+		int otraVariable = 0;
+
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
 		
@@ -114,26 +116,30 @@ public class t7Ej12 {
 				//aumentar inicial
 				finall++;
 			}//Fin_Si*/
-			
+
+		otraVariable = finall+1;
+
 			//Para contador=inicial, mientras contador sea menor o igual que 8, aumentar contador
-			for(int i=finall+1; i>=inicial+1; i++) {
+			for(int i=finall+1; i!=(finall-1); i++) {
 				//array final con posicion contador = array inicial posicion contador
+
+
 
 				if(i>9){
 					i = 0;
 				}
 
-				if(finall==inicial){
-					finall++;
+				if((otraVariable-1)==inicial){
+					otraVariable++;
 				}
 
-				if(finall>9){
-					finall = 0;
+				if(otraVariable>10){
+					otraVariable = 1;
 				}
 
-				arrayFinal[i] = arrayInicial[finall];
+				arrayFinal[i] = arrayInicial[otraVariable-1];
 
-				finall++;
+				otraVariable++;
 
 			}//Fin_Para
 			
@@ -144,7 +150,7 @@ public class t7Ej12 {
 			System.out.println("|  Array Final  |");
 			System.out.println("o---------------o");
 			for(int i=0; i<=9; i++){
-				System.out.printf("Posicion %2d ---> "+arrayFinal[i] +"\n", (i+1));
+				System.out.printf("Posicion %2d ---> "+arrayFinal[i] +"\n",  i);
 			}
 
 		//Fin
