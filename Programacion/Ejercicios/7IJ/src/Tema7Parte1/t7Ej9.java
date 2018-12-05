@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej9
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej9
  *
  *   Comentario:    Realiza un programa que pida 8 números enteros y
  *                  que luego muestre esos números junto con la palabra “par” o “impar” según proceda.

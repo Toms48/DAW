@@ -1,3 +1,5 @@
+package Tema7Parte1;
+
 import java.util.Scanner;
 
 public class t7Ej3 {

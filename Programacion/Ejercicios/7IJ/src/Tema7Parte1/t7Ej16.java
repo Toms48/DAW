@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej16
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej16
  *
  *   Comentario:    Escribe un programa que rellene un array de 20 elementos con números enteros aleatorios comprendidos entre 0 y 400 (ambos incluidos).
  *                  A continuación el programa mostrará el array y preguntará si el usuario quiere resaltar los múltiplos de 5 o los múltiplos de 7.

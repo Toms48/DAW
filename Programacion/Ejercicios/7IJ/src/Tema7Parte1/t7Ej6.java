@@ -1,5 +1,6 @@
+package Tema7Parte1;
 /*
-*   Nombre: t7Ej5
+*   Nombre: t7Ej6
 *
 *   Comentario: Escribe un programa que lea 15 números por teclado y que los almacene en un array.
 *               Rota los elementos de ese array, el elemento de la posición 0 debe pasar a la posición 1, el de la 1 a la 2, etc.

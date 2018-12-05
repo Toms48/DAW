@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej15
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej15
  *
  *   Comentario:    Un restaurante nos ha encargado una aplicación para colocar a los clientes en sus mesas.
  *   				En una mesa se pueden sentar de 0 (mesa vacía) a 4 comensales (mesa llena).

@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej14
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej14
  *
  *   Comentario:    Escribe un programa que pida 8 palabras y las almacene en un array.
  *

@@ -1,5 +1,5 @@
-/*
-*   Nombre: t7Ej7
+package Tema7Parte1;/*
+*   Nombre: Tema7Parte1.t7Ej7
 *
 *   Comentario: Escribe un programa que genere 100 números aleatorios del 0 al 20 y
 *               que los muestre por pantalla separados por espacios.

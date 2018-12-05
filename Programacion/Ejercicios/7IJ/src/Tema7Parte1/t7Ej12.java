@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej12
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej12
  *
  *   Comentario:    Realiza un programa que pida 10 números por teclado y que los almacene en un array.
  *

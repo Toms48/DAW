@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej8
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej8
  *
  *   Comentario:    Realiza un programa que pida la temperatura media que ha hecho en cada mes de un determinado año y
  *                  que muestre a continuación un diagrama de barras horizontales con esos datos.

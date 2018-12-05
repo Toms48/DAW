@@ -1,5 +1,5 @@
-/*
- *   Nombre: t7Ej10
+package Tema7Parte1;/*
+ *   Nombre: Tema7Parte1.t7Ej10
  *
  *   Comentario:    Escribe un programa que genere 20 números enteros aleatorios entre 0 y 100 y que los almacene en un array.
  *
