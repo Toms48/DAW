@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92bae688-3b68-495a-a7cf-06614858d9ed" name="Default Changelist" comment="" />
+    <list default="true" id="963f4a58-b5ae-4b99-8eff-2e6163ee49df" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,185 +10,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-744376003">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="13963" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="13963" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-751072896">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3789" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3789" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="724" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="724" />
         </counts>
       </usages-collector>
     </session>
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="7IJ" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej1P2.java">
+        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej2P2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej3P2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej4P2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#3323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej5P2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-815">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#3308#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java">
+        <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="122" column="53" lean-forward="true" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#3824#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t7Ej13.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="96" column="13" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="96" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#3105#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t7Ej14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-              <folding>
-                <element signature="e#0#1470#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/t7Ej16.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#803#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1121">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -196,41 +68,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/t7Ej3.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej6.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej7.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej8.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej9.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej10.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej11.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej13.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej14.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej16.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej12.java" />
-        <option value="$PROJECT_DIR$/src/t7Ej15.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte1/t7Ej15.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte1/t7Ej6.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej2P2.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej4P2.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej5P2.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej1P2.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej3P2.java" />
-        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java" />
+        <option value="$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="231" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,17 +105,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543883742865" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544396565570" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,59 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.t7Ej6P2">
-    <configuration name="t7Ej1P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej1P2" />
-      <module name="7IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema7Parte2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t7Ej2P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej2P2" />
-      <module name="7IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema7Parte2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t7Ej3P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej3P2" />
-      <module name="7IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema7Parte2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="t7Ej4P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej4P2" />
-      <module name="7IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tema7Parte2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.t7Ej7P2">
     <configuration name="t7Ej6P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej6P2" />
       <module name="7IJ" />
@@ -343,20 +137,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="t7Ej7P2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tema7Parte2.t7Ej7P2" />
+      <module name="7IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tema7Parte2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.t7Ej1P2" />
-      <item itemvalue="Application.t7Ej2P2" />
-      <item itemvalue="Application.t7Ej3P2" />
-      <item itemvalue="Application.t7Ej4P2" />
       <item itemvalue="Application.t7Ej6P2" />
+      <item itemvalue="Application.t7Ej7P2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.t7Ej7P2" />
         <item itemvalue="Application.t7Ej6P2" />
-        <item itemvalue="Application.t7Ej4P2" />
-        <item itemvalue="Application.t7Ej3P2" />
-        <item itemvalue="Application.t7Ej2P2" />
-        <item itemvalue="Application.t7Ej1P2" />
       </list>
     </recent_temporary>
   </component>
@@ -365,53 +166,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92bae688-3b68-495a-a7cf-06614858d9ed" name="Default Changelist" comment="" />
-      <created>1542957737111</created>
+      <changelist id="963f4a58-b5ae-4b99-8eff-2e6163ee49df" name="Default Changelist" comment="" />
+      <created>1544381250655</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1542957737111</updated>
+      <updated>1544381250655</updated>
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17857143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32952183" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.77692306" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2923077" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32848233" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3276923" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -420,245 +212,40 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej12.java</url>
-          <line>142</line>
-          <properties>
-            <option name="count-filter" value="6" />
-            <option name="count-filter-enabled" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej14.java</url>
-          <line>107</line>
+          <url>file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java</url>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej14.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej14.java</url>
-          <line>112</line>
+          <url>file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java</url>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej14.java</url>
-          <line>115</line>
+          <url>file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java</url>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej15.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java</url>
-          <line>51</line>
-          <properties />
-          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="57" column="12" lean-forward="true" selection-start-line="57" selection-start-column="12" selection-end-line="60" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#3323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t7Ej14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="e#0#1470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t7Ej11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-815">
-          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#3308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="96" column="13" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="96" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/t7Ej16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="76" column="33" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#803#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="122" column="53" lean-forward="true" selection-start-line="122" selection-start-column="53" selection-end-line="122" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#3824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej1P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej2P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej3P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej4P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="2" selection-start-line="2" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej5P2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="139" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        <state relative-caret-position="312">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
