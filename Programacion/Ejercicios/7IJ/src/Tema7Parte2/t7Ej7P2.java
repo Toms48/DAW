@@ -12,10 +12,6 @@ package Tema7Parte2;
  *
  *       Salidas: Por pantalla
  *
- *       Requisitos:
- *       	- Numeros aleatorios entre 0 y 1000 incluidos
- *       	- No se pueden repetir numeros
- *
  * */
 
 import java.util.Scanner;
