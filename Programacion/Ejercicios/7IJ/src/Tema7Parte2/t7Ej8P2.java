@@ -26,9 +26,7 @@ package Tema7Parte2;
 /*
     //Inicio
         //Leer y validar letra
-        //Traducir la letra a un numero del 1 al 8
         //Leer y validar numero
-        //Invertir numero
         //Comprobar movimientos diagonales arriba-izquierda
         //Comprobar movimientos diagonales arriba-derecha
         //Comprobar movimientos diagonales abajo-izquierda
@@ -42,26 +40,74 @@ public class t7Ej8P2 {
     public static void main(String[] args){
 
         //Declaración de variables
-        /*char letra = ' ';
-        int numero = 0;*/
+        int letra = 0;
+        int numero = 0;
+        
+        int auxLetra = 0;
+        int auxNumero = 0;
 
         //Inicializaciones
-        Scanner teclado = new Scanner(System.in);
-
-        System.out.print("\nIntroduzca la posición del alfil, por ejemplo d5: ");
-        String posicionAlfil = System.console().readLine();
-        int columnaAlfil = (int)(posicionAlfil.charAt(0)) - 96;
-        int filaAlfil = (int)(posicionAlfil.charAt(1)) - 48;
-
-        System.out.println("El alfil puede moverse a las siguientes posiciones:");
-
-        for(int fila = 8; fila >= 1; fila--) {
-            for(int columna = 1; columna <= 8; columna++) {
-                if ( (Math.abs(filaAlfil - fila) == Math.abs(columnaAlfil - columna) ) && (! ((filaAlfil == fila) && (columnaAlfil == columna) ))) {
-                    System.out.print((char)(columna + 96) + "" + fila + " ");
-                }
-            }
+        Scanner tecladoLetra = new Scanner(System.in);
+        Scanner tecladoNumero = new Scanner(System.in);
+    
+        //Inicio
+        //Leer y validar letra
+        do{
+            System.out.print("Introduzca la posicion horizontal (a-h) del alfil: ");
+            letra = (int)(Character.toLowerCase(tecladoLetra.next().charAt(0)))-96;
+            //teclado.nextLine();
         }
+        while(letra<1 || letra>8);
+        
+        //Leer y validar numero
+        do{
+            System.out.print("Introduzca la posicion vertical (1-8) del alfil: ");
+            numero = tecladoNumero.nextInt();
+        }
+        while(numero<1 || numero>8);
+    
+        System.out.println(letra);
+        auxLetra = letra;
+        System.out.println(numero);
+        auxNumero = numero;
+        
+        //Comprobar movimientos diagonales arriba-izquierda
+        for(int i=letra-1; i>=1 && numero<=7; i--){ //La i controla la posicion de las filas, de las letras, en horizontal
+            System.out.print((char)(i+96) +"" +(numero+1) +" ");
+            numero++;
+        }
+        
+        letra = auxLetra;
+        numero = auxNumero;
+        
+        //Comprobar movimientos diagonales arriba-derecha
+        for(int i=letra+1; i<=8 && numero<=7; i++){ //La i controla la posicion de las filas, de las letras, en horizontal
+            System.out.print((char)(i+96) +"" +(numero+1) +" ");
+            numero++;
+        }
+    
+        letra = auxLetra;
+        numero = auxNumero;
+        
+        //Comprobar movimientos diagonales abajo-izquierda
+        for(int i=letra-1; i>=1 && numero>=1; i--){ //La i controla la posicion de las filas, de las letras, en horizontal
+            System.out.print((char)(i+96) +"" +(numero-1) +" ");
+            numero--;
+        }
+    
+        letra = auxLetra;
+        numero = auxNumero;
+        
+        //Comprobar movimientos diagonales abajo-derecha
+        for(int i=letra+1; i<=8 && numero>=1; i++){ //La i controla la posicion de las filas, de las letras, en horizontal
+            System.out.print((char)(i+96) +"" +(numero-1) +" ");
+            numero--;
+        }
+    
+        letra = auxLetra;
+        numero = auxNumero;
+        
+        //Fin
 
     }
 }
