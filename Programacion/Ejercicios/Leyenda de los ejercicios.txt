@@ -8,7 +8,7 @@ Tema 2
 	- Declaración de variables ---> tema2Ejercicio1
 	- Casteo (a double)        ---> tema2Ejercicio1
 	- Conversión euro/pesetas  ---> tema2Ejercicio4
-	- Math.round *****MIRAR EN LOS OTROS BOLETIONES*****
+	- Math.round *****MIRAR EN LOS OTROS BOLETINES*****
 
 Tema 3
 	- Inicialización Scanner ---> tema3Ejercicio2
@@ -44,6 +44,48 @@ Tema 5
 	- Factorial		---> t5Ej29
 	- Separar par e impar   ---> t5Ej34
 
+Tema 6
+	- Simular tirada de tres dados              ---> T6Ej1
+	- Sacar carta de poker aleatoria            ---> T6Ej2
+	- Sacar carta española aleatoria            ---> T6Ej3
+	- Mostrar números aleatorios del 0 al 10    ---> T6Ej4
+	- Mostrar números aleatorios del 100 al 199 ---> T6Ej5
+	- Adivinar un número al azar entre 0 y 100  ---> T6Ej6
+	- Amañar posibilidades     	 	    ---> T6Ej8
+	- Caracteres aleatorios			    ---> T6Ej10
+	- Organizar 20 notas (aleatorias)(bien...)  ---> T6Ej11
+	- Matrix				    ---> T6Ej12
+	- Pc adivina un número al azar		    ---> T6Ej14
+	- Generar partitura al azar		    ---> T6Ej15
+	- Máquina tragaperras			    ---> T6Ej16
+
+Tema 7 Parte 1
+	- Mostra array en orden inverso         ---> t7Ej3
+	- Arrays calculados (cuadrado y cubo)   ---> t7Ej4
+	- Máximo y mínimo  		        ---> t7Ej5
+	- Rotar una posicion		        ---> t7Ej6
+	- Cambiar un mismo numero por otro      ---> t7Ej7
+	- Diagrama de barras horizontales       ---> t7Ej8
+	- Números pares e impares de un array   ---> t7Ej9
+	- Método de ordenación pares-impares    ---> t7Ej10
+	- Método de ordenación primos	        ---> t7Ej11
+	- Colocar un un numero en otra posicion ---> t7Ej12
+	- Destacar máximo o mínimo de un array  ---> t7Ej13
+	- Método de ordenación de palabras 	---> t7Ej14 (En el ejercicio se hace con colores y no colores)
+	- La app de ordenación del restaurante  ---> t7Ej15
+	- Resaltar multiplos de 5 o 7 		---> t7Ej16
+
+	- for each				---> t7Ej7
+
+Tema 7 Parte 2
+	- Sumatorios de filas, columnas y total ---> t7Ej2P2
+	- Rango aleatorio entre 100 y 999       ---> t7Ej3P2
+	- Thread.sleep(2000);			---> t7Ej4P2
+	- Máx y Mín en un array bidimensional   ---> t7Ej5P2
+	- Que no se repitan números		---> t7Ej6P2
+	- Comprobar casillas al rededor		---> t7Ej7P2
+	- Movimiento del alfil			---> t7Ej8P2
+
 
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
@@ -53,3 +95,17 @@ Scanner ---> java.util.Scanner
 numero%2==0  ---> Para números pares
 numero%10    ---> Nos dice la última cifra de un número
 numero/10    ---> Nos da el numero sin la última cifra
+
+Método de la burbuja
+	int n = arr.length;  
+        int aux = 0;  
+         for(int i=0; i < n; i++){  
+                 for(int j=1; j < (n-i); j++){  
+                          if(arr[j-1] > arr[j]){  
+                                 //swap elements  
+                                 aux = arr[j-1];  
+                                 arr[j-1] = arr[j];  
+                                 arr[j] = aux;
+                         }     
+                 }  
+         }  
