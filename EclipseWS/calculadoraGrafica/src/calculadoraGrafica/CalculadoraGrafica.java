@@ -52,7 +52,7 @@ public class CalculadoraGrafica extends JFrame implements ActionListener {
   add(acerca);
   acerca.addActionListener(this);
   //labels
-  titulo = new JLabel("Calculadora EDD 1º DAW ");
+  titulo = new JLabel("Calculadora EDD 1ï¿½ DAW ");
   titulo.setBounds(130, 40, 200, 30);
   add(titulo);
   
@@ -114,7 +114,7 @@ public class CalculadoraGrafica extends JFrame implements ActionListener {
   }
   
   if(e.getSource() == acerca){
-   JOptionPane.showMessageDialog(null, "     Calculadora de Ventana  \n 1º DAW - IES Ruiz Gijón (Utrera");
+   JOptionPane.showMessageDialog(null, "     Calculadora de Ventana  \n 1 DAW - IES Ruiz Gijn (Utrera");
   }
  }
  

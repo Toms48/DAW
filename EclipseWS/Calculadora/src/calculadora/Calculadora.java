@@ -12,7 +12,7 @@ public class Calculadora {
 		this.numero2 = 0.0;
 	}
 	
-	//Constructor con parámetros
+	//Constructor con parï¿½metros
 	public Calculadora(double numero1, double numero2) {
 		this.numero1 = numero1;
 		this.numero2 = numero2;
@@ -36,11 +36,22 @@ public class Calculadora {
 		this.numero2 = numero2;
 	}
 	
-	//Métodos sobrescritos
+	//Mï¿½todos sobrescritos
 	
-	//Métodos añadidos
+	//Mï¿½todos aï¿½adidos
 	public double suma() {
 		return (getNumero1()+getNumero2());
 	}
 	
+        public double resta() {
+		return (getNumero1()-getNumero2());
+	}
+        
+        public double division() {
+		return (getNumero1()/getNumero2());
+	}
+        
+        public double multiplicacion() {
+		return (getNumero1()*getNumero2());
+	}
 }
