@@ -10,7 +10,7 @@ public class mainCalculadora {
 		//objeto clase scanner
         Scanner sc= new Scanner(System.in); 
         
-        System.out.println(" Introduce primner numero de la calculadora: ");
+        //" Introduce primner numero de la calculadora: "
         double n1 = sc.nextDouble(); 
         
         System.out.println("Introduce el segundo numero de la calcualdora: ");

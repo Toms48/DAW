@@ -39,7 +39,7 @@ public class test {
 	
 	public static void main(String[] args) throws InterruptedException{
 	
-		String texto = "Suerte Dani <3";
+		String texto = "";
 		
 		printRPG(texto);
 		//System.out.println("¯\\_(ツ)_/¯");
