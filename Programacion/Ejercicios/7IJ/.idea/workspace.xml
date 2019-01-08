@@ -45,10 +45,11 @@
     <session id="-744376003">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej5P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="255">
               <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
@@ -87,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1386">
+            <state relative-caret-position="990">
               <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
@@ -96,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
+            <state relative-caret-position="615">
               <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
             </state>
           </provider>
@@ -105,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
+            <state relative-caret-position="435">
               <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
@@ -123,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej8P2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2373">
+            <state relative-caret-position="1695">
               <caret line="113" selection-start-line="113" selection-end-line="113" />
             </state>
           </provider>
@@ -167,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,7 +198,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,9 +313,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,35 +382,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej5P2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="255">
           <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej6P2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
+        <state relative-caret-position="990">
           <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej7P2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
+        <state relative-caret-position="615">
           <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte1/t7Ej7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
+        <state relative-caret-position="435">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tema7Parte2/t7Ej8P2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2373">
+        <state relative-caret-position="1695">
           <caret line="113" selection-start-line="113" selection-end-line="113" />
         </state>
       </provider>
