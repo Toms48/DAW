@@ -4,7 +4,16 @@ import Gestora.Gestora8IJ;
 
 public class Main8IJ {
 	public static void main(String [] args){
-	
+		
+		//Tests numeroPositivoONegativo
+		System.out.println("=-=-=-= Tests numeroPositivoONegativo =-=-=-=");
+		System.out.println(Gestora8IJ.numeroPositivoONegativo(3.9));
+		System.out.println(Gestora8IJ.numeroPositivoONegativo(3.21));
+		System.out.println(Gestora8IJ.numeroPositivoONegativo(-6.8));
+		System.out.println(Gestora8IJ.numeroPositivoONegativo(-800.11));
+		
+		System.out.println("");
+		
 		//Tests esCapicua
 		System.out.println("=-=-=-= Tests esCapicua =-=-=-=");
 		System.out.println(Gestora8IJ.esCapicua(78966987));
@@ -16,6 +25,55 @@ public class Main8IJ {
 		System.out.println("=-=-=-= Tests esPrimo =-=-=-=");
 		System.out.println(Gestora8IJ.esPrimo(21));
 		System.out.println(Gestora8IJ.esPrimo(7));
+		
+		System.out.println("");
+		
+		//Tests siguientePrimo
+		System.out.println("=-=-=-= Tests siguientePrimo =-=-=-=");
+		System.out.println(Gestora8IJ.siguientePrimo(21));
+		System.out.println(Gestora8IJ.siguientePrimo(151));
+		
+		System.out.println("");
+		
+		//Tests potencia
+		System.out.println("=-=-=-= Tests potencia =-=-=-=");
+		System.out.println(Gestora8IJ.potencia(2,2));
+		System.out.println(Gestora8IJ.potencia(0,9));
+		System.out.println(Gestora8IJ.potencia(2352352,0));
+		
+		System.out.println("");
+		
+		//Tests digitos
+		System.out.println("=-=-=-= Tests digitos =-=-=-=");
+		System.out.println(Gestora8IJ.digitos(8));
+		System.out.println(Gestora8IJ.digitos(-4563));
+		System.out.println(Gestora8IJ.digitos(54));
+		System.out.println(Gestora8IJ.digitos(999));
+		System.out.println(Gestora8IJ.digitos(0));
+		
+		System.out.println("");
+		
+		//Tests voltea
+		System.out.println("=-=-=-= Tests voltea =-=-=-=");
+		System.out.println(Gestora8IJ.voltea(-69));
+		System.out.println(Gestora8IJ.voltea(-6));
+		System.out.println(Gestora8IJ.voltea(4));
+		System.out.println(Gestora8IJ.voltea(857439612));
+		
+		System.out.println("");
+		
+		//Tests digitoN
+		System.out.println("=-=-=-= Tests digitoN =-=-=-=");
+		System.out.println(Gestora8IJ.digitoN(9856,0));
+		System.out.println(Gestora8IJ.digitoN(9856,1));
+		System.out.println(Gestora8IJ.digitoN(9856,2));
+		System.out.println(Gestora8IJ.digitoN(9856,3));
+		
+		System.out.println(Gestora8IJ.digitoN(9856,4));
+		System.out.println(Gestora8IJ.digitoN(9856,8));
+		
+		System.out.println(Gestora8IJ.digitoN(9856,-1));
+		System.out.println(Gestora8IJ.digitoN(9856,-15));
 		
 	}
 }
