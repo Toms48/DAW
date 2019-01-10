@@ -200,7 +200,7 @@ Postcondiciones: No tiene
 			else{
 				while(numero>0){
 					/***** Código de prueba *****
-					 *System.out.println(numero%10); %10 quita la primera cifra del número
+					 *System.out.println(numero%10); %10 se queda solo con la ultima cifra del número
 					 *System.out.println(numero/10); /10 quita la cifra de las unidades de nuestro número
 					 ****************************/
 					
@@ -265,10 +265,14 @@ Postcondiciones:
 		}
 		
 		if(posicion>(digitos(numero)-1)){
+			System.out.println("La posicion especificada es superior al numero de digitos.");
+			System.out.println("Por favor, introduzca una posicion valida.");
 			devuelto = -1;
 		}
 		else{
 			if(posicion<0){
+				System.out.println("La posicion especificada es negativa.");
+				System.out.println("Por favor, introduzca una posicion positiva o 0.");
 				devuelto = -2;
 			}
 			else{
@@ -283,5 +287,80 @@ Postcondiciones:
 		
 		return devuelto;
 	}
+
+/**************************************************************************
+Interfaz
+Comentario: Da la posición de la primera ocurrencia de un dígito dentro de un número entero.
+ 			Si no se encuentra, devuelve -1
+Cabecera: int posicionDeDigito(int num, int digito)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones:
+ 	- Envia un -1 si no se encuentra el digito indicado en el numero
+**************************************************************************/
+
+	public static int posicionDeDigito(int numero, int digito){
+
+		boolean encontrado = false;
+
+		int delreves = voltea(numero);
+		int valorDevuelto = -1;
+
+		for(int i=0; encontrado==false && delreves>0; i++){
+			if(delreves%10==digito){
+				valorDevuelto = i;
+				encontrado = true;
+			}
+			else{
+				delreves = delreves/10;
+			}
+		}
+
+		return valorDevuelto;
+	}
+
+/**************************************************************************
+Interfaz
+Comentario: Le quita a un número n dígitos por detrás (por la derecha)
+Cabecera: int quitaPorDetras(int num, int cantidadQuitar)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones: No tiene
+**************************************************************************/
+
+	public static int quitaPorDetras(int numero, int cantidadQuitar){
+
+		for(int i=0; i<cantidadQuitar; i++){
+			numero = numero/10;
+		}
+
+		return numero;
+	}
+
+/**************************************************************************
+Interfaz
+Comentario: Le quita a un número n dígitos por delante (por la izquierda)
+Cabecera: int quitaPorDelante(int num)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones: No tiene
+**************************************************************************/
+
+public static int quitaPorDelante(int numero, int cantidadQuitar){
+
+	int delreves = voltea(numero);
+
+	for(int i=0; i<cantidadQuitar; i++){
+		delreves = delreves/10;
+	}
+
+	return voltea(delreves);
+}
 
 }

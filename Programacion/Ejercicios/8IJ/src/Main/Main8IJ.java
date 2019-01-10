@@ -74,6 +74,37 @@ public class Main8IJ {
 		
 		System.out.println(Gestora8IJ.digitoN(9856,-1));
 		System.out.println(Gestora8IJ.digitoN(9856,-15));
-		
+
+		System.out.println("");
+
+		//Tests posicionDeDigito
+		System.out.println("=-=-=-= Tests posicionDeDigito =-=-=-=");
+		System.out.println(Gestora8IJ.posicionDeDigito(8222, 8));
+		System.out.println(Gestora8IJ.posicionDeDigito(2882, 8));
+		System.out.println(Gestora8IJ.posicionDeDigito(2282, 8));
+		System.out.println(Gestora8IJ.posicionDeDigito(2228, 8));
+
+		System.out.println(Gestora8IJ.posicionDeDigito(2222, 8));
+
+		System.out.println(Gestora8IJ.posicionDeDigito(25411, 1));
+
+		System.out.println("");
+
+		//Tests quitaPorDetras
+		System.out.println("=-=-=-= Tests quitaPorDetras =-=-=-=");
+		System.out.println(Gestora8IJ.quitaPorDetras(12345, 4));
+		System.out.println(Gestora8IJ.quitaPorDetras(-12345, 1));
+
+		System.out.println(Gestora8IJ.quitaPorDetras(12345, 6));
+
+		System.out.println("");
+
+		//Tests quitaPorDelante
+		System.out.println("=-=-=-= Tests quitaPorDelante =-=-=-=");
+		System.out.println(Gestora8IJ.quitaPorDelante(12345, 3));
+		System.out.println(Gestora8IJ.quitaPorDelante(-12345, 1));
+
+		System.out.println(Gestora8IJ.quitaPorDelante(12345, 6));
+
 	}
 }
