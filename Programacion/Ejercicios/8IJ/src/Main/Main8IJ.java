@@ -3,7 +3,7 @@ package Main;
 import Gestora.Gestora8IJ;
 
 public class Main8IJ {
-	public static void main(String [] args){
+	public static void main(String [] args) throws InterruptedException {
 		
 		//Tests numeroPositivoONegativo
 		System.out.println("=-=-=-= Tests numeroPositivoONegativo =-=-=-=");
@@ -105,6 +105,32 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.quitaPorDelante(-12345, 1));
 
 		System.out.println(Gestora8IJ.quitaPorDelante(12345, 6));
-
+		
+		System.out.println("");
+		
+		//Tests pegaPorDetras
+		System.out.println("=-=-=-= Tests pegaPorDetras =-=-=-=");
+		System.out.println(Gestora8IJ.pegaPorDetras(19, 0));
+		System.out.println(Gestora8IJ.pegaPorDetras(1965684, 1));
+		
+		System.out.println(Gestora8IJ.pegaPorDetras(123, 45));
+		System.out.println(Gestora8IJ.pegaPorDetras(-19, 9));
+		
+		System.out.println("");
+		
+		//Tests pegaPorDelante
+		System.out.println("=-=-=-= Tests pegaPorDelante =-=-=-=");
+		System.out.println(Gestora8IJ.pegaPorDelante(19, 0));
+		System.out.println(Gestora8IJ.pegaPorDelante(88888888, 1));
+		
+		System.out.println(Gestora8IJ.pegaPorDelante(123, 45));
+		System.out.println(Gestora8IJ.pegaPorDelante(-19, 9));
+		
+		System.out.println("");
+		
+		//Tests trozoDeNumero
+		System.out.println("=-=-=-= Tests trozoDeNumero =-=-=-=");
+		System.out.println(Gestora8IJ.trozoDeNumero(1998, 2, 3));
+		
 	}
 }

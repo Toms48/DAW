@@ -352,15 +352,116 @@ E/S: No hay
 Postcondiciones: No tiene
 **************************************************************************/
 
-public static int quitaPorDelante(int numero, int cantidadQuitar){
-
-	int delreves = voltea(numero);
-
-	for(int i=0; i<cantidadQuitar; i++){
-		delreves = delreves/10;
+	public static int quitaPorDelante(int numero, int cantidadQuitar){
+	
+		int delreves = voltea(numero);
+	
+		for(int i=0; i<cantidadQuitar; i++){
+			delreves = delreves/10;
+		}
+	
+		return voltea(delreves);
 	}
+	
+/**************************************************************************
+Interfaz
+Comentario: Añade un dígito a un número por detrás
+Cabecera: int pegaPorDetras(int num, int aniadido)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones: No tiene
+**************************************************************************/
 
-	return voltea(delreves);
-}
+	public static int pegaPorDetras(int numero, int aniadido){
+		
+			if(aniadido<0 || aniadido>=10){
+				System.out.println("Su numero aniadido tiene que estar entre 0 y 9 (incluidos)");
+				numero = -1;
+			}
+			else{
+				if(numero<0){
+					numero = (numero*10)+(aniadido*-1);
+				}
+				else{
+					numero = (numero*10)+aniadido;
+				}
+			}
+		
+		return numero;
+	}
+	
+/**************************************************************************
+Interfaz
+Comentario: Añade un dígito a un número por delante
+Cabecera: int pegaPorDelante(int num, int aniadido)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones: No tiene
+**************************************************************************/
+
+	public static int pegaPorDelante(int numero, int aniadido){
+		
+		numero = voltea(numero);
+		
+		if(aniadido<0 || aniadido>=10){
+			System.out.println("Su numero aniadido tiene que estar entre 0 y 9 (incluidos)");
+			numero = -1;
+		}
+		else{
+			if(numero<0){
+				numero = (numero*10)+(aniadido*-1);
+			}
+			else{
+				numero = (numero*10)+aniadido;
+			}
+		}
+		
+		return voltea(numero);
+	}
+	
+/**************************************************************************
+Interfaz
+Comentario: Toma como parámetros las posiciones inicial y final dentro de un número y devuelve el trozo correspondiente
+Cabecera: int trozoDeNumero(int numero, int inicial, int finall)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un int
+E/S: No hay
+Postcondiciones: No tiene
+**************************************************************************/
+
+	public static int trozoDeNumero(int numero, int inicial, int finall){
+		
+		int aux = numero;
+		
+		inicial = inicial-1;
+		finall = finall-1;
+		
+		int[] arrayNumero = new int[digitos(numero)];
+		int trozoNumero = 0;
+		
+		for(int i=digitos(numero)-1; i>=0; i--){
+			arrayNumero[i] = numero%10;
+			numero = numero/10;
+		}
+		
+		/*for(int i=0; i<=digitos(numero); i++){
+			System.out.println(arrayNumero[i]);
+		}*/
+		
+		numero = aux;
+		
+		for(int i=0; i<=digitos(numero); i++){
+			if(i>=(inicial) && i<=(finall)){
+				trozoNumero = (trozoNumero*10)+arrayNumero[i];
+			}
+		}
+		
+		return trozoNumero;
+	}
 
 }
