@@ -131,6 +131,12 @@ public class Main8IJ {
 		//Tests trozoDeNumero
 		System.out.println("=-=-=-= Tests trozoDeNumero =-=-=-=");
 		System.out.println(Gestora8IJ.trozoDeNumero(1998, 2, 3));
-		
+		System.out.println(Gestora8IJ.trozoDeNumero(123456789, 6, 8));
+
+		System.out.println("");
+
+		//Tests juntaNumeros
+		System.out.println("=-=-=-= Tests juntaNumeros =-=-=-=");
+
 	}
 }

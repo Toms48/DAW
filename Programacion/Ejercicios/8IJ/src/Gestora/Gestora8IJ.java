@@ -464,4 +464,23 @@ Postcondiciones: No tiene
 		return trozoNumero;
 	}
 
+/**************************************************************************
+Interfaz
+Comentario: Pega dos números para formar uno.
+Cabecera: int juntaNumeros(int numero1, int numero2)
+Precondiciones: No tiene
+Entrada:
+ 	- Un int para el primer numero (que será nuestro primer trozo de numero final)
+ 	- Un int para el segundo numero (que será nuestro segundo trozo de numero final)
+Salida: Un int
+E/S: No hay
+Postcondiciones:
+ 	- Si el primer número es negativo
+**************************************************************************/
+
+	public static int juntaNumeros(int numero1, int numero2){
+
+		return ;
+	}
+
 }
