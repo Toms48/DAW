@@ -86,7 +86,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.posicionDeDigito(2282, 8));
 		System.out.println(Gestora8IJ.posicionDeDigito(2228, 8));
 
-		System.out.println(Gestora8IJ.posicionDeDigito(2222, 8));
+		System.out.println(Gestora8IJ.posicionDeDigito(22, 8));
 
 		System.out.println(Gestora8IJ.posicionDeDigito(25411, 1));
 
@@ -199,6 +199,36 @@ public class Main8IJ {
 		}
 		
 		System.out.println("Su numero binario " +aux +" corresponde en base 10 a: " +decimal);
-		
+
+		System.out.println();
+
+		//Tests Ejercicio 18
+		System.out.println("=-=-=-= Ejercicio 18 =-=-=-=");
+
+		decimal = 0;
+		binario = 1;
+		int resto = 0;
+
+		System.out.print("Introduzca su numero en base 10: ");
+		decimal = teclado.nextInt();
+
+		resto = decimal;
+
+		do{
+
+			if(resto%2==0){
+				binario = (binario*10);
+			}
+			else{
+				binario = (binario*10)+1;
+			}
+
+			resto = resto/2;
+
+		}
+		while(resto >=1);
+
+		System.out.println("Su numero en base 10 " +decimal +" corresponde en binario a: " +(Gestora8IJ.voltea(binario)/10));
+
 	}
 }

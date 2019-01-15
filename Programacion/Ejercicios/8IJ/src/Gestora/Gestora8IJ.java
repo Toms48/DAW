@@ -294,11 +294,13 @@ Comentario: Da la posición de la primera ocurrencia de un dígito dentro de un 
  			Si no se encuentra, devuelve -1
 Cabecera: int posicionDeDigito(int num, int digito)
 Precondiciones: No tiene
-Entrada: Un int
+Entrada:
+    - Un int para el número
+    - Un int para el dígito que queremos buscar en el número
 Salida: Un int
 E/S: No hay
 Postcondiciones:
- 	- Envia un -1 si no se encuentra el digito indicado en el numero
+ 	- Envia un -1 si no se encuentra el dígito indicado en el número
 **************************************************************************/
 
 	public static int posicionDeDigito(int numero, int digito){
