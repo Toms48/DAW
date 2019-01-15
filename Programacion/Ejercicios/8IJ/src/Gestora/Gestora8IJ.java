@@ -120,7 +120,7 @@ E/S: No hay
 Postcondiciones: No tiene
 **************************************************************************/
 
-	public static int siguientePrimo(int num){
+	public static int siguientePrimo(int num){	//Podias haber utilizado la funcion de esPrimo de antes
 		
 		int nextNum = 0;
 		int contadorDivisibles = 0;
@@ -427,7 +427,8 @@ Postcondiciones: No tiene
 Interfaz
 Comentario: Toma como parámetros las posiciones inicial y final dentro de un número y devuelve el trozo correspondiente
 Cabecera: int trozoDeNumero(int numero, int inicial, int finall)
-Precondiciones: No tiene
+Precondiciones:
+ 	- El número final no será menor que el número inicial
 Entrada: Un int
 Salida: Un int
 E/S: No hay
@@ -475,12 +476,30 @@ Entrada:
 Salida: Un int
 E/S: No hay
 Postcondiciones:
- 	- Si el primer número es negativo
+ 	- Si alguno de los dos numeros pasados por el usuario es negativo el numero final será negativo
 **************************************************************************/
 
 	public static int juntaNumeros(int numero1, int numero2){
 
-		return ;
+		//int longitudNuevoNumero = (digitos(numero1)+digitos(numero2));
+		//int[] arrayNumeroFinal = new int[longitudNuevoNumero];
+		
+		int numeroFinal = numero1;
+		
+		for(int i=1; i<=digitos(numero2); i++){
+			numeroFinal = numeroFinal * 10;
+		}
+		
+		if(numero1<0 && numero2>=0){
+			numero2 = numero2*-1;
+		}
+		else{
+			if(numero1>=0 && numero2<0){
+				numero2 = numero2*-1;
+			}
+		}
+		
+		return numeroFinal+numero2;
 	}
 
 }

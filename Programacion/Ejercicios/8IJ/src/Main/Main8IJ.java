@@ -1,9 +1,10 @@
 package Main;
 
 import Gestora.Gestora8IJ;
+import java.util.Scanner;
 
 public class Main8IJ {
-	public static void main(String [] args) throws InterruptedException {
+	public static void main(String [] args) {
 		
 		//Tests numeroPositivoONegativo
 		System.out.println("=-=-=-= Tests numeroPositivoONegativo =-=-=-=");
@@ -12,28 +13,29 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.numeroPositivoONegativo(-6.8));
 		System.out.println(Gestora8IJ.numeroPositivoONegativo(-800.11));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests esCapicua
 		System.out.println("=-=-=-= Tests esCapicua =-=-=-=");
 		System.out.println(Gestora8IJ.esCapicua(78966987));
 		System.out.println(Gestora8IJ.esCapicua(2579));
+		System.out.println(Gestora8IJ.esCapicua(678998765));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests esPrimo
 		System.out.println("=-=-=-= Tests esPrimo =-=-=-=");
 		System.out.println(Gestora8IJ.esPrimo(21));
 		System.out.println(Gestora8IJ.esPrimo(7));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests siguientePrimo
 		System.out.println("=-=-=-= Tests siguientePrimo =-=-=-=");
 		System.out.println(Gestora8IJ.siguientePrimo(21));
 		System.out.println(Gestora8IJ.siguientePrimo(151));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests potencia
 		System.out.println("=-=-=-= Tests potencia =-=-=-=");
@@ -41,7 +43,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.potencia(0,9));
 		System.out.println(Gestora8IJ.potencia(2352352,0));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests digitos
 		System.out.println("=-=-=-= Tests digitos =-=-=-=");
@@ -51,7 +53,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.digitos(999));
 		System.out.println(Gestora8IJ.digitos(0));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests voltea
 		System.out.println("=-=-=-= Tests voltea =-=-=-=");
@@ -60,7 +62,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.voltea(4));
 		System.out.println(Gestora8IJ.voltea(857439612));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests digitoN
 		System.out.println("=-=-=-= Tests digitoN =-=-=-=");
@@ -75,7 +77,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.digitoN(9856,-1));
 		System.out.println(Gestora8IJ.digitoN(9856,-15));
 
-		System.out.println("");
+		System.out.println();
 
 		//Tests posicionDeDigito
 		System.out.println("=-=-=-= Tests posicionDeDigito =-=-=-=");
@@ -88,7 +90,7 @@ public class Main8IJ {
 
 		System.out.println(Gestora8IJ.posicionDeDigito(25411, 1));
 
-		System.out.println("");
+		System.out.println();
 
 		//Tests quitaPorDetras
 		System.out.println("=-=-=-= Tests quitaPorDetras =-=-=-=");
@@ -97,7 +99,7 @@ public class Main8IJ {
 
 		System.out.println(Gestora8IJ.quitaPorDetras(12345, 6));
 
-		System.out.println("");
+		System.out.println();
 
 		//Tests quitaPorDelante
 		System.out.println("=-=-=-= Tests quitaPorDelante =-=-=-=");
@@ -106,7 +108,7 @@ public class Main8IJ {
 
 		System.out.println(Gestora8IJ.quitaPorDelante(12345, 6));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests pegaPorDetras
 		System.out.println("=-=-=-= Tests pegaPorDetras =-=-=-=");
@@ -116,7 +118,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.pegaPorDetras(123, 45));
 		System.out.println(Gestora8IJ.pegaPorDetras(-19, 9));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests pegaPorDelante
 		System.out.println("=-=-=-= Tests pegaPorDelante =-=-=-=");
@@ -126,17 +128,77 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.pegaPorDelante(123, 45));
 		System.out.println(Gestora8IJ.pegaPorDelante(-19, 9));
 		
-		System.out.println("");
+		System.out.println();
 		
 		//Tests trozoDeNumero
 		System.out.println("=-=-=-= Tests trozoDeNumero =-=-=-=");
 		System.out.println(Gestora8IJ.trozoDeNumero(1998, 2, 3));
 		System.out.println(Gestora8IJ.trozoDeNumero(123456789, 6, 8));
 
-		System.out.println("");
+		System.out.println();
 
 		//Tests juntaNumeros
 		System.out.println("=-=-=-= Tests juntaNumeros =-=-=-=");
-
+		System.out.println(Gestora8IJ.juntaNumeros(21,98));
+		System.out.println(Gestora8IJ.juntaNumeros(-21,98));
+		System.out.println(Gestora8IJ.juntaNumeros(21,-98));
+		System.out.println(Gestora8IJ.juntaNumeros(-21,-98));
+		
+		System.out.println();
+		
+		//Tests Ejercicio 15
+		System.out.println("=-=-=-= Ejercicio 15 =-=-=-=");
+		System.out.println("Los numeros primos entre 1 y 1000 son:");
+		
+		for(int i=1; i<=1000; i++){
+			if(Gestora8IJ.esPrimo(i)){
+				System.out.print(i +" ");
+			}
+		}
+		
+		System.out.println();
+		System.out.println();
+		
+		//Tests Ejercicio 16
+		System.out.println("=-=-=-= Ejercicio 16 =-=-=-=");
+		System.out.println("Los numeros capicua entre 1 y 99999 son:");
+		
+		for(int i=1; i<=1000; i++){
+			if(Gestora8IJ.esCapicua(i)){
+				System.out.print(i +" ");
+			}
+		}
+		
+		System.out.println();
+		System.out.println();
+		
+		//Tests Ejercicio 17
+		System.out.println("=-=-=-= Ejercicio 17 =-=-=-=");
+		
+		int binario = 0;
+		int aux = 0;
+		int decimal = 0;
+		int multiploDos = 1;
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.print("Introduzca su numero binario: ");
+		binario = teclado.nextInt();
+		
+		aux = binario;
+		
+		for(int i=1; i<=Gestora8IJ.digitos(aux); i++){
+			
+			if(binario%10 == 1){
+				decimal = decimal + multiploDos;
+			}
+			
+			multiploDos = multiploDos*2;
+			binario = binario/10;
+			
+		}
+		
+		System.out.println("Su numero binario " +aux +" corresponde en base 10 a: " +decimal);
+		
 	}
 }
