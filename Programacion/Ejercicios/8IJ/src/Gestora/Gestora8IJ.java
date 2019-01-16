@@ -5,6 +5,40 @@ public class Gestora8IJ {
 /**************************************************************************
 Interfaz
 Comentario: De vuelve un valor decimal redondeado hacia abajo si es 0 o positivo.
+en el caso de que sea negativo, redondeamos hacia arriba y le cambiamos el signo
+Cabecera: double numeroPositivoONegativo(double num)
+Precondiciones: No tiene
+Entrada: Un int
+Salida: Un boolean
+E/S: No hay
+Postcondiciones:
+- Si el numero es negativo lo devuelve en positivo
+- Si es negativo se redondea arriba
+- Si es positivo se readondea hacia abajo
+**************************************************************************/
+	
+	public static void mostrarMenuCalculadora(){
+		System.out.println("[0]  ---> Salir");
+		System.out.println("[1]  ---> Numero capicua");
+		System.out.println("[2]  ---> Numero primo");
+		System.out.println("[3]  ---> Siguiente numero primo");
+		System.out.println("[4]  ---> Potencia");
+		System.out.println("[5]  ---> Cantidad de digitos de un numero");
+		System.out.println("[6]  ---> Voltear un numero");
+		System.out.println("[7]  ---> Digito de una posicion n");
+		System.out.println("[8]  ---> Posicion de un digito en un numero");
+		System.out.println("[9]  ---> Quita un numero por detras");
+		System.out.println("[10] ---> Quita un numero por delante");
+		System.out.println("[11] ---> Pega un numero por detras");
+		System.out.println("[12] ---> Pega un numero por delante");
+		System.out.println("[13] ---> Trozo de un numero");
+		System.out.println("[14] ---> Junta dos numeros");
+		System.out.print("Su opcion es: ");
+	}
+
+/**************************************************************************
+Interfaz
+Comentario: De vuelve un valor decimal redondeado hacia abajo si es 0 o positivo.
  			en el caso de que sea negativo, redondeamos hacia arriba y le cambiamos el signo
 Cabecera: double numeroPositivoONegativo(double num)
 Precondiciones: No tiene
@@ -231,7 +265,7 @@ Postcondiciones: El numero es el mismo pero dado la vuelta
 		
 		//Inicio
 			//Mostrar numero al revés
-			while(numero != 0){  //(este while no es mio, es de internet)
+			while(numero != 0){
 				int aux = numero % 10;
 				numeroInvertido = numeroInvertido * 10 + aux;
 				numero = numero/10;
@@ -358,9 +392,7 @@ Postcondiciones: No tiene
 	
 		int delreves = voltea(numero);
 	
-		for(int i=0; i<cantidadQuitar; i++){
-			delreves = delreves/10;
-		}
+		delreves = quitaPorDetras(delreves,cantidadQuitar);
 	
 		return voltea(delreves);
 	}
@@ -407,22 +439,11 @@ Postcondiciones: No tiene
 
 	public static int pegaPorDelante(int numero, int aniadido){
 		
-		numero = voltea(numero);
+		numero = voltea(numero); //Volteamos el número de entrada para añadir un número en la parte que queremos
 		
-		if(aniadido<0 || aniadido>=10){
-			System.out.println("Su numero aniadido tiene que estar entre 0 y 9 (incluidos)");
-			numero = -1;
-		}
-		else{
-			if(numero<0){
-				numero = (numero*10)+(aniadido*-1);
-			}
-			else{
-				numero = (numero*10)+aniadido;
-			}
-		}
+		numero = pegaPorDetras(numero, aniadido); //Añadimos el número al número volteado
 		
-		return voltea(numero);
+		return voltea(numero); //Volteamos el número final y lo devolvemos
 	}
 	
 /**************************************************************************

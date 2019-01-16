@@ -1,6 +1,8 @@
 package Main;
 
 import Gestora.Gestora8IJ;
+import Gestora.CambiosBase8IJ;
+
 import java.util.Scanner;
 
 public class Main8IJ {
@@ -57,7 +59,7 @@ public class Main8IJ {
 		
 		//Tests voltea
 		System.out.println("=-=-=-= Tests voltea =-=-=-=");
-		System.out.println(Gestora8IJ.voltea(-69));
+		System.out.println(Gestora8IJ.voltea(-6985));
 		System.out.println(Gestora8IJ.voltea(-6));
 		System.out.println(Gestora8IJ.voltea(4));
 		System.out.println(Gestora8IJ.voltea(857439612));
@@ -98,7 +100,7 @@ public class Main8IJ {
 		System.out.println(Gestora8IJ.quitaPorDetras(-12345, 1));
 
 		System.out.println(Gestora8IJ.quitaPorDetras(12345, 6));
-
+		
 		System.out.println();
 
 		//Tests quitaPorDelante
@@ -123,7 +125,7 @@ public class Main8IJ {
 		//Tests pegaPorDelante
 		System.out.println("=-=-=-= Tests pegaPorDelante =-=-=-=");
 		System.out.println(Gestora8IJ.pegaPorDelante(19, 0));
-		System.out.println(Gestora8IJ.pegaPorDelante(88888888, 1));
+		System.out.println(Gestora8IJ.pegaPorDelante(555, 1));
 		
 		System.out.println(Gestora8IJ.pegaPorDelante(123, 45));
 		System.out.println(Gestora8IJ.pegaPorDelante(-19, 9));
@@ -174,61 +176,19 @@ public class Main8IJ {
 		
 		//Tests Ejercicio 17
 		System.out.println("=-=-=-= Ejercicio 17 =-=-=-=");
-		
-		int binario = 0;
-		int aux = 0;
-		int decimal = 0;
-		int multiploDos = 1;
-		
-		Scanner teclado = new Scanner(System.in);
-		
-		System.out.print("Introduzca su numero binario: ");
-		binario = teclado.nextInt();
-		
-		aux = binario;
-		
-		for(int i=1; i<=Gestora8IJ.digitos(aux); i++){
-			
-			if(binario%10 == 1){
-				decimal = decimal + multiploDos;
-			}
-			
-			multiploDos = multiploDos*2;
-			binario = binario/10;
-			
-		}
-		
-		System.out.println("Su numero binario " +aux +" corresponde en base 10 a: " +decimal);
+		System.out.println(CambiosBase8IJ.binarioDecimal(1101));
+		System.out.println(CambiosBase8IJ.binarioDecimal(1100));
 
 		System.out.println();
 
 		//Tests Ejercicio 18
 		System.out.println("=-=-=-= Ejercicio 18 =-=-=-=");
-
-		decimal = 0;
-		binario = 1;
-		int resto = 0;
-
-		System.out.print("Introduzca su numero en base 10: ");
-		decimal = teclado.nextInt();
-
-		resto = decimal;
-
-		do{
-
-			if(resto%2==0){
-				binario = (binario*10);
-			}
-			else{
-				binario = (binario*10)+1;
-			}
-
-			resto = resto/2;
-
-		}
-		while(resto >=1);
-
-		System.out.println("Su numero en base 10 " +decimal +" corresponde en binario a: " +(Gestora8IJ.voltea(binario)/10));
-
+		System.out.println(CambiosBase8IJ.decimalBinario(13));
+		System.out.println(CambiosBase8IJ.decimalBinario(51));
+		System.out.println(CambiosBase8IJ.decimalBinario(50));
+		System.out.println(CambiosBase8IJ.decimalBinario(1));
+		System.out.println(CambiosBase8IJ.decimalBinario(0));
+		System.out.println(CambiosBase8IJ.decimalBinario(500));
+		
 	}
 }
