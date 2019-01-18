@@ -33,6 +33,10 @@ Postcondiciones:
 		System.out.println("[12] ---> Pega un numero por delante");
 		System.out.println("[13] ---> Trozo de un numero");
 		System.out.println("[14] ---> Junta dos numeros");
+		System.out.println("[15] ---> Muestra los primos entre 1 y 1000");
+		System.out.println("[16] ---> Muestra los capicua entre 1 y 99999");
+		System.out.println("[17] ---> Cambiar pilas");
+		System.out.println("[18] ---> Muestra el nivel de las pilas");
 		System.out.print("Su opcion es: ");
 	}
 
