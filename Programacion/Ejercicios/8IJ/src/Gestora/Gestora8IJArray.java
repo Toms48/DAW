@@ -111,4 +111,86 @@ Postcondiciones: No tiene
         return (media/array.length);
     }
 
+/**************************************************************************
+Interfaz
+Comentario:   Dice si un número está o no dentro de un array.
+Cabecera: boolean estaEnArrayInt(int[] array, int numeroBuscado)
+Precondiciones: No tiene
+Entrada:
+    - Un array de int
+    - Un int para el número que se busca en el array
+Salida: Un boolean
+E/S: No hay
+Postcondiciones:
+    - Si el número indicado por el usuario está en el array devuelve un true
+    - Si el número indicado por el usuario NO está en el array devuelve un false
+**************************************************************************/
+
+    public static boolean estaEnArrayInt(int[] array, int numeroBuscado){
+
+        //Declaraciones de variables
+        boolean encontrado = false;
+
+        for (int i = 0; i <= (array.length)-1; i++) {
+            if (array[i] == numeroBuscado) {
+                encontrado = true;
+            }
+        }
+
+        return encontrado;
+    }
+
+/**************************************************************************
+Interfaz
+Comentario: Busca un número en un array y devuelve la posición (el índice) en la que se encuentra.
+Cabecera: int posicionEnArray(int[] array, int numeroBuscado)
+Precondiciones: No tiene
+Entrada:
+    - Un array de int
+    - Un int para el número que se busca en el array
+Salida: Un int
+E/S: No hay
+Postcondiciones:
+    - Si el numero no se escuentra devuelve -1
+**************************************************************************/
+
+    public static int posicionEnArray(int[] array, int numeroBuscado){
+
+        //Declaracion de variables
+        int posicionNumeroBuscado = -1;
+
+        for (int i = 0; i <= (array.length)-1; i++) {
+            if (array[i] == numeroBuscado) {
+                posicionNumeroBuscado = i;
+            }
+        }
+
+        return posicionNumeroBuscado;
+    }
+
+/**************************************************************************
+Interfaz
+Comentario: Le da la vuelta a un array.
+Cabecera: int[] volteaArrayInt(int[] array)
+Precondiciones: No tiene
+Entrada: Un array de int
+Salida: Un int
+E/S: No hay
+Postcondiciones: El array estará volteado
+**************************************************************************/
+
+    public static int[] volteaArrayInt(int[] array){
+
+        //Declaracion de variables
+        int[] arrayVolteado = new int[array.length];
+        int j = 0;
+
+        for(int i=(array.length)-1; i>=0; i--){
+            arrayVolteado[i] = array[j];
+            j++;
+        }
+
+        return arrayVolteado;
+    }
+
 }

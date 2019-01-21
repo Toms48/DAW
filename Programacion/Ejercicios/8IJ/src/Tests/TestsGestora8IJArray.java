@@ -69,5 +69,66 @@ public class TestsGestora8IJArray {
 
         System.out.println(Gestora8IJArray.mediaArrayInt(arrayMedia));
 
+
+        System.out.println();
+
+
+        //Tests Ejercicio 24
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 24 =-=-=-=-=-=-=-=-=-=-=-=-=");
+
+        int[] arrayBuscarNumero = Gestora8IJArray.generaArrayInt(5,5,20);
+
+        /*
+        for(int i=0; i<=arrayBuscarNumero.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.println(arrayBuscarNumero[i]);
+        }
+        System.out.println();
+        */
+
+        if(Gestora8IJArray.estaEnArrayInt(arrayBuscarNumero,15)){      //== true
+            System.out.println("¡BINGO! su numero esta en el array indicado");
+        }
+        else{
+            System.out.println("Su numero no esta en el array indicado");
+        }
+
+
+        System.out.println();
+
+
+        //Tests Ejercicio 25
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 25 =-=-=-=-=-=-=-=-=-=-=-=-=");
+
+        int[] arrayPosicionNumero = Gestora8IJArray.generaArrayInt(5,10,20);
+
+        /*
+        for(int i=0; i<=arrayPosicionNumero.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.println(arrayPosicionNumero[i]);
+        }
+        System.out.println();
+        */
+
+        System.out.println(Gestora8IJArray.posicionEnArray(arrayPosicionNumero,15));
+
+
+        System.out.println();
+
+
+        //Tests Ejercicio 26
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 26 =-=-=-=-=-=-=-=-=-=-=-=-=");
+
+        int[] arrayParaVoltear = Gestora8IJArray.generaArrayInt(5,10,20);
+        int[] arrayVolteado = Gestora8IJArray.volteaArrayInt(arrayParaVoltear);
+
+        for(int i=0; i<=arrayParaVoltear.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.print(arrayParaVoltear[i] +" ");
+        }
+
+        System.out.println();
+
+        for(int i=0; i<=arrayVolteado.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.print(arrayVolteado[i] +" ");
+        }
+
     }
 }
