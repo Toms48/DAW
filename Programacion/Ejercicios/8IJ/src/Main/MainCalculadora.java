@@ -52,11 +52,17 @@ public class MainCalculadora {
 		int aniadido = 0;
 		int inicial = 0;
 		int finall = 0;
+		int trozo1Numero = 0;
+		int trozo2Numero = 0;
 		
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
 		
 		//Inicio
+		
+			System.out.print("Introduzca su numero: ");
+			numero = teclado.nextInt();
+		
 			//Hacer
 			do{
 				//Mostrar, leer y validar opcion del menu
@@ -82,8 +88,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							if(Gestora8IJ.esCapicua(numero)==true){
 								System.out.println("Su numero es capicua");
@@ -101,8 +107,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							if(Gestora8IJ.esPrimo(numero)==true){
 								System.out.println("Su numero es primo");
@@ -119,10 +125,13 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.println("El siguiente numero primo de " +numero +" es " +Gestora8IJ.siguientePrimo(numero));
+							
+							numero = Gestora8IJ.siguientePrimo(numero);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -132,8 +141,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca una base: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca una base: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca un exponente: ");
 							exponente = teclado.nextInt();
@@ -142,7 +151,10 @@ public class MainCalculadora {
 								System.out.println("Cero elevado a cero es una indeterminacion to chunga que yo no puedo hacer, sorry not sorry");
 							}
 							else {
-								System.out.println("El resultado de la potencia es " + Gestora8IJ.potencia(numero, exponente));
+								System.out.println("El resultado de la potencia es " +Gestora8IJ.potencia(numero, exponente));
+								
+								numero = Gestora8IJ.potencia(numero, exponente);
+								
 								potenciaPilas--;
 							}
 						}
@@ -153,10 +165,13 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.println("La cantidad de digitos de " +numero +" es " +Gestora8IJ.digitos(numero));
+							
+							numero = Gestora8IJ.digitos(numero);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -166,10 +181,13 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.println("Su numero volteado es " +Gestora8IJ.voltea(numero));
+							
+							numero = Gestora8IJ.voltea(numero);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -179,8 +197,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							do{
 								System.out.print("Introduzca una posicion: ");
@@ -194,6 +212,9 @@ public class MainCalculadora {
 							while(posicion<0 || posicion>Gestora8IJ.digitos(numero)-1);
 							
 							System.out.println("El digito de la posicion " +posicion +" es: " +Gestora8IJ.digitoN(numero,posicion));
+							
+							numero = Gestora8IJ.digitoN(numero,posicion);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -203,8 +224,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca un digito: ");
 							digito = teclado.nextInt();
@@ -214,7 +235,10 @@ public class MainCalculadora {
 							}
 							else {
 								System.out.println("La posicion del digito en el numero es: " + Gestora8IJ.posicionDeDigito(numero, digito));
+								
+								numero = Gestora8IJ.posicionDeDigito(numero, digito);
 							}
+							
 							potenciaPilas--;
 						}
 						break;
@@ -224,13 +248,15 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca una cantidad de numeros a quitar por detras: ");
 							cantidadQuitar = teclado.nextInt();
 							
 							System.out.println(Gestora8IJ.quitaPorDetras(numero,cantidadQuitar));
+							
+							numero = Gestora8IJ.quitaPorDetras(numero,cantidadQuitar);
 							
 							potenciaPilas--;
 						}
@@ -241,13 +267,16 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca una cantidad de numeros a quitar por delante: ");
 							cantidadQuitar = teclado.nextInt();
 							
 							System.out.println(Gestora8IJ.quitaPorDelante(numero,cantidadQuitar));
+							
+							numero = Gestora8IJ.quitaPorDelante(numero,cantidadQuitar);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -257,13 +286,16 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca un numero para aniadir por detras: ");
 							aniadido = teclado.nextInt();
 							
 							System.out.println(Gestora8IJ.pegaPorDetras(numero,aniadido));
+							
+							numero = Gestora8IJ.pegaPorDetras(numero,aniadido);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -273,13 +305,16 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							System.out.print("Introduzca un numero para aniadir por delante: ");
 							aniadido = teclado.nextInt();
 							
 							System.out.println(Gestora8IJ.pegaPorDelante(numero,aniadido));
+							
+							numero = Gestora8IJ.pegaPorDelante(numero,aniadido);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -289,8 +324,8 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.print("Introduzca un numero: ");
-							numero = teclado.nextInt();
+							/*System.out.print("Introduzca un numero: ");
+							numero = teclado.nextInt();*/
 							
 							do{
 								do{
@@ -308,6 +343,9 @@ public class MainCalculadora {
 							while(finall<inicial);
 							
 							System.out.println(Gestora8IJ.trozoDeNumero(numero,inicial,finall));
+							
+							numero = Gestora8IJ.trozoDeNumero(numero,inicial,finall);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -317,7 +355,18 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.println("WIP");
+							
+							System.out.println("Recuerda que si algun numero de los escritos es negativo, el numero final sera negativo");
+							System.out.print("Introduzca la primera parte del numero: ");
+							trozo1Numero = teclado.nextInt();
+							
+							System.out.print("Introduzca la segunda parte del numero: ");
+							trozo2Numero = teclado.nextInt();
+							
+							System.out.println("Juntando sus numeros obtenemos " +Gestora8IJ.juntaNumeros(trozo1Numero,trozo2Numero));
+							
+							numero = Gestora8IJ.juntaNumeros(trozo1Numero,trozo2Numero);
+							
 							potenciaPilas--;
 						}
 						break;
@@ -327,7 +376,15 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.println("WIP");
+							
+							for(int i=1; i<=1000; i++){
+								if(Gestora8IJ.esPrimo(i)){
+									System.out.print(i +" ");
+								}
+							}
+							
+							System.out.println();
+							
 							potenciaPilas--;
 						}
 						break;
@@ -337,7 +394,15 @@ public class MainCalculadora {
 							System.out.println("No te quedan pilas, tienes que cambiarlas");
 						}
 						else{
-							System.out.println("WIP");
+							
+							for(int i=1; i<=1000; i++){
+								if(Gestora8IJ.esCapicua(i)){
+									System.out.print(i +" ");
+								}
+							}
+							
+							System.out.println();
+							
 							potenciaPilas--;
 						}
 						break;

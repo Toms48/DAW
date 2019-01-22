@@ -522,7 +522,7 @@ Postcondiciones:
 		}
 		else{
 			if(numero1>=0 && numero2<0){
-				numero2 = numero2*-1;
+				numeroFinal = numeroFinal*-1;
 			}
 		}
 		

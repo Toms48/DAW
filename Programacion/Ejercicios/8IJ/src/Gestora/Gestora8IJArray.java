@@ -8,7 +8,7 @@ public class Gestora8IJArray {
 Interfaz
 Comentario: Genera un array de tamaño n con números aleatorios cuyo intervalo (mínimo y máximo) se indica como parámetro.
 Cabecera: int[] generaArrayInt(int tamanio, int min, int max)
-Precondiciones: No tiene
+Precondiciones: El tamanio tiene que ser mayor que 0
 Entrada:
     - Un int para el tamaño del array
     - Un int para el menor valor de los aleatorios
@@ -192,5 +192,83 @@ Postcondiciones: El array estará volteado
 
         return arrayVolteado;
     }
+    
+/**************************************************************************
+Interfaz
+Comentario: Rota n posiciones a la derecha los números de un array.
+Cabecera: int[] rotaDerechaArrayInt(int[] array, int rotarN)
+Precondiciones: rotarN tiene que ser mayor que 0
+Entrada:
+    - Un array de int
+    - UN int
+Salida: Un array
+E/S: No hay
+Postcondiciones: El array estará rotado a la derecha n posiciones
+**************************************************************************/
 
+    public static int[] rotaDerechaArrayInt(int[] array, int rotarN){
+    
+        int[] arrayRotado = new int[array.length];
+        
+        for(int j=1; j<=rotarN; j++){
+            for(int i=0; i<=(array.length)-1; i++) {
+                //Cargar array rotado
+                if(i!=(array.length)-1) {
+                    arrayRotado[i+1] = array[i];
+                }
+                else{
+                    arrayRotado[0] = array[i];
+                }
+            }
+    
+            if(j<rotarN){
+                for (int i=0; i<=(array.length)-1; i++) {
+                    array[i] = arrayRotado[i];
+                }
+            }
+        }
+        
+        return arrayRotado;
+    }
+    
+/**************************************************************************
+Interfaz
+Comentario: Rota n posiciones a la izquierda los números de un array.
+Cabecera: int[] rotaIzquierdaArrayInt(int[] array, int rotarN)
+Precondiciones: rotarN tiene que ser mayor que 0
+Entrada:
+- Un array de int
+- UN int
+Salida: Un array
+E/S: No hay
+Postcondiciones: El array estará rotado a la derecha n posiciones
+**************************************************************************/
+    
+    public static int[] rotaIzquierdaArrayInt(int[] array, int rotarN){
+    
+        int[] arrayRotado = new int[array.length];
+    
+        array = volteaArrayInt(array);
+        
+        for(int j=1; j<=rotarN; j++){
+            for(int i=0; i<=(array.length)-1; i++) {
+                //Cargar array rotado
+                if(i!=(array.length)-1) {
+                    arrayRotado[i+1] = array[i];
+                }
+                else{
+                    arrayRotado[0] = array[i];
+                }
+            }
+        
+            if(j<rotarN){
+                for (int i=0; i<=(array.length)-1; i++) {
+                    array[i] = arrayRotado[i];
+                }
+            }
+        }
+    
+        return volteaArrayInt(arrayRotado);
+    }
+    
 }

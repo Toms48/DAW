@@ -129,6 +129,46 @@ public class TestsGestora8IJArray {
         for(int i=0; i<=arrayVolteado.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.print(arrayVolteado[i] +" ");
         }
-
+    
+    
+        System.out.println();
+    
+    
+        //Tests Ejercicio 27
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 27 =-=-=-=-=-=-=-=-=-=-=-=-=");
+        
+        int[] arrayRotarDerecha = Gestora8IJArray.generaArrayInt(5,10,20);
+    
+        
+        for(int i=0; i<=arrayRotarDerecha.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.print(arrayRotarDerecha[i] +" ");
+        }
+        System.out.println();
+        
+        
+        for (int i:Gestora8IJArray.rotaDerechaArrayInt(arrayRotarDerecha,2)) {
+            System.out.print(i +" ");
+        }
+    
+    
+        System.out.println();
+    
+    
+        //Tests Ejercicio 28
+        System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 28 =-=-=-=-=-=-=-=-=-=-=-=-=");
+    
+        int[] arrayRotarIzquierda = Gestora8IJArray.generaArrayInt(5,1,9);
+    
+    
+        for(int i=0; i<=arrayRotarIzquierda.length-1; i++){   //Código para ver la lista de los números que han salido
+            System.out.print(arrayRotarIzquierda[i] +" ");
+        }
+        System.out.println();
+    
+    
+        for (int i:Gestora8IJArray.rotaIzquierdaArrayInt(arrayRotarIzquierda,2)) {
+            System.out.print(i +" ");
+        }
+        
     }
 }
