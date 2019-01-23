@@ -1,11 +1,11 @@
-package Main;
+package Tests;
 
 import Gestora.Gestora8IJ;
 import Gestora.CambiosBase8IJ;
 
 import java.util.Scanner;
 
-public class Main8IJ {
+public class TestsGestora8IJ {
 	public static void main(String [] args) {
 		
 		//Tests numeroPositivoONegativo

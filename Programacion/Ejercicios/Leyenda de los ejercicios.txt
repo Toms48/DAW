@@ -96,6 +96,11 @@ numero%2==0  ---> Para números pares
 numero%10    ---> Nos dice la última cifra de un número
 numero/10    ---> Nos da el numero sin la última cifra
 
+nombreArray.length;  	---> Nos dice la longitud del array
+nombreArrayBi.length 	---> Nos dice la cantidad de filas que tiene un array bidimensional
+nombreArrayBi[0].length ---> Nos dice la cantidad de columnas que tiene un array bidimensional
+			     (el numero entre corchetes indica la fila donde se van a contar las columnas)
+
 Método de la burbuja
 	int n = arr.length;  
         int aux = 0;  

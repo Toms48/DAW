@@ -18,6 +18,7 @@ Postcondiciones:
 **************************************************************************/
 	
 	public static void mostrarMenuCalculadora(){
+		System.out.println(" ");
 		System.out.println("[0]  ---> Salir");
 		System.out.println("[1]  ---> Numero capicua");
 		System.out.println("[2]  ---> Numero primo");

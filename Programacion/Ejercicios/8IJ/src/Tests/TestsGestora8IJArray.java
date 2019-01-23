@@ -1,6 +1,5 @@
 package Tests;
 
-import Gestora.Gestora8IJ;
 import Gestora.Gestora8IJArray;
 
 public class TestsGestora8IJArray {

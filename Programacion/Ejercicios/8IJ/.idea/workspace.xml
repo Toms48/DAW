@@ -17,33 +17,35 @@
     <session id="-615252084">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13127" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="17037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13127" />
+          <entry key="JAVA" value="17037" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="270" column="41" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="docComment;method#generaArrayInt#0;class#Gestora8IJArray#0" />
                 <element signature="docComment;method#minimoArrayInt#0;class#Gestora8IJArray#0" />
@@ -102,6 +104,7 @@
                 <element signature="method#posicionEnArray#0;class#Gestora8IJArray#0" />
                 <element signature="docComment;method#volteaArrayInt#0;class#Gestora8IJArray#0" />
                 <element signature="method#volteaArrayInt#0;class#Gestora8IJArray#0" />
+                <element signature="docComment;method#rotaDerechaArrayInt#0;class#Gestora8IJArray#0" />
               </folding>
             </state>
           </provider>
@@ -110,76 +113,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/TestsGestora8IJArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/Main8IJ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2505">
-              <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="173" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main/MainCalculadora.java">
+        <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJArrayBi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4620">
-              <caret line="367" column="88" selection-start-line="367" selection-start-column="88" selection-end-line="367" selection-end-column="88" />
+            <state relative-caret-position="243">
+              <caret line="164" column="61" selection-start-line="164" selection-start-column="61" selection-end-line="164" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;field#ge#0;class#Gestora8IJArrayBi#0" />
+                <element signature="method#generaArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+                <element signature="docComment;method#filaDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+                <element signature="method#filaDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+                <element signature="docComment;method#filaDeArrayBiInt#1;class#Gestora8IJArrayBi#0" />
+                <element signature="method#colDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJ.java">
+        <entry file="file://$PROJECT_DIR$/src/Tests/TestsGestora8IJArrayBi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-              <folding>
-                <element signature="docComment;method#mostrarMenuCalculadora#0;class#Gestora8IJ#0" />
-                <element signature="method#mostrarMenuCalculadora#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#numeroPositivoONegativo#0;class#Gestora8IJ#0" />
-                <element signature="method#numeroPositivoONegativo#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#esCapicua#0;class#Gestora8IJ#0" />
-                <element signature="method#esCapicua#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#esPrimo#0;class#Gestora8IJ#0" />
-                <element signature="method#esPrimo#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#siguientePrimo#0;class#Gestora8IJ#0" />
-                <element signature="method#siguientePrimo#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#potencia#0;class#Gestora8IJ#0" />
-                <element signature="method#potencia#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#digitos#0;class#Gestora8IJ#0" />
-                <element signature="method#digitos#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#voltea#0;class#Gestora8IJ#0" />
-                <element signature="method#voltea#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#digitoN#0;class#Gestora8IJ#0" />
-                <element signature="method#digitoN#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#posicionDeDigito#0;class#Gestora8IJ#0" />
-                <element signature="method#posicionDeDigito#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#quitaPorDetras#0;class#Gestora8IJ#0" />
-                <element signature="method#quitaPorDetras#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#quitaPorDelante#0;class#Gestora8IJ#0" />
-                <element signature="method#quitaPorDelante#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#pegaPorDetras#0;class#Gestora8IJ#0" />
-                <element signature="method#pegaPorDetras#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#pegaPorDelante#0;class#Gestora8IJ#0" />
-                <element signature="method#pegaPorDelante#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#trozoDeNumero#0;class#Gestora8IJ#0" />
-                <element signature="method#trozoDeNumero#0;class#Gestora8IJ#0" />
-                <element signature="docComment;method#juntaNumeros#0;class#Gestora8IJ#0" />
-                <element signature="method#juntaNumeros#0;class#Gestora8IJ#0" />
-                <element signature="e#14067#14131#0" />
-              </folding>
+            <state relative-caret-position="452">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -201,10 +162,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/Gestora/CambiosBase8IJ.java" />
         <option value="$PROJECT_DIR$/src/Main/Main8IJ.java" />
-        <option value="$PROJECT_DIR$/src/Gestora/Gestora8IJ.java" />
         <option value="$PROJECT_DIR$/src/Gestora/Gestora8IJArray.java" />
-        <option value="$PROJECT_DIR$/src/Tests/TestsGestora8IJArray.java" />
+        <option value="$PROJECT_DIR$/src/Gestora/Gestora8IJ.java" />
         <option value="$PROJECT_DIR$/src/Main/MainCalculadora.java" />
+        <option value="$PROJECT_DIR$/src/Tests/TestsGestora8IJArray.java" />
+        <option value="$PROJECT_DIR$/src/Tests/TestsGestora8IJArrayBi.java" />
+        <option value="$PROJECT_DIR$/src/Gestora/Gestora8IJArrayBi.java" />
       </list>
     </option>
   </component>
@@ -264,7 +227,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548151126874" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548237343449" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Util" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -282,13 +245,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainCalculadora">
-    <configuration name="Main8IJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Main8IJ" />
+  <component name="RunManager" selected="Application.TestsGestora8IJArrayBi">
+    <configuration name="MainCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.MainCalculadora" />
       <module name="8IJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.MainCalculadora" />
+    <configuration name="TestsGestora8IJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.TestsGestora8IJ" />
       <module name="8IJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value="Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,16 +285,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestsGestora8IJArrayBi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.TestsGestora8IJArrayBi" />
+      <module name="8IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Main8IJ" />
+      <item itemvalue="Application.TestsGestora8IJ" />
       <item itemvalue="Application.MainCalculadora" />
       <item itemvalue="Application.TestsGestora8IJArray" />
+      <item itemvalue="Application.TestsGestora8IJArrayBi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestsGestora8IJArrayBi" />
         <item itemvalue="Application.MainCalculadora" />
         <item itemvalue="Application.TestsGestora8IJArray" />
-        <item itemvalue="Application.Main8IJ" />
+        <item itemvalue="Application.TestsGestora8IJ" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +329,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +338,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.35538462" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.66923076" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6492308" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,13 +390,32 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Gestora/CambiosBase8IJ.java" />
+    <entry file="file://$PROJECT_DIR$/src/Tests/TestsGestora8IJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/MainCalculadora.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="147" column="71" lean-forward="true" selection-start-line="147" selection-start-column="71" selection-end-line="147" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="10">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="docComment;method#mostrarMenuCalculadora#0;class#Gestora8IJ#0" />
-            <element signature="method#mostrarMenuCalculadora#0;class#Gestora8IJ#0" />
             <element signature="docComment;method#numeroPositivoONegativo#0;class#Gestora8IJ#0" />
             <element signature="method#numeroPositivoONegativo#0;class#Gestora8IJ#0" />
             <element signature="docComment;method#esCapicua#0;class#Gestora8IJ#0" />
@@ -456,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="270" column="41" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="docComment;method#generaArrayInt#0;class#Gestora8IJArray#0" />
             <element signature="docComment;method#minimoArrayInt#0;class#Gestora8IJArray#0" />
@@ -472,33 +469,36 @@
             <element signature="method#posicionEnArray#0;class#Gestora8IJArray#0" />
             <element signature="docComment;method#volteaArrayInt#0;class#Gestora8IJArray#0" />
             <element signature="method#volteaArrayInt#0;class#Gestora8IJArray#0" />
+            <element signature="docComment;method#rotaDerechaArrayInt#0;class#Gestora8IJArray#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/TestsGestora8IJArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="145" column="29" lean-forward="true" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Main8IJ.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/TestsGestora8IJArrayBi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2505">
-          <caret line="167" column="8" selection-start-line="167" selection-start-column="8" selection-end-line="173" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="452">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/MainCalculadora.java">
+    <entry file="file://$PROJECT_DIR$/src/Gestora/Gestora8IJArrayBi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4620">
-          <caret line="367" column="88" selection-start-line="367" selection-start-column="88" selection-end-line="367" selection-end-column="88" />
+        <state relative-caret-position="243">
+          <caret line="164" column="61" selection-start-line="164" selection-start-column="61" selection-end-line="164" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#ge#0;class#Gestora8IJArrayBi#0" />
+            <element signature="method#generaArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+            <element signature="docComment;method#filaDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+            <element signature="method#filaDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
+            <element signature="docComment;method#filaDeArrayBiInt#1;class#Gestora8IJArrayBi#0" />
+            <element signature="method#colDeArrayBiInt#0;class#Gestora8IJArrayBi#0" />
           </folding>
         </state>
       </provider>
