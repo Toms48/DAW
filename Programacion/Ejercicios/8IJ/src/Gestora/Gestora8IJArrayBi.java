@@ -137,9 +137,9 @@ Postcondiciones:
 		
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
-		
-		int posicionMin = 0;
-		int posicionMax = 0;
+
+		int posicionMin = -1;
+		int posicionMax = -1;
 		
 		boolean puntoSilla = false;
 			
@@ -158,32 +158,60 @@ Postcondiciones:
 		for(int i=0; i<=arrayColumna.length-1; i++){
 			System.out.println(arrayColumna[i]);
 		}
-		
+
 		for(int i=0; i<=arrayFila.length-1; i++){
-			
 			if(arrayFila[i]<=min){
-				if(arrayFila[i]==min && i==arrayFila.length-1){
-				
-				}
-				else{
-				
-				}
 				min = arrayFila[i];
 				posicionMin = i;
 			}
 		}
+
+		/*for(int i=0; i<=arrayFila.length-1; i++){
+
+			if(arrayFila[i]<=min){
+				if(arrayFila[i]==min && contadorIguales>=2){
+					posicionMin = -1;
+				}
+				else{
+					min = arrayFila[i];
+					posicionMin = i;
+
+					if(arrayFila[i] == min){
+						contadorIguales++;
+					}
+				}
+			}
+		}*/
 		
 		System.out.println();
 		System.out.println("El menor valor de la fila es " +min);
 		System.out.println("Su posicion en la fila es " +posicionMin);
-		
+
+		//contadorIguales = 1;
+
 		for(int i=0; i<=arrayColumna.length-1; i++){
-			
 			if(arrayColumna[i]>=max){
 				max = arrayColumna[i];
 				posicionMax = i;
 			}
 		}
+
+		/*for(int i=0; i<=arrayColumna.length-1; i++){
+
+			if(arrayColumna[i]>max){
+				max = arrayColumna[i];
+				posicionMax = i;
+			}
+			else{
+				if(arrayColumna[i] == max){
+					contadorIguales++;
+				}
+			}
+
+			if(contadorIguales>=2){
+				posicionMax = -1;
+			}
+		}*/
 		
 		System.out.println();
 		System.out.println("El mayor valor de la columna es " +max);

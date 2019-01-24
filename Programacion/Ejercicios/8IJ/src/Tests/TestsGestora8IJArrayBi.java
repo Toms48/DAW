@@ -8,7 +8,7 @@ public class TestsGestora8IJArrayBi {
 		//Tests Ejercicio 29
 		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 29 =-=-=-=-=-=-=-=-=-=-=-=-=");
 		
-		int[][] arrayBiAleatorio = Gestora8IJArrayBi.generaArrayBiInt(3,3,0,9);
+		int[][] arrayBiAleatorio = Gestora8IJArrayBi.generaArrayBiInt(3,5,0,9);
 		
 		for(int i=0; i<=arrayBiAleatorio.length-1; i++){
 			for(int j=0; j<=arrayBiAleatorio[0].length-1; j++){
@@ -58,10 +58,21 @@ public class TestsGestora8IJArrayBi {
 		System.out.println();
 		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 33 =-=-=-=-=-=-=-=-=-=-=-=-=");
 		
-		int[][] arr1 = {{7,7,1},{9,9,6},{7,7,1}};
-		int[][] arr2 = {{7,7,6},{9,9,6},{7,7,6}};
+		int[][] arr1 = {{7,7,1},
+						{9,9,6},
+						{7,7,1}};
+
+		int[][] arr2 = {{7,7,6},
+						{9,9,6},
+						{7,7,1}};
+
+		int[][] arr3 = {{7,7,1},
+						{7,7,1},
+						{9,9,6},
+						{7,7,1},
+						{7,7,1}};
 		
-		Gestora8IJArrayBi.esPuntoDeSilla(1,2, arr2);
+		Gestora8IJArrayBi.esPuntoDeSilla(2,2, arr3);
 		
 	}
 }
