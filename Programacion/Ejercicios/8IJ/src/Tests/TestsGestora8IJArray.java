@@ -22,14 +22,14 @@ public class TestsGestora8IJArray {
         System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-= Ejercicio 21 =-=-=-=-=-=-=-=-=-=-=-=-=");
 
         int[] arrayMinimo = Gestora8IJArray.generaArrayInt(5,5,1000);
-
-        /*
-        for(int i=0; i<=arrayMinimo.length-1; i++){   Código para ver la lista de los números que han salido
+        
+        
+        for(int i=0; i<=arrayMinimo.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.println(arrayMinimo[i]);
         }
         System.out.println();
-        */
 
+        
         System.out.println(Gestora8IJArray.minimoArrayInt(arrayMinimo));
 
 
@@ -41,12 +41,12 @@ public class TestsGestora8IJArray {
 
         int[] arrayMaximo = Gestora8IJArray.generaArrayInt(5,5,1000);
 
-        /*
+        
         for(int i=0; i<=arrayMaximo.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.println(arrayMaximo[i]);
         }
         System.out.println();
-        */
+        
 
         System.out.println(Gestora8IJArray.maximoArrayInt(arrayMaximo));
 
@@ -59,12 +59,12 @@ public class TestsGestora8IJArray {
 
         int[] arrayMedia = Gestora8IJArray.generaArrayInt(5,5,1000);
 
-        /*
+        
         for(int i=0; i<=arrayMedia.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.println(arrayMedia[i]);
         }
         System.out.println();
-        */
+        
 
         System.out.println(Gestora8IJArray.mediaArrayInt(arrayMedia));
 
@@ -77,12 +77,12 @@ public class TestsGestora8IJArray {
 
         int[] arrayBuscarNumero = Gestora8IJArray.generaArrayInt(5,5,20);
 
-        /*
+        
         for(int i=0; i<=arrayBuscarNumero.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.println(arrayBuscarNumero[i]);
         }
         System.out.println();
-        */
+        
 
         if(Gestora8IJArray.estaEnArrayInt(arrayBuscarNumero,15)){      //== true
             System.out.println("¡BINGO! su numero esta en el array indicado");
@@ -100,12 +100,12 @@ public class TestsGestora8IJArray {
 
         int[] arrayPosicionNumero = Gestora8IJArray.generaArrayInt(5,10,20);
 
-        /*
+        
         for(int i=0; i<=arrayPosicionNumero.length-1; i++){   //Código para ver la lista de los números que han salido
             System.out.println(arrayPosicionNumero[i]);
         }
         System.out.println();
-        */
+        
 
         System.out.println(Gestora8IJArray.posicionEnArray(arrayPosicionNumero,15));
 
