@@ -6,7 +6,7 @@ public class TestAsignatura {
     public static void main(String[] args){
 
         Asignatura AsignaturaPorDefecto = new Asignatura();
-        Asignatura As1 = new Asignatura("Programacion", "1 DAW", 10,8,9);
+        Asignatura As1 = new Asignatura("Programacion", "1 DAW", 10);
         Asignatura As2 = new Asignatura("Entorno","1 DAW");
 
         System.out.println("=-=-=-=-= Constructor por defecto =-=-=-=-=");
@@ -27,9 +27,9 @@ public class TestAsignatura {
         System.out.println("=-=-=-=-= Gets =-=-=-=-=");
         System.out.println(As1.getNombre());
         System.out.println(As1.getCurso());
-        System.out.println(As1.getNota1Eva());
-        System.out.println(As1.getNota2Eva());
-        System.out.println(As1.getNota3Eva());
+        System.out.println(As1.getNota());
+        System.out.println(As1.getNota());
+        System.out.println(As1.getNota());
 
         System.out.println();
 
@@ -39,21 +39,14 @@ public class TestAsignatura {
 
         As2.setNombre("Base de datos");
         As2.setCurso("2 DAW");
-        As2.setNota1Eva(5);
-        As2.setNota2Eva(6);
-        As2.setNota3Eva(7);
+        As2.setNota(5);
+        As2.setNota(6);
+        As2.setNota(7);
 
         System.out.println();
 
         System.out.println("Datos despues de los cambios con set");
         System.out.println(As2.toString());
-
-        System.out.println();
-
-        System.out.println("=-=-=-=-= .muestraNotaMedia =-=-=-=-=");
-        System.out.println("Nota media de " +AsignaturaPorDefecto.getNombre() +" es " +AsignaturaPorDefecto.notaMedia());
-        System.out.println("Nota media de " +As1.getNombre() +" es " +As1.notaMedia());
-        System.out.println("Nota media de " +As2.getNombre() +" es " +As2.notaMedia());
 
     }
 }

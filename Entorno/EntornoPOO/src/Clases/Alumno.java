@@ -60,11 +60,11 @@ public class Alumno {
         this.curso = curso;
         this.telefono = telefono;
 
-        this.asignatura1.setNota1Eva(notaAs1);
-        this.asignatura2.setNota1Eva(notaAs2);
-        this.asignatura3.setNota1Eva(notaAs3);
-        this.asignatura4.setNota1Eva(notaAs4);
-        this.asignatura5.setNota1Eva(notaAs5);
+        this.asignatura1.setNota(notaAs1);
+        this.asignatura2.setNota(notaAs2);
+        this.asignatura3.setNota(notaAs3);
+        this.asignatura4.setNota(notaAs4);
+        this.asignatura5.setNota(notaAs5);
     }
 
     //Constructor con parámetros (sin las notas)
@@ -98,23 +98,23 @@ public class Alumno {
     }
 
     public int getNotaAs1(){
-        return asignatura1.getNota1Eva();
+        return asignatura1.getNota();
     }
 
     public int getNotaAs2(){
-        return asignatura2.getNota1Eva();
+        return asignatura2.getNota();
     }
 
     public int getNotaAs3(){
-        return asignatura3.getNota1Eva();
+        return asignatura3.getNota();
     }
 
     public int getNotaAs4(){
-        return asignatura4.getNota1Eva();
+        return asignatura4.getNota();
     }
 
     public int getNotaAs5(){
-        return asignatura5.getNota1Eva();
+        return asignatura5.getNota();
     }
 
     //Sets
@@ -139,23 +139,23 @@ public class Alumno {
     }
 
     public void setNotaAs1(int notaAs1){
-        asignatura1.setNota1Eva(notaAs1);
+        asignatura1.setNota(notaAs1);
     }
 
     public void setNotaAs2(int notaAs2){
-        asignatura2.setNota1Eva(notaAs2);
+        asignatura2.setNota(notaAs2);
     }
 
     public void setNotaAs3(int notaAs3){
-        asignatura3.setNota1Eva(notaAs3);
+        asignatura3.setNota(notaAs3);
     }
 
     public void setNotaAs4(int notaAs4){
-        asignatura4.setNota1Eva(notaAs4);
+        asignatura4.setNota(notaAs4);
     }
 
     public void setNotaAs5(int notaAs5){
-        asignatura5.setNota1Eva(notaAs5);
+        asignatura5.setNota(notaAs5);
     }
 
     //Métodos sobrescritos
@@ -165,12 +165,19 @@ public class Alumno {
                   +"Direccion: " +getDireccion() +"\n"
                   +"Curso: " +getCurso() +"\n"
                   +"Telefono: " +getTelefono() +"\n"
-                  +"Nota de " +asignatura1.getNombre() +": " +asignatura1.getNota1Eva() +"\n"
-                  +"Nota de " +asignatura2.getNombre() +": " +asignatura2.getNota1Eva() +"\n"
-                  +"Nota de " +asignatura3.getNombre() +": " +asignatura3.getNota1Eva() +"\n"
-                  +"Nota de " +asignatura4.getNombre() +": " +asignatura4.getNota1Eva() +"\n"
-                  +"Nota de " +asignatura5.getNombre() +": " +asignatura5.getNota1Eva() +"\n";
+                  +"Nota de " +asignatura1.getNombre() +": " +asignatura1.getNota() +"\n"
+                  +"Nota de " +asignatura2.getNombre() +": " +asignatura2.getNota() +"\n"
+                  +"Nota de " +asignatura3.getNombre() +": " +asignatura3.getNota() +"\n"
+                  +"Nota de " +asignatura4.getNombre() +": " +asignatura4.getNota() +"\n"
+                  +"Nota de " +asignatura5.getNombre() +": " +asignatura5.getNota() +"\n";
         return s;
+    }
+    
+    //Métodos añadidos
+    public double notaMedia(){
+        double media = (asignatura1.getNota()+asignatura2.getNota()+asignatura3.getNota()+asignatura4.getNota()+asignatura5.getNota())/5;
+        
+        return media;
     }
 
 }

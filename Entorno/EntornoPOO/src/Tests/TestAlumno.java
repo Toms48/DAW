@@ -21,6 +21,35 @@ public class TestAlumno {
 
         System.out.println("=-=-=-=-= Constructor con parámetros (sin notas) =-=-=-=-=");
         System.out.println(Alumno2.toString());
+    
+        System.out.println();
+    
+        System.out.println("=-=-=-=-= Gets (Notas antes de los sets de Alumno2) =-=-=-=-=");
+        System.out.println(Alumno2.getNotaAs1());
+        System.out.println(Alumno2.getNotaAs2());
+        System.out.println(Alumno2.getNotaAs3());
+        System.out.println(Alumno2.getNotaAs4());
+        System.out.println(Alumno2.getNotaAs5());
+    
+        System.out.println("=-=-=-=-= Sets (Notas depues de los sets de Alumno2) =-=-=-=-=");
+        Alumno2.setNotaAs1(8);
+        Alumno2.setNotaAs2(6);
+        Alumno2.setNotaAs3(7);
+        Alumno2.setNotaAs4(10);
+        Alumno2.setNotaAs5(9);
+    
+        System.out.println(Alumno2.getNotaAs1());
+        System.out.println(Alumno2.getNotaAs2());
+        System.out.println(Alumno2.getNotaAs3());
+        System.out.println(Alumno2.getNotaAs4());
+        System.out.println(Alumno2.getNotaAs5());
+        
+        System.out.println();
+    
+        System.out.println("=-=-=-=-= .notaMedia =-=-=-=-=");
+        System.out.println("Nota media de " +PorDefecto.getNombre() +" es " +PorDefecto.notaMedia());
+        System.out.println("Nota media de " +Alumno1.getNombre() +" es " +Alumno1.notaMedia());
+        System.out.println("Nota media de " +Alumno2.getNombre() +" es " +Alumno2.notaMedia());
 
     }
 }
