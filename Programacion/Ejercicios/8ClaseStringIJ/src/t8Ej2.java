@@ -1,5 +1,5 @@
 /*
- *   Nombre: t8Ej1
+ *   Nombre: t8Ej2
  *
  *   Comentario:	Crear un array con muchos nombres, pedir un texto como filtro y mostrar todos los
  *   				nombres que empiecen por ese texto.
@@ -28,7 +28,7 @@ public class t8Ej2 {
 		
 		//Declaracion de variables
 		String filtro = new String();
-		String[] arrayNombres = {"Tomas","Pepe","Paco","Adrian","Adriana"};
+		String[] arrayNombres = {"tomas","pepe","pepaco","adrian","adriana"};
 		
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
@@ -37,11 +37,18 @@ public class t8Ej2 {
 			//Preguntar y leer texto de filtro
 			System.out.print("Introduzca un texto como filtro: ");
 			filtro = teclado.nextLine();
+		
+			filtro = filtro.toLowerCase();
 			
 			//Mostrar nombres que empiecen por ese filtro
+			System.out.println("");
+			System.out.println("=-=-=-= Lista de nombres que empiezan por " +filtro +" =-=-=-=");
+		
 			for(String nombre:arrayNombres){
-				if(filtro.equals( nombre.substring(0,filtro.length())) ){
-				
+				if(nombre.length() >= filtro.length()){
+					if(filtro.equals( nombre.substring(0,filtro.length())) ){
+						System.out.println(nombre);
+					}
 				}
 			}
 		
