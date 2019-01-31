@@ -37,6 +37,8 @@ package Main;
 
 import java.lang.Math;
 import Gestora.GestoraEchaloASuerte;
+import Gestora.GestoraEchaloASuerteV2;
+
 import java.util.Scanner;
 
 public class MainGestoraEchaloASuerte {
@@ -63,7 +65,7 @@ public class MainGestoraEchaloASuerte {
                 //Segun la opcion del menu
                 switch(opcionMenu) {
                     case 1: //caso 1: Lista de ganadores con premios aleatorios
-                        listaGanadores = GestoraEchaloASuerte.premios();
+                        listaGanadores = GestoraEchaloASuerteV2.premios();
 
                         /*for(int i=0; i<=listaGanadores.length-1; i++){
                             for(int j=0; j<=listaGanadores[i].length-1; j++){
