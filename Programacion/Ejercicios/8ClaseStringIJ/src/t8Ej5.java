@@ -29,51 +29,97 @@ import java.util.Scanner;
 
 public class t8Ej5 {
 	public static void main(String[] args){
-	
+
 		//Declaraciones de variables
-		int posicionAnterior = 0;
+		int posicionPrincipioPalabra = 0;
+		int posicionFinalPalabra = 0;
+		int codigoSiguienteFinal = 0;
+		int posicionSiguienteFinal = 0;
+
 		int posicion = 0;
+
+		String parteParrafo = new String();
 		String palabra = new String();
-		String parrafo = "Hola es un saludo en español";
-		/*String parrafo = "Cuanto peor mejor para todos y cuanto peor para todos mejor, mejor para mí el suyo, beneficio político.\n"
+		/*String parrafo = "Rafa Nadal es un tenista. Es el mejor tenista español.";*/
+		String parrafo = "Cuanto peor mejor para todos y cuanto peor para todos mejor, mejor para mí el suyo, beneficio político.\n"
 						+"\n"
-				        +"Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde.";*/
-		
+				        +"Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde.";
+
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
-		
+
 		//Inicio
 			//Hacer
 				//Mostrar parrafo
 				System.out.println(parrafo);
-		
+
 				//Preguntar y validar palabra
 				System.out.println(" ");
 				System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
 				System.out.println(" ");
 				System.out.print("Introduzca una palabra: ");
 				palabra = teclado.nextLine();
-		
-				palabra = palabra.toLowerCase();
-				
-				//Mostrar parrafo sin la palabra
-				for(posicion=0; posicion<=parrafo.length(); posicion=posicion+palabra.length()){
-					if(parrafo.indexOf(palabra,posicion) != -1){
-						
-						System.out.println(parrafo.substring(posicion,palabra.length()).toLowerCase());
 
-						if(palabra.equals(parrafo.substring(posicion,palabra.length()).toLowerCase())){
-							posicionAnterior = posicion;
-							posicion = parrafo.indexOf(palabra,posicion);
-							parrafo = parrafo.substring(posicionAnterior,posicion-1) + parrafo.substring(posicion+palabra.length(),parrafo.length());
+				//palabra = palabra.toLowerCase();
+
+				//Mostrar parrafo sin la palabra
+				do{
+					while(parrafo.indexOf(palabra) != -1){
+
+						/*if(parrafo.substring(posicionPrincipioPalabra,posicionFinalPalabra).equalsIgnoreCase(palabra)){
+							parrafo = parrafo.substring(0,posicionPrincipioPalabra-1) + parrafo.substring(posicionPrincipioPalabra,posicionFinalPalabra).toLowerCase() +parrafo.substring(posicionSiguienteFinal);
+							System.out.println(parrafo);
+						}*/
+
+						posicionPrincipioPalabra = parrafo.indexOf(palabra);
+						//System.out.println(posicionPrincipioPalabra);
+
+						posicionFinalPalabra = posicionPrincipioPalabra+palabra.length()-1;
+						//System.out.println(posicionFinalPalabra);
+
+						codigoSiguienteFinal = parrafo.codePointAt(posicionFinalPalabra+1);
+						//System.out.println(codigoSiguienteFinal);
+
+						if( (codigoSiguienteFinal<=97 || codigoSiguienteFinal>=122) && (codigoSiguienteFinal<=65 || codigoSiguienteFinal>=90)){
+
+							posicion = parrafo.indexOf(palabra);
+
+							if(posicion==0){
+								parteParrafo = parteParrafo + parrafo.substring(0,posicion);
+								//System.out.println(parteParrafo);
+							}
+							else{
+								parteParrafo = parteParrafo + parrafo.substring(0,posicion-1);
+								//System.out.println(parteParrafo);
+							}
+
+							parrafo = parrafo.substring(posicion+palabra.length(),parrafo.length());
+							//System.out.println(parrafo);
+						}
+						else{
+							posicion = parrafo.indexOf(palabra);
+
+							parteParrafo = parteParrafo + parrafo.substring(0,posicion+palabra.length());
+							//System.out.println(parteParrafo);
+
+							parrafo = parrafo.substring(posicion+palabra.length(),parrafo.length());
+							//System.out.println(parrafo);
 						}
 					}
+
+					parrafo = parteParrafo + parrafo;
+					parteParrafo = "";
+
+					System.out.println(parrafo.trim());
+
+					System.out.println(" ");
+					System.out.print("Introduzca una palabra: ");
+					palabra = teclado.nextLine();
+
+					//palabra = palabra.toLowerCase();
 				}
-				
-				System.out.println(parrafo);
-		
-			//Mientras la palabra se distinta de salir
+				while(palabra.equals("salir")==false); //Mientras la palabra sea distinta de salir
 		//Fin
-		
+
 	}
 }
