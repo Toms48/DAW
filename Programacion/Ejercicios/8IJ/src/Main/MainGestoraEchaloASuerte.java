@@ -47,7 +47,6 @@ public class MainGestoraEchaloASuerte {
         //Declaracion de variables
         int opcionMenu = 0;
         String[][] listaGanadores;
-        String[][] unicoGanador;
 
         //Inicializaciones
         Scanner teclado = new Scanner(System.in);
@@ -65,7 +64,7 @@ public class MainGestoraEchaloASuerte {
                 //Segun la opcion del menu
                 switch(opcionMenu) {
                     case 1: //caso 1: Lista de ganadores con premios aleatorios
-                        listaGanadores = GestoraEchaloASuerteV2.premios();
+                        listaGanadores = GestoraEchaloASuerte.premios();
 
                         /*for(int i=0; i<=listaGanadores.length-1; i++){
                             for(int j=0; j<=listaGanadores[i].length-1; j++){
@@ -87,20 +86,16 @@ public class MainGestoraEchaloASuerte {
                     case 2: //caso 2: UN ganador con UN premio aleatorio
                         //System.out.println("WIP");
 
-                        unicoGanador = GestoraEchaloASuerte.premioUnGanador();
+                        GestoraEchaloASuerteV2.premioUnGanador();
 
                         /*for(int i=0; i<=unicoGanador.length-1; i++){
                             for(int j=0; j<=unicoGanador[i].length-1; j++){
                                 System.out.print(unicoGanador[i][j] +" ");
                             }
-                            System.out.println(" ");
+                System.out.println(" ");
                         }
 
                         System.out.println(" ");*/
-
-                        for(int i=0; i<=unicoGanador[0].length-1; i++){
-                            System.out.println(unicoGanador[0][i] +" ---> " +unicoGanador[1][i]);
-                        }
 
                         System.out.println(" ");
 

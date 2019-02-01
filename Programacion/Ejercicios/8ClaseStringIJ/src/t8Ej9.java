@@ -23,8 +23,7 @@
         //Preguntar y leer texto
         //Preguntar, leer y validar numero para incriptar
         //Pasar el String a array de char
-        //Recorrer array cambiando el caracter por su incriptacion
-        //Mostrar texto encriptado
+        //Recorrer array cambiando el caracter por su incriptacion y mostrar texto encriptado
 	//Fin
 */
 
@@ -48,25 +47,17 @@ public class t8Ej9 {
 
             //Preguntar, leer validar numero para incriptar
             do{
-                System.out.print("Introduzca el numero para incriptar: ");
+                System.out.print("Introduzca el numero para incriptar (1-25 incluidos): ");
                 incriptacion = tecladoInt.nextInt();
             }
             while(incriptacion<1 || incriptacion>25);
 
             //Pasar el String a array de char
-            char[] arrayTexto = new char[texto.length()];
-            int[] arrayIncriptado = new int[texto.length()];
+            char[] arrayTexto = texto.toCharArray();
 
-            arrayTexto = texto.toCharArray();
-
-            //Recorrer array cambiando el caracter por su incriptacion
+            //Recorrer array cambiando el caracter por su incriptacion y mostrar texto encriptado
             for(int i=0; i<=arrayTexto.length-1; i++){
-                arrayIncriptado[i] = Character.codePointAt(arrayTexto,i);
-            }
-
-            //Mostrar texto encriptado
-            for(int i=0; i<=arrayIncriptado.length-1; i++){
-                System.out.print(arrayIncriptado[i]+incriptacion);
+                System.out.println(Character.codePointAt(arrayTexto,i)+incriptacion);
             }
 
         //Fin
