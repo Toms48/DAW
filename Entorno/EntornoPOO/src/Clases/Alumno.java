@@ -16,7 +16,7 @@ package Clases;
  * 	    - asignatura5 => Asignatura => Consultable y Modificable
  *
  * 	Derivadas:
- * 		No hay
+ * 		- notaMedia
  *
  * 	Compartidas:
  * 		No hay
@@ -25,7 +25,7 @@ package Clases;
  * 		No tiene
  *
  * 	Métodos añadidos:
- * 		- notaMedia
+ * 		No tiene
  */
 
 public class Alumno {
@@ -43,6 +43,8 @@ public class Alumno {
     private Asignatura asignatura4 = new Asignatura("Sistemas","1 DAW");
     private Asignatura asignatura5 = new Asignatura("Lenguaje de marcas", "1 DAW");
 
+    private double notaMedia;
+    
     //Constructor por defecto
     public Alumno(){
         nombre = "AlumnoPorDefecto";
@@ -174,10 +176,10 @@ public class Alumno {
     }
     
     //Métodos añadidos
-    public double notaMedia(){
-        double media = (asignatura1.getNota()+asignatura2.getNota()+asignatura3.getNota()+asignatura4.getNota()+asignatura5.getNota())/5;
+    public double getNotaMedia(){
+        notaMedia = (asignatura1.getNota()+asignatura2.getNota()+asignatura3.getNota()+asignatura4.getNota()+asignatura5.getNota())/5;
         
-        return media;
+        return notaMedia;
     }
 
 }

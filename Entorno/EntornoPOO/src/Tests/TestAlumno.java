@@ -47,9 +47,9 @@ public class TestAlumno {
         System.out.println();
     
         System.out.println("=-=-=-=-= .notaMedia =-=-=-=-=");
-        System.out.println("Nota media de " +PorDefecto.getNombre() +" es " +PorDefecto.notaMedia());
-        System.out.println("Nota media de " +Alumno1.getNombre() +" es " +Alumno1.notaMedia());
-        System.out.println("Nota media de " +Alumno2.getNombre() +" es " +Alumno2.notaMedia());
+        System.out.println("Nota media de " +PorDefecto.getNombre() +" es " +PorDefecto.getNotaMedia());
+        System.out.println("Nota media de " +Alumno1.getNombre() +" es " +Alumno1.getNotaMedia());
+        System.out.println("Nota media de " +Alumno2.getNombre() +" es " +Alumno2.getNotaMedia());
 
     }
 }

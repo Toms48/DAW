@@ -108,7 +108,7 @@ public class MainGestionAlumnos {
 			System.out.println(arrayAlumnos[i].getNotaAs3());
 			System.out.println(arrayAlumnos[i].getNotaAs4());
 			System.out.println(arrayAlumnos[i].getNotaAs5());
-			System.out.println(arrayAlumnos[i].notaMedia());
+			System.out.println(arrayAlumnos[i].getNotaMedia());
 		}
 	
 	}
