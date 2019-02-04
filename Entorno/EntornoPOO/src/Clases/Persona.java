@@ -18,7 +18,7 @@
  * 		No tiene
  *
  * 	Métodos añadidos:
- * 		- calcularIMC
+ * 		- calcularIMC		(peso/(altura^2)	peso ---> Kg	altura ---> m
  * 		- esMayorDeEdad
  * 		- comprobarSexo
  */
@@ -106,6 +106,58 @@ public class Persona {
 	}
 	
 	//Métodos sobrecargados
-	public
+	@Override
+	public String toString(){
+		String s = "Nombre y apellidos: " +getNombre() +" " +getApellidos() +"\n"
+				+"Edad: " +getEdad() +"\n"
+				+"Sexo: " +getSexo() +"\n"
+				+"Peso: " +getPeso() +"\n"
+				+"Altura: " +getAltura() +"\n";
+		return s;
+	}
+	
+	//Métodos añadidos
+	public int calcularIMC(){
+		
+		int devuelto = 0;
+		int resultadoIMC = 0;
+		
+		resultadoIMC = (int)(getPeso()/(getAltura()*getAltura()));
+		
+		if(resultadoIMC<20){
+			devuelto = -1;
+		}
+		else{
+			if(resultadoIMC>25){
+				devuelto = 1;
+			}
+		}
+		
+		return devuelto;
+	}
+	
+	public boolean esMayorDeEdad(){
+		
+		boolean mayorDeEdad = false;
+		
+		if(getEdad() >= 18){
+			mayorDeEdad = true;
+		}
+		
+		return mayorDeEdad;
+	}
+	
+	public void comprobarSexo(){
+		
+		if(Character.toUpperCase(getSexo()) != 'H' && Character.toUpperCase(getSexo()) != 'M'){
+		
+			setSexo('H');
+			
+		}
+		else{
+			System.out.println("La letra es correcta");
+		}
+		
+	}
 	
 }
