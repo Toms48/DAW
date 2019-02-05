@@ -1,4 +1,4 @@
-package Main;
+//package Main;
 
 public class ClaseString {
 	public static void main(String[] args){

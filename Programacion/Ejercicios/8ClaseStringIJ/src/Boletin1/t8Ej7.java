@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej7
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej7
  *
  *   Comentario:	Formatear un String leido por teclado, poner todo en minúscula y el primer caracter en mayuscula.
  *

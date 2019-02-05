@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej5V2
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej5V2
  *
  *   Comentario:	Mostrar un parrafo de varias lineas y pedir una palabra, mostrar el parrafo de nuevo sin esa la palabra.
  *   				Posteriormente completar el ejercicio haciendo que pida palabras que se irán eliminando

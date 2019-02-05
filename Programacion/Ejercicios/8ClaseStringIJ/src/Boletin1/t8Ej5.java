@@ -1,5 +1,7 @@
+package Boletin1;
+
 /*
- *   Nombre: t8Ej5
+ *   Nombre: Boletin1.t8Ej5
  *
  *   Comentario:	Mostrar un parrafo de varias lineas y pedir una palabra, mostrar el parrafo de nuevo sin esa la palabra.
  *   				Posteriormente completar el ejercicio haciendo que pida palabras que se irán eliminando
@@ -40,10 +42,10 @@ public class t8Ej5 {
 
 		String parteParrafo = new String();
 		String palabra = new String();
-		/*String parrafo = "Rafa Nadal es un tenista. Es el mejor tenista español.";*/
-		String parrafo = "Cuanto peor mejor para todos y cuanto peor para todos mejor, mejor para mí el suyo, beneficio político.\n"
-						+"\n"
-				        +"Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde.";
+		String parrafo = "Jesus sal sal.";
+		//String parrafo = "Cuanto peor mejor para todos y cuanto peor para todos mejor, mejor para mí el suyo, beneficio político.\n"
+						//+"\n"
+				        //+"Es el vecino el que elige al alcalde y es el alcalde el que quiere que sean los vecinos el alcalde.";
 
 		//Inicializaciones
 		Scanner teclado = new Scanner(System.in);
@@ -68,7 +70,7 @@ public class t8Ej5 {
 
 						/*if(parrafo.substring(posicionPrincipioPalabra,posicionFinalPalabra).equalsIgnoreCase(palabra)){
 							parrafo = parrafo.substring(0,posicionPrincipioPalabra-1) + parrafo.substring(posicionPrincipioPalabra,posicionFinalPalabra).toLowerCase() +parrafo.substring(posicionSiguienteFinal);
-							System.out.println(parrafo);
+							System out.println(parrafo);
 						}*/
 
 						posicionPrincipioPalabra = parrafo.indexOf(palabra);
@@ -118,7 +120,7 @@ public class t8Ej5 {
 
 					//palabra = palabra.toLowerCase();
 				}
-				while(palabra.equals("salir")==false); //Mientras la palabra sea distinta de salir
+				while(palabra.equals("salirsalir")==false); //Mientras la palabra sea distinta de salirsalir (por si sale un salir en la frase)
 		//Fin
 
 	}

@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej3
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej3
  *
  *   Comentario:	Completar el ejercicio anterior añadiendo otro filtro con la terminación del nombre.
  *   				Si se introduce el texto vacío ignorar el filtro.

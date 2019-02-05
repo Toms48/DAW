@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej4
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej4
  *
  *   Comentario:	Mostrar un parrafo de varias lineas y pedir una palabra, mostrar todas
  *   				las posiciones en las que aparece dicha palabra.

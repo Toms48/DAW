@@ -113,4 +113,6 @@ Método de la burbuja
                                  arr[j] = aux;
                          }     
                  }  
-         }  
+         }
+
+respuesta = Character.toLowerCase(teclado.next().charAt(0));

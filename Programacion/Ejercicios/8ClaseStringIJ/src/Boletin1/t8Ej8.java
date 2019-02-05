@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej8
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej8
  *
  *   Comentario:	Leer dos cadenas de textos y decir si son equivalentes (si son iguales ignorando las mayusculas y los espacios del principio y del final).
  *

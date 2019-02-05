@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej1
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej1
  *
  *   Comentario:	Leer dos cadenas de texto e imprimir la mayor de ellas y su longitud.
  *

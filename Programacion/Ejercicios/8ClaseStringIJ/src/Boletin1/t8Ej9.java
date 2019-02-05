@@ -1,5 +1,6 @@
+package Boletin1;
 /*
- *   Nombre: t8Ej9
+ *   Nombre: Boletin1.t8Ej9
  *
  *   Comentario:	Leer una cadena de texto por teclado y pedir un numero entre 1 y 25 para encriptarla.
  *                  La encriptación consiste en cambiar cada caracter de la cadena por el correspondiente a su codigo ascii más el numero leido.
@@ -61,6 +62,5 @@ public class t8Ej9 {
             }
 
         //Fin
-
     }
 }

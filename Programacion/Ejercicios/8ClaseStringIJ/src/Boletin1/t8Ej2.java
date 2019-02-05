@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej2
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej2
  *
  *   Comentario:	Crear un array con muchos nombres, pedir un texto como filtro y mostrar todos los
  *   				nombres que empiecen por ese texto.

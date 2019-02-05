@@ -1,5 +1,5 @@
-/*
- *   Nombre: t8Ej6
+package Boletin1;/*
+ *   Nombre: Boletin1.t8Ej6
  *
  *   Comentario:	Mostrar un parrafo de varias lineas y pedir una palabra del mismo y otra por la que se quiera sustituir.
  *                  Imprimir el parrafo con la palabra cambiada.
