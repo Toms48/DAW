@@ -56,8 +56,9 @@ public class t8Ej8 {
 				System.out.print(codigosAscii[i]);
 			}
 		
-			System.out.println("");
-			
+			System.out.println();
+			System.out.println();
+
 			//Imprimir la letra de cada codigo ascii anterior
 			for(int i=0; i<=codigosAscii.length-1; i++){
 				
@@ -67,6 +68,5 @@ public class t8Ej8 {
 			
 		
 		//Fin
-	
 	}
 }
