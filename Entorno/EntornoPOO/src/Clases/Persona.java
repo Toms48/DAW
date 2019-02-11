@@ -131,6 +131,9 @@ public class Persona {
 			if(resultadoIMC>25){
 				devuelto = 1;
 			}
+			else{
+				devuelto = 0;
+			}
 		}
 		
 		return devuelto;
