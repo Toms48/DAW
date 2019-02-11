@@ -152,10 +152,11 @@ public class Persona {
 		if(Character.toUpperCase(getSexo()) != 'H' && Character.toUpperCase(getSexo()) != 'M'){
 		
 			setSexo('H');
+			System.out.println("La letra era incorrecta y se ha actualizado por defecto.");
 			
 		}
 		else{
-			System.out.println("La letra es correcta");
+			System.out.println("La letra es correcta.");
 		}
 		
 	}

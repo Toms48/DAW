@@ -27,7 +27,7 @@ public class TestPersona {
 		System.out.println(persona1.toString());
 		
 		persona1.setEdad(20);
-		persona1.setSexo('H');
+		persona1.setSexo('O');
 		persona1.setPeso(75);
 		persona1.setAltura(1.72);
 		
@@ -35,6 +35,24 @@ public class TestPersona {
 		
 		System.out.println("Persona despues de los sets");
 		System.out.println(persona1.toString());
+		
+		System.out.println();
+		
+		System.out.println("=-=-=-=-= .calcularIMC =-=-=-=-=");
+		System.out.println("IMC de " +persona1.getNombre() +": " +persona1.calcularIMC());
+		System.out.println("IMC de " +persona2.getNombre() +": " +persona2.calcularIMC());
+		
+		System.out.println();
+		
+		System.out.println("=-=-=-=-= .esMayorDeEdad =-=-=-=-=");
+		System.out.println(persona1.getNombre() +" es mayor de edad: " +persona1.esMayorDeEdad());
+		System.out.println(persona2.getNombre() +" es mayor de edad: " +persona2.esMayorDeEdad());
+		
+		System.out.println();
+		
+		System.out.println("=-=-=-=-= .comprobarSexo =-=-=-=-=");
+		persona1.comprobarSexo();
+		persona2.comprobarSexo();
 		
 	}
 }
