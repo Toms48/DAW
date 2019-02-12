@@ -86,6 +86,66 @@ Tema 7 Parte 2
 	- Comprobar casillas al rededor		---> t7Ej7P2
 	- Movimiento del alfil			---> t7Ej8P2
 
+Tema 8 Calculadora ---> Gestora8IJ
+	- Número capicua
+	- Número primo
+	- Siguiente número primo
+	- Cantidad de dígitos de un número
+	- Voltear número
+	- Dígito en una posición n
+	- Posición de un dígito en un número
+	- Quitar número por detrás
+	- Quitar número por delante
+	- Pegar número por detrás
+	- Pegar número por delante
+	- Trozo de número
+	- Juntar dos números
+	- Primos entre 1 y 1000
+	- Capicua entre 1 y 99999
+	- Cambiar pilas
+	- Mostrar nivel de las pilas
+
+Tema 8 Array ---> Gestora8IJArray
+	- Array de tamaño n con números aleatorios entre un mínimo y un máximo
+	- Devolver el mínimo de un array
+	- Devolver máximo de un array
+	- Devolver la media de un array
+	- Decir si un número está o no en un array
+	- Posición de un número n en un array
+	- Voltear array
+	- Rotar n posiciones a la derecha los números de un array
+	- Rotar n posiciones a la izquierda los números de un array
+
+Tema 8 Array Bidimensional ---> Gestora8IJArrayBi
+	- Array de tamaño n por m con números aleatorios entre un mínimo y un máximo
+	- Devolver la fila i-ésima de un array
+	- Devolver la columna j-ésima de un array
+	- Devolver las coordenadas de la primera ocurrencia de un número dentro de un array bidimensional
+	- Punto silla (número mínimo en su fila y máximo en su columna)
+
+Tema 8 Echalo a suerte ---> GestoraEchaloASuerte / V2
+
+Tema 8 Clase String ---> 8ClaseStringIJ
+	- Boletín 1 
+		- Leer dos cadenas e imprimir la más larga y su longitud     ---> t8Ej1
+		- Array de nombres y mostrar según un filtro                 ---> t8Ej2
+		- Mostrar posiciones en las que está una palabra en un texto ---> t8Ej4
+		- Quitar una palabra de un texto 			     ---> t8Ej5
+		- Cambiar una palabra por otra en un texto 		     ---> t8Ej6
+		- Decir si dos cadenas son identicas			     ---> t8Ej8
+		- Enciptar un código (utilizando ASCII)			     ---> t8Ej9
+	
+	- Boletín 2
+		- Imprimir caracter a caracter un String    		 ---> t8Ej1
+		- Cambiar vocales 			    		 ---> t8Ej2
+		- Contar palabras por frase		    		 ---> t8Ej3
+		- Verificar que un texto acaba como empieza 		 ---> t8Ej4
+		- Volvear un String hasta devolverlo a su forma original ---> t8Ej5
+		- Verificar si una frase contiene una palabra espeficica ---> t8Ej7
+		- Mostrar las iniciales de un nombre  			 ---> t8Ej10
+		- Contar números romanos				 ---> t8Ej11
+		- Cantidad de palabras con más de 10 letras...		 ---> t8Ej12
+
 
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
