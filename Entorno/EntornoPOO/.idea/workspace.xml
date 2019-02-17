@@ -17,29 +17,29 @@
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="6807" />
+          <entry key="java" value="7213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6807" />
+          <entry key="JAVA" value="7213" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -83,20 +83,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main/MGARefactorizado.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main/MainGestionAlumnos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="874">
+              <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main/MainGestionAlumnos.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main/MGARefactorizado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="110" column="61" selection-end-line="115" />
+            <state relative-caret-position="97">
+              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#cargarArrayAlumnos#0;class#MGARefactorizado#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -185,8 +189,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550229946184" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programacion/Ejercicios/8ClaseStringIJ" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550247473085" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ECO2Refactorizado">
+  <component name="RunManager" selected="Application.MGARefactorizado">
     <configuration name="ECO1Refactorizado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main.ECO1Refactorizado" />
       <module name="EntornoPOO" />
@@ -253,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPersona" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tests.TestPersona" />
+    <configuration name="MGARefactorizado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.MGARefactorizado" />
       <module name="EntornoPOO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tests.*" />
+          <option name="PATTERN" value="Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -267,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestPersona" />
       <item itemvalue="Application.EjercicioClasesObjetos1" />
       <item itemvalue="Application.EjercicioClasesObjetos2" />
       <item itemvalue="Application.ECO1Refactorizado" />
       <item itemvalue="Application.ECO2Refactorizado" />
+      <item itemvalue="Application.MGARefactorizado" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MGARefactorizado" />
         <item itemvalue="Application.ECO2Refactorizado" />
         <item itemvalue="Application.ECO1Refactorizado" />
         <item itemvalue="Application.EjercicioClasesObjetos2" />
         <item itemvalue="Application.EjercicioClasesObjetos1" />
-        <item itemvalue="Application.TestPersona" />
       </list>
     </recent_temporary>
   </component>
@@ -297,10 +301,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2196162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +313,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5163934" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51626897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.54555315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,18 +394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,56 +447,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/ECO1Refactorizado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="115" column="43" lean-forward="true" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#3251#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="method#cargarArrayPersonas#0;class#ECO1Refactorizado#0" />
-            <element signature="method#categoriaPeso#0;class#ECO1Refactorizado#0" />
-            <element signature="method#esMayorEdad#0;class#ECO1Refactorizado#0" />
-            <element signature="method#mostrarInfoPersonas#0;class#ECO1Refactorizado#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/ECO2Refactorizado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="238" column="52" selection-start-line="238" selection-start-column="52" selection-end-line="238" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#cargarArraySeries#0;class#ECO2Refactorizado#0" />
-            <element signature="method#cargarArrayVideoJuegos#0;class#ECO2Refactorizado#0" />
-            <element signature="method#mostrarSeriesSinAlquilar#0;class#ECO2Refactorizado#0" />
-            <element signature="method#mostrarVideojuegosSinAlquilar#0;class#ECO2Refactorizado#0" />
-            <element signature="method#alquilarSeries#0;class#ECO2Refactorizado#0" />
-            <element signature="method#alquilarVideojuegos#0;class#ECO2Refactorizado#0" />
-            <element signature="method#mostrarSerieMasTemporadas#0;class#ECO2Refactorizado#0" />
-            <element signature="method#mostrarVideojuegoMasHoras#0;class#ECO2Refactorizado#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/ECO1Refactorizado.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main/ECO2Refactorizado.java" />
     <entry file="file://$PROJECT_DIR$/src/Main/MainGestionAlumnos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="110" column="61" selection-end-line="115" />
+        <state relative-caret-position="874">
+          <caret line="111" column="9" lean-forward="true" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/MGARefactorizado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="97">
+          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#cargarArrayAlumnos#0;class#MGARefactorizado#0" />
+          </folding>
         </state>
       </provider>
     </entry>
