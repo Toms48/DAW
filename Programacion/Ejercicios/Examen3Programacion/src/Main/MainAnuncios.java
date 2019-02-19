@@ -115,7 +115,7 @@ public class MainAnuncios {
 					/*System.out.println("WIP");
 					System.out.println("Estamos trabajando muy duro, gracias por su paciencia.");*/
 					
-					totalGastado += GestoraAnuncios.importeGastado(contadorAnuncios, contadorSegundos);
+					totalGastado = GestoraAnuncios.importeGastado(contadorAnuncios, contadorSegundos);
 					
 					break;
 				case 3:	//porcentajeDescuento

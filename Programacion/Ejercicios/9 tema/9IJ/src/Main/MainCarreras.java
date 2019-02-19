@@ -1,7 +1,6 @@
-package Main;
+package Ejercicio;
 
 import Clases.Piloto;
-import Gestora.GestoraCarreras;
 
 public class MainCarreras {
     public static void main(String[] args){
@@ -13,11 +12,9 @@ public class MainCarreras {
         Piloto p2 = new Piloto("Renault", "Fernando", "Alonso", "Español", 0,1,37, 19, 2);
         Piloto p3 = new Piloto("Ferrari", "Sebastian", "Vettel", "Aleman", 0,1,34, 13, 5);
 
-        GestoraCarreras gestoraCarreras = new GestoraCarreras();
-
-        gestoraCarreras.circuito("Nurburgring");
+        p1.circuito("Nurburgring");
         p1.averia();
-        p2.adelanta("Hamilton");
+        p2.adelanta(p1.getApellido());
         p2.gana();
         p2.nuevoTrofeo();
         p2.celebracionTriunfo();
@@ -25,11 +22,11 @@ public class MainCarreras {
         p1.nuevaEscuderia("Mercedes");
 
         System.out.println();
-
-        gestoraCarreras.circuito("Brasil");
-        p3.adelanta("Fernando");
+    
+        p1.circuito("Brasil");
+        p3.adelanta(p2.getNombre());
         p2.averia();
-        p1.adelanta("Lewis");
+        p1.adelanta(p1.getNombre());
         p1.gana();
         p1.nuevoTrofeo();
         p1.celebracionTriunfo();
