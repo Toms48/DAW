@@ -1,6 +1,6 @@
-package Clases;
+package BoletinClases.Clases;
 
-import Interfaces.MetodosDePilotoFormula1;
+import BoletinClases.Interfaces.MetodosDePilotoFormula1;
 
 public class Piloto implements MetodosDePilotoFormula1 {
 
@@ -29,7 +29,6 @@ public class Piloto implements MetodosDePilotoFormula1 {
     }
 
     //Gets
-	@Override
     public String getEscuderia() {
         return escuderia;
     }
@@ -100,59 +99,57 @@ public class Piloto implements MetodosDePilotoFormula1 {
         this.trofeosGanados += trofeosGanados;
     }
 	
-	@Override
+	
     public void setNumeroEnParrilla(int numeroEnParrilla) {
         this.numeroEnParrilla = numeroEnParrilla;
     }
 	
-	@Override
+	
     public void setEdad(int edad) {
         this.edad = edad;
     }
 	
-	@Override
+	
     public void setTiempoEnF1(int tiempoEnF1) {
         this.tiempoEnF1 = tiempoEnF1;
     }
 	
-	@Override
+	
     public void setTiempoEnEscuderia(int tiempoEscuderia) {
         this.tiempoEscuderia = tiempoEscuderia;
     }
 
     //Métodos añadidos
-    @Override
+    public static void circuito(String nombCircuito) {
+        System.out.println("Bienvenidos al circuito de " +nombCircuito +"... y comienza la carrera.");
+    }
+    
+
     public void celebracionTriunfo(){
         System.out.println("Ahora unas palabras del piloto " +getNacionalidad() +". Muchas gracias al equipo " +getEscuderia() +" por este triunfo.");
     }
-    
-    @Override
-    public void circuito(String nombCircuito) {
-        System.out.println("Bienvenidos al circuito de " +nombCircuito +"... y comienza la carrera.");
-    }
-	
-	@Override
+
     public void adelanta(String piloto){
         System.out.println(this.getNombre() +" adelanta a " +piloto +" y se pone primero");
     }
 	
-	@Override
+	
     public void gana(){
         System.out.println("¡¡¡" +getApellido() +" cruza la línea de parrilla y gana!!!!");
     }
 	
-	@Override
+	
     public void averia(){
         System.out.println("Atención: " +getApellido() +" lleva el coche a boxes por un pinchazo.");
     }
 	
-	@Override
+	
     public int nuevoTrofeo(){
         setTrofeosGanados(1);
         return 1;
     }
 	
-	@Override
+	
     public void nuevaEscuderia(String nuevaEscuderia){
         System.out.println(getApellido() +" ha cambiado a la escudería " +nuevaEscuderia);
         setEscuderia(nuevaEscuderia);

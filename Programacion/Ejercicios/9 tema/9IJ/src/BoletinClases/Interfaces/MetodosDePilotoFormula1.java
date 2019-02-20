@@ -1,4 +1,4 @@
-package Interfaces;
+package BoletinClases.Interfaces;
 
 public interface MetodosDePilotoFormula1 {
 	String getEscuderia();
@@ -29,7 +29,7 @@ public interface MetodosDePilotoFormula1 {
 	void setTiempoEnEscuderia(int tiempoEnEscuderia);
 
 	void celebracionTriunfo();
-	void circuito(String nombCircuito);
+	static void circuito(String nombCircuito){}
 	void adelanta(String piloto);
 	void gana();
 	void averia();

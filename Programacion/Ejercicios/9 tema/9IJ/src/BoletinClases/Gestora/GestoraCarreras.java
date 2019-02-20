@@ -1,4 +1,4 @@
-package Gestora;
+package BoletinClases.Gestora;
 
 public class GestoraCarreras {
 

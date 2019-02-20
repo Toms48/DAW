@@ -1,6 +1,6 @@
-package Main;
+package BoletinClases.Main;
 
-import Clases.Monedero;
+import BoletinClases.Clases.Monedero;
 
 public class MainMonedero {
 	public static void main(String[] args){

@@ -1,6 +1,6 @@
-package Ejercicio;
+package BoletinClases.Main;
 
-import Clases.Piloto;
+import BoletinClases.Clases.Piloto;
 
 public class MainCarreras {
     public static void main(String[] args){
@@ -12,7 +12,7 @@ public class MainCarreras {
         Piloto p2 = new Piloto("Renault", "Fernando", "Alonso", "Español", 0,1,37, 19, 2);
         Piloto p3 = new Piloto("Ferrari", "Sebastian", "Vettel", "Aleman", 0,1,34, 13, 5);
 
-        p1.circuito("Nurburgring");
+        Piloto.circuito("Nurburgring");
         p1.averia();
         p2.adelanta(p1.getApellido());
         p2.gana();
@@ -23,7 +23,7 @@ public class MainCarreras {
 
         System.out.println();
     
-        p1.circuito("Brasil");
+        Piloto.circuito("Brasil");
         p3.adelanta(p2.getNombre());
         p2.averia();
         p1.adelanta(p1.getNombre());

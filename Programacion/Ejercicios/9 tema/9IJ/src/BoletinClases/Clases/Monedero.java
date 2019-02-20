@@ -1,4 +1,4 @@
-package Clases;
+package BoletinClases.Clases;
 
 public class Monedero {
 	
