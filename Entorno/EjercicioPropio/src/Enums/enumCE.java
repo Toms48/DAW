@@ -1,5 +1,5 @@
 package Enums;
 
 public enum enumCE {
-	TP, mayor18;
+	PorDefecto, TP, mayor18;
 }

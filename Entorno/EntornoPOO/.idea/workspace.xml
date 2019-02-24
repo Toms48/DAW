@@ -13,7 +13,7 @@
     <session id="-307104832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.27" value="1" />
@@ -182,7 +182,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550247473085" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programacion/Ejercicios/9 tema/9IJ" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjercicioPropio" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

@@ -1,5 +1,5 @@
 package Enums;
 
 public enum enumGenero {
-	hola, hola2;
+	PorDefecto, hola, hola2;
 }
