@@ -159,11 +159,12 @@ public class Pelicula {
 		
 		String s = "Titulo: " +getTitulo() +
 				"\nDirector: " +getDirector() +
-				"\nDirector: " +getDirector() +
-				"\nDirector: " +getDirector() +
-				"\nDirector: " +getDirector() +
-				"\nDirector: " +getDirector();
-		
+				"\nDuracion: " +getDuracion() +
+				"\nGenero: " +getGenero() +
+				"\nClasificacion edad: " +getClasificacionEdad() +
+				"\nVeces vista: " +getVecesVista() +
+				"\nVista: " +isVista() +
+				"\nNota: " +getNota();
 		return s;
 	}
 
@@ -185,6 +186,7 @@ public class Pelicula {
 		int opcionMenuEditar = 0;
 		char respuesta = ' ';
 		int opcionMenuGenero = 0;
+		int opcionMenuCE = 0;
 
 		Scanner tecladoN = new Scanner(System.in);
 		Scanner tecladoS = new Scanner(System.in);
@@ -277,26 +279,18 @@ public class Pelicula {
 					System.out.println("| 5. Mayores de 18 años                             |");
 					System.out.println("|                                                   |");
 					System.out.println("o-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-o");
-					System.out.print  ("Introduzca el nuevo género: ");
-					opcionMenuGenero = tecladoN.nextInt();
+					System.out.print  ("Introduzca la nueva clasificación: ");
+					opcionMenuCE = tecladoN.nextInt();
 				}
-				while(opcionMenuGenero<1 || opcionMenuGenero>5);
+				while(opcionMenuCE<1 || opcionMenuCE>5);
 				
 				switch (opcionMenuGenero){
-					case 1: setGenero(enumGenero.CienciaFiccion); break;
-					case 2: setGenero(enumGenero.Terror); break;
-					case 3: setGenero(enumGenero.Comedia); break;
-					case 4: setGenero(enumGenero.Drama); break;
-					case 5: setGenero(enumGenero.Fantasia); break;
+					case 1: setClasificacionEdad(enumCE.TP); break;
+					case 2: setClasificacionEdad(enumCE.Mayor7); break;
+					case 3: setClasificacionEdad(enumCE.Mayor12); break;
+					case 4: setClasificacionEdad(enumCE.Mayor16); break;
+					case 5: setClasificacionEdad(enumCE.Mayor18); break;
 				}
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-				
-				System.out.println("La antigua clasificación de edad era " +getClasificacionEdad());
-				System.out.println();
-				System.out.print  ("Introduzca la nueva clasificación: ");
-				setClasificacionEdad(tecladoS.nextLine());
 				
 				System.out.println();
 				System.out.println("Se ha actualizado correctamente");
