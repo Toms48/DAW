@@ -13,10 +13,10 @@
     <session id="1290665952">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,13 +34,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="2276" />
+          <entry key="java" value="3822" />
           <entry key="txt" value="985" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2276" />
+          <entry key="JAVA" value="3822" />
           <entry key="PLAIN_TEXT" value="1003" />
         </counts>
       </usages-collector>
@@ -66,13 +66,13 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4035181">
+    <splitter split-orientation="horizontal" split-proportion="0.31467474">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/EjercicioGestionLibros.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
+                <state relative-caret-position="255">
                   <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
                 </state>
               </provider>
@@ -81,49 +81,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Clases/Pelicula.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2175#2176#0" expanded="true" />
-                    <element signature="e#2216#2217#0" expanded="true" />
-                    <element signature="e#2232#2233#0" expanded="true" />
-                    <element signature="e#2252#2253#0" expanded="true" />
-                    <element signature="e#2284#2285#0" expanded="true" />
-                    <element signature="e#2306#2307#0" expanded="true" />
-                    <element signature="e#2335#2336#0" expanded="true" />
-                    <element signature="e#2357#2358#0" expanded="true" />
-                    <element signature="e#2391#2392#0" expanded="true" />
-                    <element signature="e#2411#2412#0" expanded="true" />
-                    <element signature="e#2452#2453#0" expanded="true" />
-                    <element signature="e#2483#2484#0" expanded="true" />
-                    <element signature="e#2514#2515#0" expanded="true" />
-                    <element signature="e#2538#2539#0" expanded="true" />
-                    <element signature="e#2567#2568#0" expanded="true" />
-                    <element signature="e#2586#2587#0" expanded="true" />
-                    <element signature="e#2611#2612#0" expanded="true" />
-                    <element signature="e#2629#2630#0" expanded="true" />
-                    <element signature="e#2672#2673#0" expanded="true" />
-                    <element signature="e#2698#2699#0" expanded="true" />
-                    <element signature="e#2773#2774#0" expanded="true" />
-                    <element signature="e#2800#2801#0" expanded="true" />
-                    <element signature="e#2863#2864#0" expanded="true" />
-                    <element signature="e#2912#2913#0" expanded="true" />
-                    <element signature="e#2746#2747#0" expanded="true" />
-                    <element signature="e#2773#2774#0" expanded="true" />
-                    <element signature="e#2818#2819#0" expanded="true" />
-                    <element signature="e#2849#2850#0" expanded="true" />
-                    <element signature="e#2891#2892#0" expanded="true" />
-                    <element signature="e#2922#2923#0" expanded="true" />
-                    <element signature="e#2968#2969#0" expanded="true" />
-                    <element signature="e#3003#3004#0" expanded="true" />
-                    <element signature="e#3043#3044#0" expanded="true" />
-                    <element signature="e#3068#3069#0" expanded="true" />
-                    <element signature="e#3102#3103#0" expanded="true" />
-                    <element signature="e#3125#3126#0" expanded="true" />
-                    <element signature="e#3185#3186#0" expanded="true" />
-                    <element signature="e#3228#3229#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="105">
+                  <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -135,50 +94,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Clases/Pelicula.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="683">
-                  <caret line="228" column="45" selection-start-line="228" selection-start-column="45" selection-end-line="228" selection-end-column="45" />
-                  <folding>
-                    <element signature="e#0#2335#0" expanded="true" />
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#2175#2176#0" expanded="true" />
-                    <element signature="e#2216#2217#0" expanded="true" />
-                    <element signature="e#2232#2233#0" expanded="true" />
-                    <element signature="e#2252#2253#0" expanded="true" />
-                    <element signature="e#2284#2285#0" expanded="true" />
-                    <element signature="e#2306#2307#0" expanded="true" />
-                    <element signature="e#2335#2336#0" expanded="true" />
-                    <element signature="e#2357#2358#0" expanded="true" />
-                    <element signature="e#2391#2392#0" expanded="true" />
-                    <element signature="e#2411#2412#0" expanded="true" />
-                    <element signature="e#2452#2453#0" expanded="true" />
-                    <element signature="e#2483#2484#0" expanded="true" />
-                    <element signature="e#2514#2515#0" expanded="true" />
-                    <element signature="e#2538#2539#0" expanded="true" />
-                    <element signature="e#2567#2568#0" expanded="true" />
-                    <element signature="e#2586#2587#0" expanded="true" />
-                    <element signature="e#2611#2612#0" expanded="true" />
-                    <element signature="e#2629#2630#0" expanded="true" />
-                    <element signature="e#2672#2673#0" expanded="true" />
-                    <element signature="e#2698#2699#0" expanded="true" />
-                    <element signature="e#2773#2774#0" expanded="true" />
-                    <element signature="e#2800#2801#0" expanded="true" />
-                    <element signature="e#2863#2864#0" expanded="true" />
-                    <element signature="e#2912#2913#0" expanded="true" />
-                    <element signature="e#2746#2747#0" expanded="true" />
-                    <element signature="e#2773#2774#0" expanded="true" />
-                    <element signature="e#2818#2819#0" expanded="true" />
-                    <element signature="e#2849#2850#0" expanded="true" />
-                    <element signature="e#2891#2892#0" expanded="true" />
-                    <element signature="e#2922#2923#0" expanded="true" />
-                    <element signature="e#2968#2969#0" expanded="true" />
-                    <element signature="e#3003#3004#0" expanded="true" />
-                    <element signature="e#3043#3044#0" expanded="true" />
-                    <element signature="e#3068#3069#0" expanded="true" />
-                    <element signature="e#3102#3103#0" expanded="true" />
-                    <element signature="e#3125#3126#0" expanded="true" />
-                    <element signature="e#3185#3186#0" expanded="true" />
-                    <element signature="e#3228#3229#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="322">
+                  <caret line="279" column="66" selection-start-line="279" selection-start-column="60" selection-end-line="279" selection-end-column="66" />
                 </state>
               </provider>
             </entry>
@@ -186,8 +103,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Enums/enumGenero.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="64" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="64" />
                 </state>
               </provider>
             </entry>
@@ -195,8 +112,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Enums/enumCE.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
@@ -223,17 +140,16 @@
         <option value="$PROJECT_DIR$/src/Clases/Habitacion.java" />
         <option value="$PROJECT_DIR$/src/Clases/Estanteria.java" />
         <option value="$PROJECT_DIR$/src/EjercicioGestionLibros.txt" />
-        <option value="$PROJECT_DIR$/src/Enums/enumGenero.java" />
         <option value="$PROJECT_DIR$/src/Enums/enumCE.java" />
+        <option value="$PROJECT_DIR$/src/Enums/enumGenero.java" />
         <option value="$PROJECT_DIR$/src/Clases/Pelicula.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -275,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18381241" />
@@ -318,71 +234,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EjercicioGestionLibros.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="255">
           <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Enums/enumCE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Enums/enumGenero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enums/enumCE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Clases/Pelicula.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="228" column="45" selection-start-line="228" selection-start-column="45" selection-end-line="228" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#2335#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2306#2307#0" expanded="true" />
-            <element signature="e#2335#2336#0" expanded="true" />
-            <element signature="e#2357#2358#0" expanded="true" />
-            <element signature="e#2391#2392#0" expanded="true" />
-            <element signature="e#2411#2412#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2514#2515#0" expanded="true" />
-            <element signature="e#2538#2539#0" expanded="true" />
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#2586#2587#0" expanded="true" />
-            <element signature="e#2611#2612#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-            <element signature="e#2672#2673#0" expanded="true" />
-            <element signature="e#2698#2699#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2800#2801#0" expanded="true" />
-            <element signature="e#2863#2864#0" expanded="true" />
-            <element signature="e#2912#2913#0" expanded="true" />
-            <element signature="e#2746#2747#0" expanded="true" />
-            <element signature="e#2773#2774#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2849#2850#0" expanded="true" />
-            <element signature="e#2891#2892#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#2968#2969#0" expanded="true" />
-            <element signature="e#3003#3004#0" expanded="true" />
-            <element signature="e#3043#3044#0" expanded="true" />
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3102#3103#0" expanded="true" />
-            <element signature="e#3125#3126#0" expanded="true" />
-            <element signature="e#3185#3186#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="322">
+          <caret line="279" column="66" selection-start-line="279" selection-start-column="60" selection-end-line="279" selection-end-column="66" />
         </state>
       </provider>
     </entry>
