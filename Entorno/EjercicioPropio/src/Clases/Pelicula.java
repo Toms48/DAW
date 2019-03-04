@@ -47,6 +47,7 @@ public class Pelicula {
 	private int vecesVista;
 	private boolean vista;
 	private int nota;
+	private String resenia;
 	
 	private static double horasTotales;
 	
@@ -60,6 +61,7 @@ public class Pelicula {
 		vecesVista = 0;
 		vista = false;
 		nota = 0;
+		resenia = "Habría algo escrito pero o no me la he visto o me ha dado pereza escribir algo.";
 	}
 	
 	//Constructor con parámetros
@@ -72,11 +74,20 @@ public class Pelicula {
 		this.vecesVista = vecesVista;
 		this.vista = vista;
 		this.nota = nota;
+		this.resenia = "Habría algo escrito pero o no me la he visto o me ha dado pereza escribir algo.";
 	}
 	
 	//Constructor con parámetros (solo el titulo)
 	public Pelicula(String titulo){
 		this.titulo = titulo;
+		director = "Director por defecto";
+		duracion = 0;
+		genero = enumGenero.PorDefecto;
+		clasificacionEdad = enumCE.PorDefecto;
+		vecesVista = 0;
+		vista = false;
+		nota = 0;
+		resenia = "Habría algo escrito pero o no me la he visto o me ha dado pereza escribir algo.";
 	}
 	
 	//Gets
@@ -124,6 +135,10 @@ public class Pelicula {
 		this.clasificacionEdad = clasificacionEdad;
 	}
 
+	public String getResenia() {
+		return resenia;
+	}
+
 	//Sets
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
@@ -153,6 +168,10 @@ public class Pelicula {
 		Pelicula.horasTotales = horasTotales;
 	}
 
+	public void setResenia(String resenia) {
+		this.resenia = resenia;
+	}
+
 	//Métodos sobrescritos
 	@Override
 	public String toString() {
@@ -169,7 +188,7 @@ public class Pelicula {
 	}
 
 	//Métodos añadidos
-	public void actualizarHorasTotales(ArrayList<Pelicula> arrayPeliculas){
+	public static void actualizarHorasTotales(ArrayList<Pelicula> arrayPeliculas){
 		int minutosTotales = 0;
 
 		for(Pelicula peli:arrayPeliculas){
@@ -191,197 +210,222 @@ public class Pelicula {
 		Scanner tecladoN = new Scanner(System.in);
 		Scanner tecladoS = new Scanner(System.in);
 
-		System.out.println("¿Qué quieres editar?");
-		System.out.println("1. Titulo");
-		System.out.println("2. Director");
-		System.out.println("3. Duracion");
-		System.out.println("4. Genero");
-		System.out.println("5. Clasificación de edad");
-		System.out.println("6. Veces que la has visto");
-		System.out.println("7. Si está vista o no");
-		System.out.println("8. Nota");
-		System.out.println("9. Salir");
-		System.out.print  ("Su opcion es: ");
-		opcionMenuEditar = tecladoN.nextInt();
+		do{
+			do{
+				System.out.println(toString());
 
-		switch (opcionMenuEditar){
-			case 1:
-				System.out.println("El antiguo título era \"" +getTitulo() +"\"");
 				System.out.println();
-				System.out.print  ("Introduzca el nuevo título: ");
-				setTitulo(tecladoS.nextLine());
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+				System.out.println("¿Qué quieres editar?");
+				System.out.println(" 1. Titulo");
+				System.out.println(" 2. Director");
+				System.out.println(" 3. Duracion");
+				System.out.println(" 4. Genero");
+				System.out.println(" 5. Clasificación de edad");
+				System.out.println(" 6. Veces que la has visto");
+				System.out.println(" 7. Si está vista o no");
+				System.out.println(" 8. Nota");
+				System.out.println(" 9. Reseña");
+				System.out.println("10. Salir");
+				System.out.print  ("Su opcion es: ");
+				opcionMenuEditar = tecladoN.nextInt();
+			}
+			while(opcionMenuEditar<1 || opcionMenuEditar>10);
 
-			case 2:
-				System.out.println("El antiguo director era " +getDirector());
-				System.out.println();
-				System.out.print  ("Introduzca el nuevo director: ");
-				setDirector(tecladoS.nextLine());
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+			System.out.println();
 
-			case 3:
-				System.out.println("Antes duraba " +getDuracion() +" minutos");
-				System.out.println();
-				System.out.print  ("Introduzca la nueva duracion: ");
-				setDuracion(tecladoN.nextInt());
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
-
-			case 4:
-				do{
-					System.out.println("El antiguo genero era " +getGenero());
+			switch (opcionMenuEditar){
+				case 1:
+					System.out.println("El antiguo título era \"" +getTitulo() +"\"");
 					System.out.println();
-					System.out.println("o-=-=-=-=-=-=-= La lista de Generos =-=-=-=-=-=-=-=-o");
-					System.out.println("|                                                   |");
-					System.out.println("| 1. Ciencia Ficcion                                |");
-					System.out.println("| 2. Terror                                         |");
-					System.out.println("| 3. Comedia                                        |");
-					System.out.println("| 4. Drama                                          |");
-					System.out.println("| 5. Fantasia                                       |");
-					System.out.println("|                                                   |");
-					System.out.println("o-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-o");
-					System.out.print  ("Introduzca el nuevo género: ");
-					opcionMenuGenero = tecladoN.nextInt();
-				}
-				while(opcionMenuGenero<1 || opcionMenuGenero>5);
-				
-				switch (opcionMenuGenero){
-					case 1: setGenero(enumGenero.CienciaFiccion); break;
-					case 2: setGenero(enumGenero.Terror); break;
-					case 3: setGenero(enumGenero.Comedia); break;
-					case 4: setGenero(enumGenero.Drama); break;
-					case 5: setGenero(enumGenero.Fantasia); break;
-				}
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+					System.out.print  ("Introduzca el nuevo título: ");
+					setTitulo(tecladoS.nextLine());
 
-			case 5:
-				
-				do{
-					System.out.println("El antiguo genero era " +getGenero());
 					System.out.println();
-					System.out.println("o-=-=-=-=-= La lista de Clasificaciones =-=-=-=-=-=-o");
-					System.out.println("|                                                   |");
-					System.out.println("| 1. Apto para todos los públicos                   |");
-					System.out.println("| 2. Mayores de 7 años                              |");
-					System.out.println("| 3. Mayores de 12 años                             |");
-					System.out.println("| 4. Mayores de 16 años                             |");
-					System.out.println("| 5. Mayores de 18 años                             |");
-					System.out.println("|                                                   |");
-					System.out.println("o-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-o");
-					System.out.print  ("Introduzca la nueva clasificación: ");
-					opcionMenuCE = tecladoN.nextInt();
-				}
-				while(opcionMenuCE<1 || opcionMenuCE>5);
-				
-				switch (opcionMenuGenero){
-					case 1: setClasificacionEdad(enumCE.TP); break;
-					case 2: setClasificacionEdad(enumCE.Mayor7); break;
-					case 3: setClasificacionEdad(enumCE.Mayor12); break;
-					case 4: setClasificacionEdad(enumCE.Mayor16); break;
-					case 5: setClasificacionEdad(enumCE.Mayor18); break;
-				}
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+					System.out.println("Se ha actualizado correctamente");
+					break;
 
-			case 6:
-				if(isVista()){
-					do {
-						System.out.println("Has visto " + getTitulo() + " " + getVecesVista() + " veces");
-						System.out.println();
-						System.out.print("Introduzca la nueva cantidad actualizada: ");
-						setVecesVista(tecladoN.nextInt());
-					}
-					while(getVecesVista()<1);
-				}
-				else{
-					do {
-						System.out.println("Tienes " + getTitulo() + " marcada como NO VISTA");
-						System.out.println();
-						System.out.print  ("Introduzca la cantidad de veces que la ha visto (se actualizara la pelicula a VISTA): ");
-						setVecesVista(tecladoN.nextInt());
-						setVista(true);
-					}
-					while(getVecesVista()<1);
-				}
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+				case 2:
+					System.out.println("El antiguo director era " +getDirector());
+					System.out.println();
+					System.out.print  ("Introduzca el nuevo director: ");
+					setDirector(tecladoS.nextLine());
 
-			case 7:
-				if(isVista()){
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 3:
+					System.out.println("Antes duraba " +getDuracion() +" minutos");
+					System.out.println();
+					System.out.print  ("Introduzca la nueva duracion: ");
+					setDuracion(tecladoN.nextInt());
+
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 4:
 					do{
-						System.out.println("La tienes marcada como VISTA");
+						System.out.println("El antiguo genero era " +getGenero());
 						System.out.println();
-						System.out.print  ("¿Quieres marcarla como NO VISTA? Se actualizara a 0 veces vista. s/n: ");
-						respuesta = Character.toLowerCase(tecladoS.next().charAt(0));
+						System.out.println("o-=-=-=-=-=-=-= La lista de Generos =-=-=-=-=-=-=-=-o");
+						System.out.println("|                                                   |");
+						System.out.println("| 1. Ciencia Ficcion                                |");
+						System.out.println("| 2. Terror                                         |");
+						System.out.println("| 3. Comedia                                        |");
+						System.out.println("| 4. Drama                                          |");
+						System.out.println("| 5. Fantasia                                       |");
+						System.out.println("|                                                   |");
+						System.out.println("o-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-o");
+						System.out.print  ("Introduzca el nuevo género: ");
+						opcionMenuGenero = tecladoN.nextInt();
 					}
-					while(respuesta!='s' && respuesta!='n');
-					
-					if(respuesta == 's'){
-						setVista(false);
-						setVecesVista(0);
-						
+					while(opcionMenuGenero<1 || opcionMenuGenero>5);
+
+					switch (opcionMenuGenero){
+						case 1: setGenero(enumGenero.CienciaFiccion); break;
+						case 2: setGenero(enumGenero.Terror); break;
+						case 3: setGenero(enumGenero.Comedia); break;
+						case 4: setGenero(enumGenero.Drama); break;
+						case 5: setGenero(enumGenero.Fantasia); break;
+					}
+
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 5:
+
+					do{
+						System.out.println("El antiguo genero era " +getGenero());
 						System.out.println();
-						System.out.println("Se ha marcado su pelicula como NO VISTA");
+						System.out.println("o-=-=-=-=-= La lista de Clasificaciones =-=-=-=-=-=-o");
+						System.out.println("|                                                   |");
+						System.out.println("| 1. Apto para todos los públicos                   |");
+						System.out.println("| 2. Mayores de 7 años                              |");
+						System.out.println("| 3. Mayores de 12 años                             |");
+						System.out.println("| 4. Mayores de 16 años                             |");
+						System.out.println("| 5. Mayores de 18 años                             |");
+						System.out.println("|                                                   |");
+						System.out.println("o-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-o");
+						System.out.print  ("Introduzca la nueva clasificación: ");
+						opcionMenuCE = tecladoN.nextInt();
+					}
+					while(opcionMenuCE<1 || opcionMenuCE>5);
+
+					switch (opcionMenuGenero){
+						case 1: setClasificacionEdad(enumCE.TP); break;
+						case 2: setClasificacionEdad(enumCE.Mayor7); break;
+						case 3: setClasificacionEdad(enumCE.Mayor12); break;
+						case 4: setClasificacionEdad(enumCE.Mayor16); break;
+						case 5: setClasificacionEdad(enumCE.Mayor18); break;
+					}
+
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 6:
+					if(isVista()){
+						do {
+							System.out.println("Has visto " + getTitulo() + " " + getVecesVista() + " veces");
+							System.out.println();
+							System.out.print("Introduzca la nueva cantidad actualizada: ");
+							setVecesVista(tecladoN.nextInt());
+						}
+						while(getVecesVista()<1);
 					}
 					else{
-						
-						System.out.println();
-						System.out.println("Se mantiene como estaba antes");
+						do {
+							System.out.println("Tienes " + getTitulo() + " marcada como NO VISTA");
+							System.out.println();
+							System.out.print  ("Introduzca la cantidad de veces que la ha visto (se actualizara la pelicula a VISTA): ");
+							setVecesVista(tecladoN.nextInt());
+							setVista(true);
+						}
+						while(getVecesVista()<1);
 					}
-				}
-				else{
-					do{
-						System.out.println("La tienes marcada como NO VISTA");
-						System.out.println();
-						System.out.print  ("¿Quieres marcarla como VISTA? Se actualizara a 1 vez vista. s/n: ");
-						respuesta = Character.toLowerCase(tecladoS.next().charAt(0));
-					}
-					while(respuesta!='s' && respuesta!='n');
-					
-					if(respuesta == 's'){
-						setVista(true);
-						setVecesVista(1);
-						
-						System.out.println();
-						System.out.println("Se ha marcado su pelicula como VISTA");
+
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 7:
+					if(isVista()){
+						do{
+							System.out.println("La tienes marcada como VISTA");
+							System.out.println();
+							System.out.print  ("¿Quieres marcarla como NO VISTA? Se actualizara a 0 veces vista. s/n: ");
+							respuesta = Character.toLowerCase(tecladoS.next().charAt(0));
+						}
+						while(respuesta!='s' && respuesta!='n');
+
+						if(respuesta == 's'){
+							setVista(false);
+							setVecesVista(0);
+
+							System.out.println();
+							System.out.println("Se ha marcado su pelicula como NO VISTA");
+						}
+						else{
+
+							System.out.println();
+							System.out.println("Se mantiene como estaba antes");
+						}
 					}
 					else{
-						
-						System.out.println();
-						System.out.println("Se mantiene como estaba antes");
-					}
-				}
-			break;
+						do{
+							System.out.println("La tienes marcada como NO VISTA");
+							System.out.println();
+							System.out.print  ("¿Quieres marcarla como VISTA? Se actualizara a 1 vez vista. s/n: ");
+							respuesta = Character.toLowerCase(tecladoS.next().charAt(0));
+						}
+						while(respuesta!='s' && respuesta!='n');
 
-			case 8:
-				do {
-					System.out.println("La nota que le tenias puesta era un " +getNota());
+						if(respuesta == 's'){
+							setVista(true);
+							setVecesVista(1);
+
+							System.out.println();
+							System.out.println("Se ha marcado su pelicula como VISTA");
+						}
+						else{
+
+							System.out.println();
+							System.out.println("Se mantiene como estaba antes");
+						}
+					}
+					break;
+
+				case 8:
+					do {
+						System.out.println("La nota que le tenias puesta era un " +getNota());
+						System.out.println();
+						System.out.print("Introduzca la nueva nota que le quieras dar (1-10): ");
+						setNota(tecladoN.nextInt());
+					}
+					while(getNota()<1 || getNota()>10);
+
 					System.out.println();
-					System.out.print("Introduzca la nueva nota que le quieras dar (1-10): ");
-					setNota(tecladoN.nextInt());
-				}
-				while(getNota()<1 || getNota()>10);
-				
-				System.out.println();
-				System.out.println("Se ha actualizado correctamente");
-			break;
+					System.out.println("Se ha actualizado correctamente");
+					break;
+
+				case 9:
+					System.out.println("La reseña antigua era:\n" +
+							getResenia());
+					System.out.println();
+					System.out.print  ("Introduzca la nueva reseña: ");
+					setTitulo(tecladoS.nextLine());
+
+					System.out.println();
+					System.out.println("Se ha actualizado correctamente");
+					break;
+			}
+
+			System.out.println();
+
 		}
-
+		while(opcionMenuEditar!=10);
 	}
 
 }
