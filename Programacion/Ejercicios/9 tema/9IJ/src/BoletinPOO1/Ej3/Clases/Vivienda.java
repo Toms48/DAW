@@ -38,6 +38,7 @@ public class Vivienda {
 		nombreBarriada = "Barriada Por Defecto";
 		calle = "Calle Por Defecto";
 		tieneBalcon = false;
+		setContadorViviendas();
 	}
 	
 	//Constructor con parámetros
@@ -47,6 +48,7 @@ public class Vivienda {
 		this.nombreBarriada = nombreBarriada;
 		this.calle = calle;
 		this.tieneBalcon = tieneBalcon;
+		setContadorViviendas();
 	}
 	
 	//Gets
@@ -75,8 +77,8 @@ public class Vivienda {
 	}
 	
 	//Sets
-	public static void setContadorViviendas(int contadorViviendas) {
-		Vivienda.contadorViviendas = contadorViviendas;
+	public static void setContadorViviendas() {
+		Vivienda.contadorViviendas += 1;
 	}
 	
 	public void setPrecio(double precio) {

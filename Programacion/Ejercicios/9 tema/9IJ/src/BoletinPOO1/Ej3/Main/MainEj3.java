@@ -29,7 +29,18 @@ public class MainEj3 {
 		else{
 			System.out.println("No tiene balcón");
 		}
-	
+		
+		System.out.println("El precio de la casa situada en la " +v1.getNombreBarriada() +" es de: " +v1.getPrecio() +"€. Esta vivienda se encuentra en la calle: " +v1.getCalle());
+		
+		v1.setPrecio(135000.0);
+		System.out.println("Debido a que incorpora algunos extras, situado en la " +v1.getCalle() +", tiene un precio final de: " +v1.getPrecio() +"€");
+		
+		System.out.print("La casa situada en la barriada " +v1.getNombreBarriada() +" cambió de nombre, ahora se llama: ");
+		
+		v1.setNombreBarriada("Avenida de Itálica");
+		System.out.println(v1.getNombreBarriada());
+		
+		System.out.println("El número de viviendas es: " +Vivienda.getContadorViviendas());
 		
 		
 	}
