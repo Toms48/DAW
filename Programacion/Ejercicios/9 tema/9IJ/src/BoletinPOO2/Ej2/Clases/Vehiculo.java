@@ -63,17 +63,17 @@ public class Vehiculo {
 
 		System.out.println();
 		kmString = "" +getKilometrosRecorridos();
-		System.out.print  ("o-------------------");
+		System.out.print  ("o------");
 		for(int i=1; i<=kmString.length(); i++){
 			System.out.print("-");
 		}
 		System.out.println("-----------------o");
-		System.out.println("| Se han recorrido " +getKilometrosRecorridos() +" km con el coche. |");
+		System.out.println("| Se han recorrido " +getKilometrosRecorridos() +" km. |");
 		System.out.print  ("o-------------------");
 		for(int i=1; i<=kmString.length(); i++){
 			System.out.print("-");
 		}
-		System.out.println("-----------------o");
+		System.out.println("----o");
 		System.out.println();
 	}
 
