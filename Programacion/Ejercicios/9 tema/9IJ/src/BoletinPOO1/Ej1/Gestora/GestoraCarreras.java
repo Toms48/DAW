@@ -1,4 +1,4 @@
-package BoletinPOO4.EjPilotos.Gestora;
+package BoletinPOO1.Ej1.Gestora;
 
 public class GestoraCarreras {
 

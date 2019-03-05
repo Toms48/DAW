@@ -1,4 +1,4 @@
-package BoletinPOO4.EjPilotos.Interfaces;
+package BoletinPOO1.Ej1.Interfaces;
 
 public interface MetodosDePilotoFormula1 {
 	String getEscuderia();

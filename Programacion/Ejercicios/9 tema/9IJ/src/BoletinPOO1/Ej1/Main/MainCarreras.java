@@ -1,7 +1,7 @@
-package BoletinPOO4.EjPilotos.Main;
+package BoletinPOO1.Ej1.Main;
 
-import BoletinPOO4.EjPilotos.Clases.Piloto;
-import BoletinPOO4.EjPilotos.Gestora.GestoraCarreras;
+import BoletinPOO1.Ej1.Clases.Piloto;
+import BoletinPOO1.Ej1.Gestora.GestoraCarreras;
 
 public class MainCarreras {
     public static void main(String[] args){

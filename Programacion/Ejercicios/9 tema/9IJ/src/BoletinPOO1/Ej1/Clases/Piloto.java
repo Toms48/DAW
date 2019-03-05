@@ -1,6 +1,6 @@
-package BoletinPOO4.EjPilotos.Clases;
+package BoletinPOO1.Ej1.Clases;
 
-import BoletinPOO4.EjPilotos.Interfaces.MetodosDePilotoFormula1;
+import BoletinPOO1.Ej1.Interfaces.MetodosDePilotoFormula1;
 
 public class Piloto implements MetodosDePilotoFormula1 {
 
