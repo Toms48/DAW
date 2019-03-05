@@ -58,17 +58,19 @@ public class Fraccion {
 		
 		int numerador3 = 0;
 		int denominador3 = 0;
+		int mcm = 0;
 		
 		if(this.denominador == fraccion2.denominador){
 			numerador3 = this.numerador + fraccion2.numerador;
 			denominador3 = this.denominador;
 		}
 		else{
-		
-		}
 
-		numerador3 = this.numerador*fraccion2.denominador+fraccion2.numerador*this.denominador;
-		denominador3 = this.denominador*fraccion2.denominador;
+			mcm = mcm(this.denominador, fraccion2.denominador);
+
+			numerador3 = ((mcm/this.denominador) * this.numerador) + ((mcm/fraccion2.denominador) * fraccion2.numerador);
+			denominador3 = mcm;
+		}
 
 		Fraccion fraccion3 = new Fraccion(numerador3,denominador3);
 
@@ -78,12 +80,22 @@ public class Fraccion {
 	public void restar(Fraccion fraccion2){
 		int numerador3 = 0;
 		int denominador3 = 0;
+		int mcm = 0;
 
-		numerador3 = this.numerador*fraccion2.denominador-fraccion2.numerador*this.denominador;
-		denominador3 = this.denominador*fraccion2.denominador;
+		if(this.denominador == fraccion2.denominador){
+			numerador3 = this.numerador + fraccion2.numerador;
+			denominador3 = this.denominador;
+		}
+		else{
+
+			mcm = mcm(this.denominador, fraccion2.denominador);
+
+			numerador3 = ((mcm/this.denominador) * this.numerador) - ((mcm/fraccion2.denominador) * fraccion2.numerador);
+			denominador3 = mcm;
+		}
 
 		Fraccion fraccion3 = new Fraccion(numerador3,denominador3);
-		
+
 		System.out.println(fraccion3.toString());
 	}
 	
@@ -99,7 +111,7 @@ public class Fraccion {
 		System.out.println(fraccion3.toString());
 	}
 	
-	public void divir(Fraccion fraccion2){
+	public void dividir(Fraccion fraccion2){
 		int numerador3 = 0;
 		int denominador3 = 0;
 
@@ -113,10 +125,10 @@ public class Fraccion {
 	
 	public Fraccion simplificar(){
 		
-		int dividir = mcd();
+		int dividir = mcd(this.numerador,this.denominador);
 
-		this.numerador/=dividir;
-		this.denominador/=dividir;
+		this.numerador = this.numerador / dividir;
+		this.denominador /= dividir;
 
 		return this;
 	}
@@ -127,55 +139,11 @@ public class Fraccion {
 
 		return fraccionInv;
 	}
-
-	/*private int mcd(){	//#EsteCodigoEsHorribleDeFeo #YaLoHaréYoPorQueMeDanPunzadasEnLosOjos
-
-		int u=Math.abs(this.numerador);
-		int v=Math.abs(this.denominador);
-
-		if(v==0){
-			return u;
-		}
-
-		int r;
-
-		while(v!=0){
-			r=u%v;
-			u=v;
-			v=r;
-		}
-		return u;
-	}*/
 	
-	private int mcd(){	//#EsteCodigoEsHorribleDeFeo #YaLoHaréYoPorQueMeDanPunzadasEnLosOjos
-		
-		int u = 0;
-		int v = 0;
-		int r = 0;
-		
-		v = Math.abs(this.denominador);
-		
-		if(v==0){
-			u = Math.abs(this.numerador);
-		}
-		else{
-			
-			u = Math.abs(this.numerador);
-			
-			while(v!=0){
-				r = u%v;
-				u = v;
-				v = r;
-			}
-		}
-		
-		return u;
-	}
-	
-	public static int mcd(int num1, int num2) {
+	private int mcd(int denominador1, int denominador2) {
 		int mcd = 0;
-		int a = Math.max(num1, num2);
-		int b = Math.min(num1, num2);
+		int a = Math.max(denominador1, denominador2);
+		int b = Math.min(denominador1, denominador2);
 		do {
 			mcd = b;
 			b = a%b;
@@ -183,11 +151,11 @@ public class Fraccion {
 		} while(b!=0);
 		return mcd;
 	}
-	
-	public static int mcm(int num1, int num2) {
+
+	private int mcm(int denominador1, int denominador2) {
 		int mcm = 0;
-		int a = Math.max(num1, num2);
-		int b = Math.min(num1, num2);
+		int a = Math.max(denominador1, denominador2);
+		int b = Math.min(denominador1, denominador2);
 		mcm = (a/mcd(a, b))*b;
 		return mcm;
 	}
