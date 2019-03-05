@@ -13,7 +13,7 @@
     <session id="2038826666">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -27,22 +27,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="73" />
+          <entry key="java" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="73" />
+          <entry key="JAVA" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8249" />
+          <entry key="java" value="8932" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8249" />
+          <entry key="JAVA" value="8932" />
         </counts>
       </usages-collector>
     </session>
@@ -85,7 +85,32 @@
     <favorites_list name="9IJ" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Tests/TestsFraccion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="757">
+              <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#2822#0" expanded="true" />
+                <element signature="method#Fraccion#0;class#Fraccion#0" />
+                <element signature="method#toString#0;class#Fraccion#0" />
+                <element signature="method#invertir#0;class#Fraccion#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/BoletinPOO1/Ej3/Clases/Piso.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO1/Ej3/Main/MainEj3.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO1/Ej3/Clases/Vivienda.java" />
-        <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej4/Main/MainEj6.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej5/Clases/Pizza.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej5/Main/MainPizza.java" />
@@ -142,11 +166,14 @@
         <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej2/Main/MainEj2.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej2/Clases/Vehiculo.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/EjPilotos/Main/MainMonedero.java" />
+        <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej4/Tests/TestsFraccion.java" />
+        <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="391" />
+    <option name="y" value="-11" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
@@ -170,6 +197,25 @@
               <item name="9IJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BoletinPOO2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BoletinPOO2" type="462c0819:PsiDirectoryNode" />
+              <item name="Ej4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551776968450" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551779714787" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BoletinPOO1" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -201,20 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainEj2">
-    <configuration name="MainBombilla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej1.Main.MainBombilla" />
-      <module name="9IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BoletinPOO4.Ej1.Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestsFraccion">
     <configuration name="MainCarreras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej1.Main.MainCarreras" />
       <module name="9IJ" />
@@ -267,20 +300,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestsFraccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoletinPOO2.Ej4.Tests.TestsFraccion" />
+      <module name="9IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BoletinPOO2.Ej4.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.MainCarreras" />
-      <item itemvalue="Application.MainBombilla" />
       <item itemvalue="Application.MainEj2" />
       <item itemvalue="Application.MainPizza" />
       <item itemvalue="Application.MainEj3" />
+      <item itemvalue="Application.TestsFraccion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestsFraccion" />
         <item itemvalue="Application.MainEj2" />
         <item itemvalue="Application.MainPizza" />
         <item itemvalue="Application.MainEj3" />
         <item itemvalue="Application.MainCarreras" />
-        <item itemvalue="Application.MainBombilla" />
       </list>
     </recent_temporary>
   </component>
@@ -298,9 +344,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.51805335" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.3469388" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,18 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Main/MainEj6.java" />
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-          <folding>
-            <element signature="method#Fraccion#0;class#Fraccion#0" />
-            <element signature="method#toString#0;class#Fraccion#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,6 +563,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO1/Ej1/Gestora/GestoraCarreras.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Main/MainEj6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Tests/TestsFraccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2822#0" expanded="true" />
+            <element signature="method#Fraccion#0;class#Fraccion#0" />
+            <element signature="method#toString#0;class#Fraccion#0" />
+            <element signature="method#invertir#0;class#Fraccion#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
