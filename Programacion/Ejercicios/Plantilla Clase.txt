@@ -1,0 +1,40 @@
+/* Nombre: NombreClase
+ *
+ * Básicas:
+ * 		- nombreVariable => tipoVariable => Consultable y Modificable
+ *		- nombreVariable => tipoVariable => Consultable y Modificable
+ *		- nombreVariable => tipoVariable => Consultable y Modificable
+ *
+ * Derivadas: No tiene
+ *
+ * Compartidas: No tiene
+ *
+ * Restricciones: No tiene
+ */
+
+package Ruta.Del.Package;
+
+public class NombreClase {
+	
+	//Atributos
+	
+	//Constructor por defecto
+	
+	//Constructor con parámetros
+	
+	//Gets
+	
+	//Sets
+	
+	//Métodos sobrescritos
+	@Override
+	public String toString () {
+		
+		String s = "";
+		
+		return s;
+	}
+	
+	//Métos añadidos
+	
+}
