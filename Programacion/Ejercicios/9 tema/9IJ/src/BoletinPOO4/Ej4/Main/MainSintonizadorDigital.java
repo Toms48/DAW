@@ -19,8 +19,7 @@
 	//Inicio
 		//Hacer
 			//Mostrar sintonizador
-			//Mostrar menu
-			//Leer y validar opcion del menu
+			//Mostrar menu, leer y validar opcion del menu
 			//Segun
 				//Caso 1: Subir emisora
 				//Caso 2: Bajar emisora
@@ -59,21 +58,34 @@ public class MainSintonizadorDigital {
 			//Hacer
 			do {
 				//Mostrar sintonizador
-				System.out.println(sd.toString());
-				
+				sd.pintarFrecuencia();
+
+				//Mostrar menu, leer y validar opcion del menu
+				do{
+					System.out.println();
+
+					mostrarMenu();
+					opcionMenu = teclado.nextInt();
+				}
+				while(opcionMenu<0 || opcionMenu>2);
+
 				System.out.println();
-				
-				//Mostrar menu
-				mostrarMenu();
-				
-				//Leer y validar opcion del menu
+
 				//Segun
-				//Caso 1: Subir emisora
-				//Caso 2: Bajar emisora
-				//Fin_Segun
+				switch(opcionMenu) {
+					case 1:
+						sd.up();
+					break;
+
+					case 2:
+						sd.down();
+					break;
+				}//Fin_Segun
 			}
 			while(opcionMenu != 0);	//Mientras opcion no sea salir
+
+			System.out.println("Ashta luego!");
+
 		//Fin
-	
 	}
 }

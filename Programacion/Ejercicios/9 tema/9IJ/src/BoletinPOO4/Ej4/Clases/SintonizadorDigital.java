@@ -69,5 +69,19 @@ public class SintonizadorDigital {
 			setFrecuencia( getFrecuencia() - 0.5 );
 		}
 	}
+
+	public void pintarFrecuencia(){
+
+		if(getFrecuencia() >= 100){
+			System.out.println("o-------------------o");
+			System.out.println("|	FM  " +getFrecuencia() +" MHz	|");
+			System.out.println("o-------------------o");
+		}
+		else{
+			System.out.println("o-------------------o");
+			System.out.println("|	FM  " +getFrecuencia() +" MHz	|");
+			System.out.println("o-------------------o");
+		}
+	}
 	
 }
