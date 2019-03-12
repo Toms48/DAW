@@ -56,21 +56,39 @@ public class CuentaCorriente {
     public void imposicion(double cantidad){
         this.setSaldo(cantidad + this.getSaldo());
 
-        System.out.println("Se ha ingresado una cantidad de " +cantidad +"€ en su cuenta corriente");
+        System.out.println("Se ha ingresado una cantidad de " +cantidad +"€ en la cuenta corriente");
 
         System.out.println();
 
-        System.out.println("Su saldo actual asciende a " +getSaldo() +"€");
+        this.saldo();
     }
 
     public void reintegro(double cantidad){
-        this.setSaldo(cantidad + this.getSaldo());
+        this.setSaldo(this.getSaldo() - cantidad);
 
-        System.out.println("Se ha ingresado una cantidad de " +cantidad +"€ en su cuenta corriente");
+        System.out.println("Se ha extraido una cantidad de " +cantidad +"€ de la cuenta corriente");
 
         System.out.println();
-
-        System.out.println("Su saldo actual asciende a " +getSaldo() +"€");
+	
+		this.saldo();
     }
+    
+    public void traspaso(double cantidad, CuentaCorriente cuentaCorriente){
+    	
+    	if(cantidad > this.getSaldo()){
+    		System.out.println("Lo sentimos, no se ha podido completar la operacion, no tiene saldo suficiente.");
+    		System.out.println("Ya sabeh, trabaja más.");
+		}
+		else{
+			System.out.println("La cuenta indicada ha recibido " +cantidad +"€");
+			
+			cuentaCorriente.setSaldo(cantidad + cuentaCorriente.getSaldo());
+			this.setSaldo(this.getSaldo() - cantidad);
+			
+			this.saldo();
+			
+			System.out.println("La operacion se ha realizado sin problemas.");
+		}
+	}
 
 }
