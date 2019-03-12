@@ -41,18 +41,31 @@ public class AlarmaDeTemperatura {
 	@Override
 	public String toString () {
 		
-		String s = "Temperatura: " +getTemperatura();
+		String s = "La temperatura actual es: " +getTemperatura();
 		
 		return s;
 	}
 	
 	//Métos añadidos
 	public void activarTimbre(Timbre timbre){
-		timbre.setEstado(true);
+		if(!timbre.isEstado()){
+			timbre.setEstado(true);
+			timbre.mensaje();
+		}
+		else{
+			System.out.println("La alarma aún sigue activada");
+			timbre.mensaje();
+		}
 	}
 	
 	public void desactivarTimbre(Timbre timbre){
-		timbre.setEstado(false);
+		if(!timbre.isEstado()){
+			System.out.println("La temperatura es normal");
+		}
+		else{
+			timbre.setEstado(false);
+			timbre.mensaje();
+		}
 	}
 	
 }

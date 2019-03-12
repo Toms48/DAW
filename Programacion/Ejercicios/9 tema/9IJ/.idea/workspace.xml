@@ -50,35 +50,36 @@
     <session id="-945792603">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="44" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="9369" />
+          <entry key="java" value="10235" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9369" />
+          <entry key="JAVA" value="10235" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -88,62 +89,7 @@
     <favorites_list name="9IJ" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/AlarmaDeTemperatura.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#604#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#622#623#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/Timbre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-              <folding>
-                <element signature="e#0#604#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Main/MainAlarmaDeTemperatura.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -206,13 +152,13 @@
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej6/Main/MainPunto.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej7/Clases/SoyUn.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej7/Main/MainSoyUn.java" />
-        <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/AlarmaDeTemperatura.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/Timbre.java" />
+        <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/AlarmaDeTemperatura.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej8/Main/MainAlarmaDeTemperatura.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -223,8 +169,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,29 +187,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
-              <item name="Ej8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
-              <item name="Ej8" type="462c0819:PsiDirectoryNode" />
-              <item name="Clases" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552384382584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552412778126" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BoletinPOO1" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -289,7 +220,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainPunto">
+  <component name="RunManager" selected="Application.MainAlarmaDeTemperatura">
+    <configuration name="MainAlarmaDeTemperatura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej8.Main.MainAlarmaDeTemperatura" />
+      <module name="9IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BoletinPOO4.Ej8.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainCuentaCorriente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej5.Main.MainCuentaCorriente" />
       <module name="9IJ" />
@@ -329,19 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTiempo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoletinPOO2.Ej6.Tests.TestTiempo" />
-      <module name="9IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BoletinPOO2.Ej6.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestsPlaneta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej2.Tests.TestsPlaneta" />
       <module name="9IJ" />
@@ -356,19 +287,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestTiempo" />
       <item itemvalue="Application.TestsPlaneta" />
       <item itemvalue="Application.MainSintonizadorDigital" />
       <item itemvalue="Application.MainCuentaCorriente" />
       <item itemvalue="Application.MainPunto" />
+      <item itemvalue="Application.MainAlarmaDeTemperatura" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAlarmaDeTemperatura" />
         <item itemvalue="Application.MainPunto" />
         <item itemvalue="Application.MainCuentaCorriente" />
         <item itemvalue="Application.MainSintonizadorDigital" />
         <item itemvalue="Application.TestsPlaneta" />
-        <item itemvalue="Application.TestTiempo" />
       </list>
     </recent_temporary>
   </component>
@@ -386,9 +317,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" weight="0.4065934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -397,8 +328,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6705491" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4262295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7657267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4251627" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -593,20 +524,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3090">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="643" column="18" selection-start-line="643" selection-start-column="18" selection-end-line="643" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/StrictMath.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej5/Clases/CuentaCorriente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -618,108 +537,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#1656#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej5/Main/MainCuentaCorriente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-811">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej6/Main/MainPunto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej6/Clases/Punto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#604#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej7/Clases/SoyUn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej7/Main/MainSoyUn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej5/Main/MainCuentaCorriente.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej6/Main/MainPunto.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej6/Clases/Punto.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej7/Clases/SoyUn.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej7/Main/MainSoyUn.java" />
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/AlarmaDeTemperatura.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#604#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="329">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Clases/Timbre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#604#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej8/Main/MainAlarmaDeTemperatura.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="286">
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
