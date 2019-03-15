@@ -124,6 +124,7 @@ Tema 8 Array Bidimensional ---> Gestora8IJArrayBi
 	- Punto silla (número mínimo en su fila y máximo en su columna)
 
 Tema 8 Echalo a suerte ---> GestoraEchaloASuerte / V2
+	- ArrayList
 
 Tema 8 Clase String ---> 8ClaseStringIJ
 	- Boletín 1 
@@ -151,6 +152,7 @@ printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
 Math ---> java.lang.Math
 Scanner ---> java.util.Scanner
+ArrayList ---> java.util.ArrayList
 
 numero%2==0  ---> Para números pares
 numero%10    ---> Nos dice la última cifra de un número
