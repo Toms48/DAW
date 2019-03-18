@@ -1,7 +1,6 @@
 package calculadora;
 
 import java.util.Scanner;
-import hastaLosHuevos.salida;
 
 public class mainCalculadora {
     
@@ -12,12 +11,10 @@ public class mainCalculadora {
 		//objeto clase scanner
         Scanner sc= new Scanner(System.in);
         
-        salida impresora = new salida();
-        
         //" Introduce primner numero de la calculadora: "
         double n1 = sc.nextDouble(); 
         
-            impresora.printRPG("Introduce el segundo numero de la calcualdora: ");
+            System.out.println("Introduce el segundo numero de la calcualdora: ");
         double n2 = sc.nextDouble();
     
         // instancio un objeto de clase Calculadora que he creado en archivo aparte con los dos numeros pasados
