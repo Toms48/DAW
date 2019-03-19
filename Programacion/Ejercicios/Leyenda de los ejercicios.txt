@@ -178,3 +178,4 @@ Método de la burbuja
          }
 
 respuesta = Character.toLowerCase(teclado.next().charAt(0));
+aleatorio = (int)(Math.random()*[CantidadDeNumeros])+[numeroMasPequeño];

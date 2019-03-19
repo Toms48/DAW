@@ -11,11 +11,9 @@
  * Restricciones: No tiene
  */
 
-package BoletinPOO4.Ej12.Clases;
+package BoletinPOO4.Ej14.Clases;
 
 import java.util.ArrayList;
-
-import BoletinPOO4.Ej12.Clases.Candidato;
 
 public class Votacion{
 	
