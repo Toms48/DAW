@@ -53,7 +53,7 @@
     <session id="-945792603">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -61,28 +61,29 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="48" />
+          <entry key="java" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="10235" />
+          <entry key="java" value="11606" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10235" />
+          <entry key="JAVA" value="11606" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -93,32 +94,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej15/Clases/Coche.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1387">
-              <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+            <state relative-caret-position="328">
+              <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
               <folding>
-                <element signature="e#0#604#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1219#1220#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1584#1585#0" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1195#1196#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="method#concesionario#0;class#Coche#0" />
+                <element signature="method#dineroInvertido#0;class#Coche#0" />
+                <element signature="method#addNuevoCocheConcesionario#1;class#Coche#0" />
+                <element signature="method#mostrarCoche#0;class#Coche#0" />
+                <element signature="method#mostrarConcesionario#0;class#Coche#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej15/Tests/TestCoche.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -138,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/BoletinPOO2/Ej5/Main/mainPizza.java" />
-        <option value="$PROJECT_DIR$/src/BoletinClases/Main/MainBombilla.java" />
         <option value="$PROJECT_DIR$/src/BoletinClases/Interfaces/MetodosDePilotoFormula1.java" />
         <option value="$PROJECT_DIR$/src/BoletinClases/Clases/Piloto.java" />
         <option value="$PROJECT_DIR$/src/BoletinClases/Main/MainCarreras.java" />
@@ -188,7 +192,9 @@
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej13/Main/PruebaPlaneta2.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej14/Clases/Candidato.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej14/Main/PruebaVotacion2.java" />
+        <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej15/Main/MainConcesionario.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej15/Clases/Coche.java" />
+        <option value="$PROJECT_DIR$/src/BoletinPOO4/Ej15/Tests/TestCoche.java" />
       </list>
     </option>
   </component>
@@ -221,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,15 +252,24 @@
               <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
               <item name="Ej15" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="9IJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="9IJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="BoletinPOO4" type="462c0819:PsiDirectoryNode" />
+              <item name="Ej15" type="462c0819:PsiDirectoryNode" />
+              <item name="Clases" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552989536573" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553000759609" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BoletinPOO1" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -287,26 +301,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PruebaVotacion2">
+  <component name="RunManager" selected="Application.TestCoche">
     <configuration name="MainBombillaEj11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej11.Main.MainBombillaEj11" />
       <module name="9IJ" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="BoletinPOO4.Ej11.Main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainBombillas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej10.Main.MainBombillas" />
-      <module name="9IJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BoletinPOO4.Ej10.Main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -353,20 +354,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCoche" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoletinPOO4.Ej15.Tests.TestCoche" />
+      <module name="9IJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BoletinPOO4.Ej15.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MainBombillas" />
       <item itemvalue="Application.MainBombillaEj11" />
       <item itemvalue="Application.PruebaVotacion" />
       <item itemvalue="Application.PruebaPlaneta2" />
       <item itemvalue="Application.PruebaVotacion2" />
+      <item itemvalue="Application.TestCoche" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCoche" />
         <item itemvalue="Application.PruebaVotacion2" />
         <item itemvalue="Application.PruebaPlaneta2" />
         <item itemvalue="Application.PruebaVotacion" />
         <item itemvalue="Application.MainBombillaEj11" />
-        <item itemvalue="Application.MainBombillas" />
       </list>
     </recent_temporary>
   </component>
@@ -384,9 +398,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,8 +409,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.84918034" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20819671" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6529284" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4078091" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -418,8 +432,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO1/Ej1/Gestora/GestoraCarreras.java" />
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Main/MainEj6.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Math.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej4/Clases/Fraccion.java">
@@ -596,30 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej9/Clases/Cubo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej10/Clases/Bombilla.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej9/Main/MainCubo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej9/Clases/Cubo.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej10/Clases/Bombilla.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej9/Main/MainCubo.java" />
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO2/Ej2/Clases/Vehiculo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -634,122 +625,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej11/Clases/Bombilla.java">
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej11/Clases/Bombilla.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej11/Main/MainBombillaEj11.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Clases/Candidato.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Clases/Votacion.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej13/Clases/Planeta.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Clases/Votacion.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej13/Main/PruebaPlaneta2.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej10/Main/MainBombillas.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Main/PruebaVotacion.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Clases/Candidato.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Main/PruebaVotacion2.java" />
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej15/Main/MainConcesionario.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="103" column="29" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej11/Main/MainBombillaEj11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Clases/Candidato.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Clases/Votacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#676#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#463#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej13/Clases/Planeta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="76" column="4" lean-forward="true" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Clases/Votacion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej13/Main/PruebaPlaneta2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej10/Main/MainBombillas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej12/Main/PruebaVotacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Clases/Candidato.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej14/Main/PruebaVotacion2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="58" lean-forward="true" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej15/Clases/Coche.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+        <state relative-caret-position="328">
+          <caret line="147" column="29" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
           <folding>
-            <element signature="e#0#604#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1219#1220#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1410#1411#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="method#concesionario#0;class#Coche#0" />
+            <element signature="method#dineroInvertido#0;class#Coche#0" />
+            <element signature="method#addNuevoCocheConcesionario#1;class#Coche#0" />
+            <element signature="method#mostrarCoche#0;class#Coche#0" />
+            <element signature="method#mostrarConcesionario#0;class#Coche#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO4/Ej15/Tests/TestCoche.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>

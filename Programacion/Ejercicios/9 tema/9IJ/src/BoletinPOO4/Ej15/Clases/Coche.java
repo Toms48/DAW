@@ -87,54 +87,109 @@ public class Coche {
 	@Override
 	public String toString () {
 		
-		String s = "";
+		String s = "Matricula: " +getMatricula() +"\n" +
+				   "Modelo: " +getModelo() +"\n" +
+				   "Motor: " +getMotor() +"\n" +
+				   "Precio: " +getPrecio() +"\n" +
+				   "Color: " +getColor();
 		
 		return s;
 	}
 	
 	//Métos añadidos
-	public void
-	
-	public Coche[] concesionario(){
-	
+	public static Coche[] concesionario(Coche coche){
+
 		Coche[] concesionario = new Coche[1];
-		
+
+		concesionario[0] = coche;
+
 		return concesionario;
 	}
+
+	public static double dineroInvertido(Coche[] concesionario){
+
+		double dineroTotal = 0;
+
+		for(Coche coche : concesionario){
+			dineroTotal += coche.getPrecio();
+		}
+
+		return dineroTotal;
+	}
 	
-	public Coche[] addCocheConcesionario(Coche[] concesionario){
-		
+	public static Coche[] addCocheConcesionario(Coche[] concesionario){
+
 		String matricula = new String();
 		String modelo = new String();
 		String motor = new String();
-		
+		double precio = 0;
+		String color = new String();
+
 		Scanner tecladoN = new Scanner(System.in);
 		Scanner tecladoS = new Scanner(System.in);
-		
+
 		Coche[] concesionarioPlus = new Coche[concesionario.length+1];
-		
+
 		System.out.print("Introduzca la matricula: ");
 		matricula = tecladoS.nextLine();
-		
+
 		System.out.print("Introduzca el modelo: ");
 		modelo = tecladoS.nextLine();
-		
+
 		System.out.print("Introduzca el motor: ");
 		motor = tecladoS.nextLine();
-		
+
 		System.out.print("Introduzca el precio: ");
 		precio = tecladoN.nextDouble();
-		
+
 		System.out.print("Introduzca el color: ");
 		color = tecladoS.nextLine();
-		
+
+		System.out.println();
+
 		Coche cocheNuevo = new Coche(matricula, modelo, motor, precio, color);
-		
-		concesionarioPlus = concesionario;
-		
-		concesionarioPlus[concesionario.length+1] = cocheNuevo;
-		
+
+		for(int i=0; i<=concesionario.length-1; i++){
+			concesionarioPlus[i] = concesionario[i];
+		}
+
+		concesionarioPlus[concesionario.length] = cocheNuevo;
+
 		return concesionarioPlus;
 	}
-	
+
+	public static Coche[] addCocheConcesionario(Coche[] concesionario, Coche coche){
+
+		Coche[] concesionarioPlus = new Coche[concesionario.length+1];
+
+		for(int i=0; i<=concesionario.length-1; i++){
+			concesionarioPlus[i] = concesionario[i];
+		}
+
+		concesionarioPlus[concesionario.length] = coche;
+
+		return concesionarioPlus;
+	}
+
+	public static void mostrarCoche(Coche[] concesionario, int posicionCoche){
+		System.out.println("El coche de la posicon " +posicionCoche +" es:");
+		System.out.println(concesionario[posicionCoche-1].toString());
+	}
+
+	public static void mostrarConcesionario(Coche[] concesionario){
+		System.out.println("=-=-=-= Listado de coches en el concesionario =-=-=-=");
+
+		int contador = 0;
+
+		for(Coche coche : concesionario){
+
+			contador++;
+			System.out.println("Coche numero " +contador);
+			System.out.println(coche.toString());
+			System.out.println();
+
+
+		}
+	}
+
 }
