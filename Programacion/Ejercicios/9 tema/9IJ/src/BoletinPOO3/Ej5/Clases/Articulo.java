@@ -186,4 +186,18 @@ public class Articulo {
 		return arrayArticulos;
 	}
 	
+	public void aniadirMercancia(ArrayList<Articulo> arrayArticulos){
+		
+		int codigoArticulo = 0;
+		
+		Scanner tecladoN = new Scanner(System.in);
+		Scanner tecladoS = new Scanner(System.in);
+		
+		mostrarListado(arrayArticulos);
+		
+		System.out.print("Introduzca el codigo del articulo que va a añadir más stock: ");
+		codigoArticulo = tecladoN.nextInt();
+		
+	}
+	
 }

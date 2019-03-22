@@ -23,8 +23,4 @@ Después también queremos poder editar una reseña de una película.
 Por defecto la reseña tendrá un texto general predefinido:
 	"Habría algo escrito pero o no me la he visto o me ha dado pereza escribir algo.".
 
-Queremos saber la media de las notas según los atributos: genero y clasificacion por edad.
-
-Queremos ver un ranking de:
-    - Según las veces vistas
-    - Según la nota por géneros y por la clasificación de edad
+Queremos ver un ranking de las veces vistas.

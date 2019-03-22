@@ -101,10 +101,11 @@ public class CalculadoraTest {
     @Test
     public void testSuma() {
         System.out.println("suma");
-        //Calculadora instance = new Calculadora(4,5);
+        Calculadora instance = new Calculadora(4,5);
         double expResult = 9.0;
         double result = instance.suma();
         assertEquals(expResult, result, 0.0);
+        
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
