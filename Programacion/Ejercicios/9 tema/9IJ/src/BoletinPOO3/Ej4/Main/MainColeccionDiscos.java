@@ -18,10 +18,27 @@ public class MainColeccionDiscos {
 		System.out.print("Introduzca una opción: ");
 	}
 	
+	public static void mostrarSubMenu(){
+		System.out.println("\nListado DE DISCOS");
+		System.out.println("===================");
+		System.out.println("1. Listado completo");
+		System.out.println("2. Listado por autor");
+		System.out.println("3. Listado por genero");
+		System.out.println("4. Listado por rango de duracion");
+		System.out.println("5. Volver");
+		System.out.print("Introduzca una opción: ");
+	}
+	
 	public static void main(String[] args){
 		
 		//Declaración de variables
 		int opcionMenu = 0;
+		int opcionSubMenu = 0;
+		
+		String autorBusqueda = "";
+		String generoBusqueda = "";
+		int minutosMinimos = 0;
+		int minutosMaximos = 0;
 		
 		String codigoABuscar = "";
 		boolean encontrado = false;
@@ -54,16 +71,66 @@ public class MainColeccionDiscos {
 			//Segun la opcion del menu
 			switch (opcionMenu) {
 				case 1:
-					System.out.println("      Listado      ");
-					System.out.println("===================");
-					if (arrayDiscos.isEmpty()) {
-						System.out.println("\nLa lista está vacía");
-					} else {
-						for (Disco disco : arrayDiscos) {
-							System.out.println(disco.toString());
+					
+					do{
+						mostrarSubMenu();
+						opcionSubMenu = tecladoN.nextInt();
+						
+						if (arrayDiscos.isEmpty()) {
+							System.out.println("\nLa lista está vacía");
+						} else {
+							switch(opcionSubMenu){
+								case 1:
+									for (Disco disco : arrayDiscos) {
+										System.out.println(disco.toString());
+									}
+									break;
+								
+								case 2:
+									System.out.print("Introduzca el nombre del autor: ");
+									autorBusqueda = tecladoS.nextLine();
+									
+									for (Disco disco : arrayDiscos) {
+										if(disco.getAutor().equals(autorBusqueda)){
+											System.out.println(disco.toString());
+										}
+									}
+									break;
+								
+								case 3:
+									System.out.print("Introduzca el genero: ");
+									generoBusqueda = tecladoS.nextLine();
+									
+									for (Disco disco : arrayDiscos) {
+										if(disco.getGenero().equals(generoBusqueda)){
+											System.out.println(disco.toString());
+										}
+									}
+									break;
+									
+								case 4:
+									do{
+										System.out.print("Introduzca los minutos minimos: ");
+										minutosMinimos = tecladoN.nextInt();
+									}
+									while(minutosMinimos<=0);
+									
+									do{
+										System.out.print("Introduzca los minutos maximos: ");
+										minutosMaximos = tecladoN.nextInt();
+									}
+									while(minutosMaximos<=0);
+									
+									for (Disco disco : arrayDiscos) {
+										if(disco.getDuracion()>=minutosMinimos && disco.getDuracion()<=minutosMaximos){
+											System.out.println(disco.toString());
+										}
+									}
+									break;
+							}
 						}
 					}
-					break;
+					while(opcionSubMenu!=5);
 				
 				case 2:
 					System.out.println("      Nuevo disco      ");
