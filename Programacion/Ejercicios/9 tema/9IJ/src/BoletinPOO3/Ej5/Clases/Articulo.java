@@ -94,16 +94,24 @@ public class Articulo {
 	}
 	
 	//Métos añadidos
-	public void mostrarListado(ArrayList<Articulo> arrayArticulos){
-		for (Articulo articulo : arrayArticulos) {
-			
+	public static void mostrarListado(ArrayList<Articulo> arrayArticulos){
+
+		if(arrayArticulos.isEmpty()){
 			System.out.println();
-			System.out.println(articulo.toString());
+			System.out.println("No hay ningún artículo.");
 			System.out.println();
+		}
+		else{
+			for (Articulo articulo : arrayArticulos) {
+
+				System.out.println();
+				System.out.println(articulo.toString());
+				System.out.println();
+			}
 		}
 	}
 	
-	public ArrayList<Articulo> alta(String descripcion, double precioCompra, double precioVenta, int stock, ArrayList<Articulo> arrayArticulos){
+	public static ArrayList<Articulo> alta(String descripcion, double precioCompra, double precioVenta, int stock, ArrayList<Articulo> arrayArticulos){
 		Articulo articulo = new Articulo(descripcion, precioCompra, precioVenta, stock);
 		
 		arrayArticulos.add(articulo);
@@ -111,7 +119,7 @@ public class Articulo {
 		return arrayArticulos;
 	}
 	
-	public ArrayList<Articulo> baja(ArrayList<Articulo> arrayArticulos){
+	public static ArrayList<Articulo> baja(ArrayList<Articulo> arrayArticulos){
 		
 		int codigoBaja = 0;
 		boolean encontrado = false;
@@ -123,7 +131,7 @@ public class Articulo {
 		System.out.print("Introduzca el codigo del articulo que quiere dar de baja: ");
 		codigoBaja = tecladoN.nextInt();
 		
-		for(int i=0; i<=arrayArticulos.size() || encontrado==true; i++){
+		for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
 			if(arrayArticulos.get(i).getCodigoArticulo() == codigoBaja){
 				encontrado=true;
 				arrayArticulos.remove(arrayArticulos.get(i));
@@ -133,7 +141,7 @@ public class Articulo {
 		return arrayArticulos;
 	}
 	
-	public ArrayList<Articulo> modificacion(ArrayList<Articulo> arrayArticulos){
+	public static ArrayList<Articulo> modificacion(ArrayList<Articulo> arrayArticulos){
 		
 		int codigoModificacion = 0;
 		boolean encontrado = false;
@@ -148,7 +156,7 @@ public class Articulo {
 		System.out.print("Introduzca el codigo del articulo que quiere modificar: ");
 		codigoModificacion = tecladoN.nextInt();
 		
-		for(int i=0; i<=arrayArticulos.size() || encontrado==true; i++){
+		for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
 			if(arrayArticulos.get(i).getCodigoArticulo() == codigoModificacion){
 				encontrado=true;
 				
@@ -157,7 +165,7 @@ public class Articulo {
 				System.out.println("3. Precio de venta");
 				System.out.println("4. Stock");
 				System.out.print  ("Que quiere modificar?: ");
-				codigoModificacion = tecladoN.nextInt();
+				opcionModificar = tecladoN.nextInt();
 				
 				switch (opcionModificar){
 					case 1:
@@ -186,9 +194,12 @@ public class Articulo {
 		return arrayArticulos;
 	}
 	
-	public void aniadirMercancia(ArrayList<Articulo> arrayArticulos){
+	public static void aniadirMercancia(ArrayList<Articulo> arrayArticulos){
 		
 		int codigoArticulo = 0;
+		boolean encontrado = false;
+
+		int stockEntrante = 0;
 		
 		Scanner tecladoN = new Scanner(System.in);
 		Scanner tecladoS = new Scanner(System.in);
@@ -197,7 +208,52 @@ public class Articulo {
 		
 		System.out.print("Introduzca el codigo del articulo que va a añadir más stock: ");
 		codigoArticulo = tecladoN.nextInt();
+
+		for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
+			if(arrayArticulos.get(i).getCodigoArticulo() == codigoArticulo){
+				encontrado=true;
+
+				do{
+					System.out.print("Introduzca el stock de entrada: ");
+					stockEntrante = tecladoN.nextInt();
+				}
+				while(stockEntrante <= 0);
+
+				arrayArticulos.get(i).setStock(arrayArticulos.get(i).getStock() + stockEntrante);
+			}
+		}
 		
+	}
+
+	public static void eliminarMercancia(ArrayList<Articulo> arrayArticulos){
+
+		int codigoArticulo = 0;
+		boolean encontrado = false;
+
+		int stockSaliente = 0;
+
+		Scanner tecladoN = new Scanner(System.in);
+		Scanner tecladoS = new Scanner(System.in);
+
+		mostrarListado(arrayArticulos);
+
+		System.out.print("Introduzca el codigo del articulo que va a eliminar stock: ");
+		codigoArticulo = tecladoN.nextInt();
+
+		for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
+			if(arrayArticulos.get(i).getCodigoArticulo() == codigoArticulo){
+				encontrado=true;
+
+				do{
+					System.out.print("Introduzca el stock de salida: ");
+					stockSaliente = tecladoN.nextInt();
+				}
+				while(stockSaliente > arrayArticulos.get(i).getStock());
+
+				arrayArticulos.get(i).setStock(arrayArticulos.get(i).getStock() - stockSaliente);
+			}
+		}
+
 	}
 	
 }
