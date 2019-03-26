@@ -64,7 +64,7 @@
     <session id="-945792603">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
@@ -90,12 +90,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="23" />
-          <entry key="java" value="16779" />
+          <entry key="java" value="16784" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16779" />
+          <entry key="JAVA" value="16784" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
@@ -127,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Repartidor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="59" column="93" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
+            <state relative-caret-position="412">
+              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="135" />
               <folding>
                 <element signature="e#0#1042#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
@@ -141,9 +141,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Comercial.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="1239">
+              <caret line="59" column="135" selection-start-line="59" selection-start-column="135" selection-end-line="59" selection-end-column="135" />
               <folding>
+                <element signature="e#0#1181#0" expanded="true" />
                 <element signature="e#642#643#0" expanded="true" />
                 <element signature="e#673#674#0" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
@@ -156,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestRepartidor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="84">
+              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -166,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestComercial.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -234,11 +235,11 @@
         <option value="$PROJECT_DIR$/src/BoletinExtra/Ej1/Clases/Producto.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimal.java" />
         <option value="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java" />
-        <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Comercial.java" />
         <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Empleado.java" />
         <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Repartidor.java" />
         <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestRepartidor.java" />
         <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestComercial.java" />
+        <option value="$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Comercial.java" />
       </list>
     </option>
   </component>
@@ -321,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553625859716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553625885340" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BoletinPOO1" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -454,9 +455,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.22228146" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" sideWeight="0.3583181" side_tool="true" weight="0.22012103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,7 +465,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010846" side_tool="true" weight="0.22707888" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28958786" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4002169" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5173536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -698,19 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Comercial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Empleado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -729,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Repartidor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="59" column="93" selection-start-line="59" selection-start-column="93" selection-end-line="59" selection-end-column="93" />
+        <state relative-caret-position="412">
+          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="135" />
           <folding>
             <element signature="e#0#1042#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
@@ -739,17 +726,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Clases/Comercial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1239">
+          <caret line="59" column="135" selection-start-line="59" selection-start-column="135" selection-end-line="59" selection-end-column="135" />
+          <folding>
+            <element signature="e#0#1181#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestRepartidor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="84">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinExtra/Ej2/Tests/TestComercial.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
         </state>
       </provider>
     </entry>
