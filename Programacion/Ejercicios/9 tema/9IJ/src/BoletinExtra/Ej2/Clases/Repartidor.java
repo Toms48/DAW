@@ -53,10 +53,14 @@ public class Repartidor extends Empleado {
 	@Override
 	public void plus(){
 		if(super.getEdad()<25 && getZona()==3){
+			System.out.println("Salario actual de " +super.getNombre() +": " +super.getSalario() +"€");
+
 			super.setSalario(super.getSalario() + super.getPLUS());
+
+			System.out.println("Salario de " +super.getNombre() +" sumando " +super.getPLUS() +"€ de plus: " +super.getSalario() +"€");
 		}
 		else{
-			System.out.println("No reune las condiciones para el plus de sueldo");
+			System.out.println( super.getNombre() +" no reune las condiciones para el plus de sueldo.");
 		}
 	}
 	

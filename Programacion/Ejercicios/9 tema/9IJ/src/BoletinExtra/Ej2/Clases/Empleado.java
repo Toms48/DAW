@@ -32,9 +32,9 @@ public abstract class Empleado {
 	
 	//Constructor con parámetros
 	public Empleado(String nombre, int edad, double salario){
-		nombre = "Nombre PorDefecto";
-		edad = 0;
-		salario = 0;
+		this.nombre = nombre;
+		this.edad = edad;
+		this.salario = salario;
 	}
 	
 	//Gets
