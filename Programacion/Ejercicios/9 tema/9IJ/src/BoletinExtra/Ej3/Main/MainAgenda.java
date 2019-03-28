@@ -65,7 +65,7 @@ public class MainAgenda {
 		Agenda agenda = new Agenda(arrayContactos);
 		
 		for(int i=0; i<=agenda.getArrayContacto().length-1; i++){
-			agenda[i] = new Contacto();
+			agenda.getArrayContacto()[i] = new Contacto();
 		}
 		
 		//Inicio
