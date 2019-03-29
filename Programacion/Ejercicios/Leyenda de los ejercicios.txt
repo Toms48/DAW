@@ -147,6 +147,16 @@ Tema 8 Clase String ---> 8ClaseStringIJ
 		- Contar números romanos				 ---> t8Ej11
 		- Cantidad de palabras con más de 10 letras...		 ---> t8Ej12
 
+Tema 9
+	- Boletín POO 1
+		- Implementación de una interface ---> Ej1
+		- Herencia Vivienda/Casa	  ---> Ej3
+
+	- Boletín POO 2
+		- Herencia Vehiculo/Coche	  ---> Ej2
+		- Tipo enumerado de Pizza         ---> Ej5
+		- Clase abstract		  ---> Ej1	//No se puede instanciar un objeto de esa clase ("Tengo 2 gatos" y no "Tengo un animal y un gato")
+		- 
 
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
@@ -179,3 +189,20 @@ Método de la burbuja
 
 respuesta = Character.toLowerCase(teclado.next().charAt(0));
 aleatorio = (int)(Math.random()*[CantidadDeNumeros])+[numeroMasPequeño];
+
+static --->  Clase.Metodo
+no static ---> Objeto.Metodo
+
+o====================================================================o
+|Modificador     Clase		Package		Subclase	Todos|
+o====================================================================o
+|public		 Si		Si		Si		Si   |
+|protected	 Si		Si		Si		No   |
+|No especif	 Si		Si		No		No   |
+|private	 Si		No		No		No   |
+o====================================================================o
+
+
+
+
+
