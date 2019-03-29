@@ -57,6 +57,19 @@ public class Agenda {
 		return isLleno;
 	}
 	
+	public boolean agendaVacia(){
+		
+		boolean isVacio = true;
+		
+		for(int i=0; i<=arrayContacto.length-1 && isVacio==true; i++){
+			if(arrayContacto[i].getLibre() == false){  //getLibre es para la variable bandera
+				isVacio = false;
+			}
+		}
+		
+		return isVacio;
+	}
+	
 	public int huecosLibres(){
 		
 		int huecos = 0;
