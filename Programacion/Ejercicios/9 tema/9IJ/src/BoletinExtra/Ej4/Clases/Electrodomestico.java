@@ -79,7 +79,7 @@ public class Electrodomestico {
             System.out.println("La letra es correcta");
         }
         else{
-
+            consumoElectrico = 'F';
         }
 
     }
@@ -90,7 +90,7 @@ public class Electrodomestico {
             System.out.println("El color es correcto");
         }
         else{
-
+            color = "blanco";
         }
 
     }
