@@ -156,7 +156,23 @@ Tema 9
 		- Herencia Vehiculo/Coche	  ---> Ej2
 		- Tipo enumerado de Pizza         ---> Ej5
 		- Clase abstract		  ---> Ej1	//No se puede instanciar un objeto de esa clase ("Tengo 2 gatos" y no "Tengo un animal y un gato")
-		- 
+
+	- Boletín POO 3
+		- Bandera en un array (Discos) ---> Ej3
+		- Número único que no cambia   ---> Ej4 (El código)
+
+	- Boletín POO 4
+		- Llenar y vaciar cubos entre si ---> Ej9
+
+	- Boletín POO Extra
+		- Producto/Perecedeno/NoPerecedero ---> Ej1
+		- Empleado/Comercial/Repartidor    ---> Ej2
+		- Eliminar de un array		   ---> Ej3
+		- Añadir a un array		   ---> Ej3
+		- Array lleno			   ---> Ej3
+		- Existe X en el array		   ---> Ej3
+		- Buscar X en el array		   ---> Ej3
+		- Electrodomesticos		   ---> Ej4
 
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
