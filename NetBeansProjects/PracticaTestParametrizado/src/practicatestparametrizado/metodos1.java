@@ -1,17 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package practicatestparametrizadotestsuite;
+package practicatestparametrizado;
+import java.util.Scanner;
 /**
  *
  * @author informatica
  */
 public class metodos1 {
     
-    
+    public static String Leer(){
+    Scanner sc = new Scanner(System.in);
+        String cad = sc.nextLine(); //leemos la cadena
+        return cad;
+    }
     public static int cuentaVocales(String cad){
+        
         int cantidadVocales = 0;
         //iteramos mientras el indice sea menor al tamanio total de la cadena
         for (int i = 0; i < cad.length(); i++) {
@@ -25,13 +26,13 @@ public class metodos1 {
         return cantidadVocales;
     }
    
-    public static String invierteCadena(String cadena){
+    public static String invierteCadena(String cad){
         String cadenaInvertida = "";
         //iteramos de forma invertida, partimos de la ultima posicion valida
         //hasta la primera posicion valida que el cero
         //vamos disminuyendo el valor de i en una unidad -1
-        for (int i = cadena.length() - 1 ; i >= 0; i--) {
-            char car = cadena.charAt(i); //obtenemos el caracter en la posicion i
+        for (int i = cad.length() - 1 ; i >= 0; i--) {
+            char car = cad.charAt(i); //obtenemos el caracter en la posicion i
             cadenaInvertida = cadenaInvertida + car;
         }
         //devolvemos la cadena invertida
@@ -40,3 +41,4 @@ public class metodos1 {
     
     
   }
+    

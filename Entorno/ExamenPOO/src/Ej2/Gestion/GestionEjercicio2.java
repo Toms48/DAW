@@ -9,7 +9,7 @@ public class GestionEjercicio2 {
 		boolean isAnimada = true;
 		
 		for(int i=0; i<=mesa.length-1 && isAnimada==true; i++){
-				if(!mesa[i].getArrayAficiones().equals(mesa[i+1].getArrayAficiones())){
+				if(!mesa[i].getArrayAficiones()[i].equals(mesa[i+1].getArrayAficiones()[i])){
 					isAnimada = false;
 				}
 		}

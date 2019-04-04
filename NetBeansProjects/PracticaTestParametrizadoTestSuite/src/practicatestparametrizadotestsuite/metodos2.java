@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package practicatestparametrizadotestsuite;
-import java.util.Scanner;
 
 /**
  *
@@ -12,15 +11,7 @@ import java.util.Scanner;
  */
 public class metodos2 {
     
-    public static int repiteCaracter(){ 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese la cadena:");
-        String cadena = sc.nextLine(); //leemos la cadena
-        System.out.println("Ingrese el caracter a buscar:");
-        String caracter = sc.next(); //ya que no contamos con un metodo especifico para
-        //los caracteres entonces leemos como cadena, luego obtenemos el primer
-        //caracter para almacenarlo en un char, que seria el char que debemos buscar en
-        //la primera cadena ingresada
+    public static int repiteCaracter(String cadena, String caracter){
         char car = caracter.charAt(0);
         int cantidadRepeticiones = 0;
         //iteramos hasta que el indice sea menor al tamanio de la cadena

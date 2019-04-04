@@ -64,7 +64,7 @@ public class MainApartadoB {
 				aficion = tecladoS.nextLine();
 				
 				if(!aficion.equals("fin")){
-					mesa[j-1].agregarAficion(aficion);
+					mesa[i-1].agregarAficion(aficion);
 					contadorAficiones++;
 				}
 			}
