@@ -8,7 +8,7 @@ public class MainEj6v2 {
 	public static void main(String[] args){
 		
 		//Declaraciones de varaibles
-		Integer contrasenia = 0;
+		int contrasenia = 0;
 		String nombre = "";
 		
 		Integer valor = 0;
@@ -23,23 +23,42 @@ public class MainEj6v2 {
 		contrasenias.put("Jorge", 234);
 		contrasenias.put("Sefran", 345);
 		contrasenias.put("Ezhor", 456);
-		
-		System.out.print  ("Introduzca el nombre: ");
-		nombre = tecladoS.nextLine();
-		
-		System.out.print("Introduzca la contraseña: ");
-		contrasenia = tecladoN.nextInt();
-		
-		valor = contrasenias.get(nombre);
-		
-		System.out.println(contrasenias.get(nombre));
-		
-		if(valor == contrasenia){
-			System.out.println("\nHa accedido al área restringida");
+
+		System.out.println("=-=-=-=-=-=-=-=-= Administradores registrados =-=-=-=-=-=-=-=-=\n");
+		System.out.println(contrasenias.keySet());
+		System.out.println("\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+		System.out.println();
+
+		do{
+			System.out.print  ("Introduzca el nombre: ");
+			nombre = tecladoS.nextLine();
 		}
-		else{
-			System.out.println("\nLo siento, no tiene acceso al área restringida");
+		while(!contrasenias.containsKey(nombre));
+
+		for(int i=2; i>=0; i--){
+			System.out.print("Introduzca la contraseña: ");
+			contrasenia = tecladoN.nextInt();
+
+			valor = contrasenias.get(nombre);
+
+			//System.out.println(contrasenias.get(nombre));
+
+			if(valor == contrasenia){
+				System.out.println("\nHa accedido al área restringida");
+				i=0;
+			}
+			else{
+				System.out.println("\nLo siento, no tiene acceso al área restringida");
+				if(i != 0){
+					System.out.println("Le quedan " +i +" intentos");
+				}
+				else{
+					System.out.println("Ha gastado todos los intentos");
+				}
+				System.out.println();
+			}
 		}
+
 		
 	}
 }

@@ -12,9 +12,6 @@
 
 package BoletinExtra.Ej3.Clases;
 
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
 public class Agenda {
 	
 	//Atributos

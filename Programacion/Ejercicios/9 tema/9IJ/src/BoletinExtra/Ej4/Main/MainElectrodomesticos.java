@@ -4,8 +4,6 @@ import BoletinExtra.Ej4.Clases.Electrodomestico;
 import BoletinExtra.Ej4.Clases.Lavadora;
 import BoletinExtra.Ej4.Clases.Television;
 
-import javax.swing.event.DocumentEvent;
-
 public class MainElectrodomesticos {
     public static void main(String[] args){
 

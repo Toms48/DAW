@@ -15,8 +15,6 @@
 
 package BoletinExtra.Ej4.Clases;
 
-import BoletinExtra.Ej4.Enums.enumColor;
-
 public class Electrodomestico {
 
     //Atributos
