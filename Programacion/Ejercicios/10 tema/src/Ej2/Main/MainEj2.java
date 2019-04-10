@@ -22,6 +22,8 @@ public class MainEj2 {
 			aleatorio = (int)(Math.random()*101)+0;
 			numeros.add(aleatorio);
 			
+			System.out.print(aleatorio +" ");
+			
 			suma += aleatorio;
 			
 			if(aleatorio>max){
@@ -34,7 +36,7 @@ public class MainEj2 {
 			}
 		}
 		
-		System.out.println("Suma: " +suma);
+		System.out.println("\n\nSuma: " +suma);
 		System.out.println("Media: " +(suma/cantidad));
 		System.out.println("Mínimo: " +min);
 		System.out.println("Máximo: " +max);

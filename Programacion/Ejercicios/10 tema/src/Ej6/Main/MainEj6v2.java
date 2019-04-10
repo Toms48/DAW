@@ -23,6 +23,23 @@ public class MainEj6v2 {
 		contrasenias.put("Jorge", 234);
 		contrasenias.put("Sefran", 345);
 		contrasenias.put("Ezhor", 456);
+		
+		/*System.out.println(contrasenias.get("Jesus sal"));
+		System.out.println(contrasenias.get(123));*/
+		
+		System.out.println();
+		
+		for (Map.Entry pareja: contrasenias.entrySet()) {
+			pareja.setValue(789);
+			
+		}
+		
+		for (Map.Entry pareja: contrasenias.entrySet()) {
+			System.out.print(pareja.getKey() + "\t");
+			System.out.println(pareja.getValue());
+		}
+		
+		System.out.println();
 
 		System.out.println("=-=-=-=-=-=-=-=-= Administradores registrados =-=-=-=-=-=-=-=-=\n");
 		System.out.println(contrasenias.keySet());

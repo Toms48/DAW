@@ -17,6 +17,7 @@
 package BoletinPOO3.Ej5.Clases;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 public class Articulo {
@@ -227,32 +228,65 @@ public class Articulo {
 
 	public static void eliminarMercancia(ArrayList<Articulo> arrayArticulos){
 
+		char respuesta = ' ';
+		
+		final double IVA = 21;
 		int codigoArticulo = 0;
 		boolean encontrado = false;
 
+		double totalFinal = 0;
+		
 		int stockSaliente = 0;
 
 		Scanner tecladoN = new Scanner(System.in);
 		Scanner tecladoS = new Scanner(System.in);
+		
+		HashMap<Integer, String> articulosHM = new HashMap<>();
 
-		mostrarListado(arrayArticulos);
-
-		System.out.print("Introduzca el codigo del articulo que va a eliminar stock: ");
-		codigoArticulo = tecladoN.nextInt();
-
-		for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
-			if(arrayArticulos.get(i).getCodigoArticulo() == codigoArticulo){
-				encontrado=true;
-
-				do{
-					System.out.print("Introduzca el stock de salida: ");
-					stockSaliente = tecladoN.nextInt();
-				}
-				while(stockSaliente > arrayArticulos.get(i).getStock());
-
-				arrayArticulos.get(i).setStock(arrayArticulos.get(i).getStock() - stockSaliente);
-			}
+		for(Articulo articulo : arrayArticulos){
+			articulosHM.put(articulo.getCodigoArticulo(), articulo.getDescripcion());
 		}
+
+		do{
+			do{
+				mostrarListado(arrayArticulos);
+				
+				System.out.print("Introduzca el código del articulo que va a vender: ");
+				codigoArticulo = tecladoN.nextInt();
+			}
+			while(!articulosHM.containsKey(codigoArticulo));
+			
+			
+			for(int i=0; i<=arrayArticulos.size()-1 || encontrado==false; i++){
+				if(arrayArticulos.get(i).getCodigoArticulo() == codigoArticulo){
+					encontrado=true;
+					
+					do{
+						System.out.print("Introduzca el stock de salida: ");
+						stockSaliente = tecladoN.nextInt();
+					}
+					while(stockSaliente > arrayArticulos.get(i).getStock());
+					
+					arrayArticulos.get(i).setStock(arrayArticulos.get(i).getStock() - stockSaliente);
+					
+					totalFinal += arrayArticulos.get(i).getPrecioVenta() * stockSaliente;
+				}
+			}
+			
+			do{
+				System.out.print("Quiere introducir otro código de articulo? (s/n): ");
+				respuesta = Character.toLowerCase(tecladoS.next().charAt(0));
+			}
+			while(respuesta!='s' && respuesta!='n');
+		}
+		while(respuesta == 's');
+		
+		System.out.println();
+		System.out.println("================== FACTURA ==================");
+		System.out.println("Su total a pagar es " +(totalFinal+(totalFinal*(IVA/100))) +"€");
+		System.out.println("=============================================");
+		System.out.println("Gracias por comprar aquí!");
+		System.out.println();
 
 	}
 	
