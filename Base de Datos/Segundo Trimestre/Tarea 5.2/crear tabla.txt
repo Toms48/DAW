@@ -1,0 +1,10 @@
+create table alumnos(
+		expediente integer(8) PRIMARY KEY,
+        nombre varchar(50),
+        localidad varchar(50),
+        fecha_nac date,
+        direccion varchar(50),
+        curso integer(1),
+        nivel varchar(10),
+        faltas integer(3)
+		);
