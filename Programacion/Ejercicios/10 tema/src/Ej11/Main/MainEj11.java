@@ -64,6 +64,7 @@ public class MainEj11 {
                 }
                 else{
                     System.out.println("Incorrecto...\n");
+                    System.out.println("La respuesta correcta era " +pareja.getKey() +"\n");
                     contadorFallos++;
                 }
 
