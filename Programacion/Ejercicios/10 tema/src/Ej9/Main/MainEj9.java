@@ -91,7 +91,7 @@ public class MainEj9 {
             }
         }
 
-        //Collections.sort(cartas);
+        Collections.sort(cartas);
 
         for(Carta carta : cartas){
             System.out.println(carta.toString());

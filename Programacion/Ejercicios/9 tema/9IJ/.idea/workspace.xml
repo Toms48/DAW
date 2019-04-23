@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbbeb15e-66b1-4ac4-9e7f-df9790ea9d08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../10 tema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../10 tema/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10 tema/src/Ej2/Main/MainEj2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10 tema/src/Ej2/Main/MainEj2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../10 tema/src/Ej6/Main/MainEj6v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../10 tema/src/Ej6/Main/MainEj6v2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java" afterDir="false" />
-    </list>
+    <list default="true" id="bbbeb15e-66b1-4ac4-9e7f-df9790ea9d08" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +21,7 @@
     <session id="2038826666">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -40,12 +33,13 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="60">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="165">
               <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -148,7 +142,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
+            <state relative-caret-position="532">
               <caret line="93" selection-start-line="93" selection-end-line="93" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -262,6 +256,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,7 +294,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,10 +429,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.13539445" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.13691376" />
       <window_info id="Structure" order="1" sideWeight="0.3583181" side_tool="true" weight="0.22012103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -736,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -746,7 +739,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="165">
           <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -760,7 +753,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
+        <state relative-caret-position="532">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />

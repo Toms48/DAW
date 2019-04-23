@@ -15,7 +15,7 @@ package Ej9.Clases;
 
 import java.util.Objects;
 
-public class Carta /*implements Comparable<Carta>*/ {
+public class Carta implements Comparable<Carta> {
 
     //Atributos
     private String valor = new String();
@@ -60,20 +60,105 @@ public class Carta /*implements Comparable<Carta>*/ {
                 Objects.equals(palo, carta.palo);
     }
 
-    /*public int compareTo(Carta carta){
+    public int compareTo(Carta carta){
 
         int ret = 0;
 
-        if(this != carta && this.getValor() > carta.getValor()){
+        if(this != carta && intPalo(this) > intPalo(carta)){
             ret = 1;
         }
         else{
-            if(this.getValor() < carta.getValor()){
+            if(intPalo(this) < intPalo(carta)){
                 ret = -1;
             }
         }
+        
+        if(ret==0){
+			if(this != carta && intValor(this) > intValor(carta)){
+				ret = 1;
+			}
+			else{
+				if(intValor(this) < intValor(carta)){
+					ret = -1;
+				}
+			}
+		}
 
         return ret;
-    }*/
-
+    }
+    
+    //Métodos añadidos
+	public int intValor(Carta carta){
+		
+		int intValor = 0;
+		
+		switch(carta.getValor()){
+			case "As":
+				intValor = 1;
+				break;
+			
+			case "2":
+				intValor = 2;
+				break;
+			
+			case "3":
+				intValor = 3;
+				break;
+			
+			case "4":
+				intValor = 4;
+				break;
+			
+			case "5":
+				intValor = 5;
+				break;
+			
+			case "6":
+				intValor = 6;
+				break;
+			
+			case "7":
+				intValor = 7;
+				break;
+			
+			case "Sota":
+				intValor = 10;
+				break;
+			
+			case "Caballo":
+				intValor = 11;
+				break;
+			
+			case "Rey":
+				intValor = 12;
+				break;
+		}
+    	
+    	return intValor;
+	}
+	
+	public int intPalo(Carta carta){
+		
+		int intPalo = 0;
+		
+		switch (carta.getPalo()){
+			case "Bastos":
+				intPalo = 1;
+				break;
+			
+			case "Copas":
+				intPalo = 2;
+				break;
+			
+			case "Espadas":
+				intPalo = 3;
+				break;
+			
+			case "Oro":
+				intPalo = 4;
+				break;
+		}
+		
+		return intPalo;
+	}
 }
