@@ -50,7 +50,7 @@
     <session id="339939273">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -60,12 +60,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="3311" />
+          <entry key="java" value="3345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3311" />
+          <entry key="JAVA" value="3345" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Ej11/Main/MainEj11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="498">
+              <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -179,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/Ej8/Clases/Carta.java" />
         <option value="$PROJECT_DIR$/src/Ej8/Main/MainEj8.java" />
         <option value="$PROJECT_DIR$/src/Ej10/Main/MainEj10.java" />
-        <option value="$PROJECT_DIR$/src/Ej11/Main/MainEj11.java" />
         <option value="$PROJECT_DIR$/src/Ej12/Clases/Carta.java" />
         <option value="$PROJECT_DIR$/src/Ej12/Main/MainEj12.java" />
         <option value="$PROJECT_DIR$/src/Ej13/Main/MainGestesimalV2.java" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/EjercicioConFallos/T10Ej7.java" />
         <option value="$PROJECT_DIR$/src/Ej9/Main/MainEj9.java" />
         <option value="$PROJECT_DIR$/src/Ej9/Clases/Carta.java" />
+        <option value="$PROJECT_DIR$/src/Ej11/Main/MainEj11.java" />
       </list>
     </option>
   </component>
@@ -233,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556018097926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556018324219" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../9 tema/9IJ" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -365,9 +365,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -376,7 +375,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="59" y="336" width="1322" height="87" id="Run" order="2" weight="0.2672131" />
+      <window_info anchor="bottom" x="59" y="336" width="1322" height="87" id="Run" order="2" weight="0.26681128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41147542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,8 +544,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ej11/Main/MainEj11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="498">
+          <caret line="66" column="66" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
         </state>
       </provider>
     </entry>
