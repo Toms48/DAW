@@ -19,11 +19,16 @@ public class Ej3 {
 					System.out.println(linea1);
 					System.out.println(linea2);
 				}
+
 				linea1 = br1.readLine();
-				bw.write(linea1 +" ");
+				if(linea1 != null){
+					bw.write(linea1 +" ");
+				}
 				
 				linea2 = br2.readLine();
-				bw.write(linea2 +" ");
+				if(linea2 != null){
+					bw.write(linea2 +" ");
+				}
 			}
 			
 			br1.close();
