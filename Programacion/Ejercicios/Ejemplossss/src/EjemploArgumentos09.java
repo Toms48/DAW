@@ -19,11 +19,6 @@ public class EjemploArgumentos09 {
 				suma += Double.parseDouble(linea);
 				linea = bf.readLine();
 			}
-			
-			
-			
-			
-			
 			i--;
 			bf.close();
 			System.out.println("La media es " + suma/(double)i);
