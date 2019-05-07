@@ -29,15 +29,15 @@ public class MainEj6v2 {
 		
 		System.out.println();
 		
-		for (Map.Entry pareja: contrasenias.entrySet()) {
+		/*for (Map.Entry pareja: contrasenias.entrySet()) {		//No sé pa que es este for la verdad
 			pareja.setValue(789);
 			
-		}
+		}*/
 		
-		for (Map.Entry pareja: contrasenias.entrySet()) {
+		/*for (Map.Entry pareja: contrasenias.entrySet()) {		//Esto es para ver el nombre y su contraseña
 			System.out.print(pareja.getKey() + "\t");
 			System.out.println(pareja.getValue());
-		}
+		}*/
 		
 		System.out.println();
 

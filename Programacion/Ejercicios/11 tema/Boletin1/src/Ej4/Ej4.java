@@ -25,7 +25,7 @@ public class Ej4 {
 			while(linea != null){
 				//contador++;
 				palabras.add(linea);
-				//System.out.println(palabras.get(contador));	//Código para ver que kee bien cada una de las líneas(palabras)
+				//System.out.println(palabras.get(contador));	//Código para ver que salen bien cada una de las líneas(palabras)
 				linea = br.readLine();
 			}
 

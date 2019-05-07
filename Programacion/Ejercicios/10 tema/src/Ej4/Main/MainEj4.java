@@ -14,7 +14,7 @@ public class MainEj4 {
 		ArrayList<String> palabras = new ArrayList<>();
 		
 		for(int i=0; i<=9; i++){
-			System.out.print("Introduzca un numero por favor: ");
+			System.out.print("Introduzca una palabra por favor: ");
 			palabras.add(tecladoS.nextLine());
 		}
 		

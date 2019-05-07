@@ -6,8 +6,9 @@ public class Ej2 {
 	public static void main(String[] args){
 		
 		try{
-			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
-			
+			//BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
+
 			String linea = "";
 			
 			while (linea != null) {

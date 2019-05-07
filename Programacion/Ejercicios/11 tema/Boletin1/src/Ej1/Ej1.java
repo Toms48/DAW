@@ -32,28 +32,18 @@ public class Ej1 {
 	public static void main(String[] args){
 		
 		try{
-			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
-			
-			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
-			
+			//BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\Ficheros\\primos.dat"));
+
 			for(int i=1; i<=500; i++){
 				if(esPrimo(i)){
 					//System.out.print(i +"\n");
-					bw.write(i +"\n");
+					bw.write(Integer.toString(i));
+					bw.newLine();
 				}
 			}
 			
 			bw.close();
-			
-			String linea = "";
-			
-			while (linea != null) {
-				System.out.println(linea);
-				linea = br.readLine();
-			}
-			
-			
-			br.close();
 		}
 		catch (FileNotFoundException e){
 			System.out.println("No se ha encontrado el fichero");
