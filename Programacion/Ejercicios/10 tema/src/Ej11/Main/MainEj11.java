@@ -1,6 +1,6 @@
 package Ej11.Main;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -20,7 +20,7 @@ public class MainEj11 {
         //Inicializaciones
         HashMap<String, String> diccionario = new HashMap<>();
         Scanner tecladoS = new Scanner(System.in);
-        ArrayList<String> arrayPalabras = new ArrayList<>();
+        //ArrayList<String> arrayPalabras = new ArrayList<>();
 
         diccionario.put("Rojo","Red");
         diccionario.put("Verde","Green");

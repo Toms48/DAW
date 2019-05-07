@@ -137,7 +137,7 @@ public class MainSimulacroExamen {
 							ultimaClave = (Integer) (pareja.getKey());
 						}
       
-						tienda.put(ultimaClave,new Producto(nombre, precio, stock));
+						tienda.put(ultimaClave+1,new Producto(nombre, precio, stock));
                         break;
 
                     case 3:
