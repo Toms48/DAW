@@ -26,16 +26,18 @@ public class Calculadora2TestPara {
     double numero1;
     double numero2;
     double expResult;
+    double expSuma;
     
-    public Calculadora2TestPara(double numero1, double numero2, double expResult) {
+    public Calculadora2TestPara(double numero1, double numero2, double expResult, double expSuma) {
         this.numero1 = numero1;
         this.numero2 = numero2;
         this.expResult = expResult;
+        this.expSuma = expSuma;
     }
 
     @Parameters
     public static Collection<Object[]> data() {
-        Object[][] data = new Object[][] { {10,3,1}, {30,9,4}, {15,2,1} };
+        Object[][] data = new Object[][] { {10,3,1,13}, {30,9,4,39}, {15,2,1,15} };
         return Arrays.asList(data);
     }
     
@@ -50,6 +52,19 @@ public class Calculadora2TestPara {
         
         double result = instance.modulo(numero1, numero2);
         assertEquals(expResult, result, 0.0);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
+    @Test
+    public void testSuma() {
+        System.out.println("suma");
+        
+        Calculadora instance = new Calculadora();
+        
+        double result = instance.suma(numero1,numero2);
+        assertEquals(expSuma, result, 0.0);
+        
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }

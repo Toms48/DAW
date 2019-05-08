@@ -2,6 +2,7 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+ * COMENTARIO RAMA MASTER
  */
 package tratamientostring;
 import java.util.Scanner;
@@ -10,6 +11,11 @@ import java.util.Scanner;
  * @author informatica
  */
 public class metodos1 {
+    
+    
+    
+    
+    
     
     public static String leerCadena(){
         Scanner sc = new Scanner(System.in);

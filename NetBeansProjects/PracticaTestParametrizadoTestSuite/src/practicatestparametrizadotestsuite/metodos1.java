@@ -4,10 +4,8 @@
  * and open the template in the editor.
  */
 package practicatestparametrizadotestsuite;
-/**
- *
- * @author informatica
- */
+import java.util.Scanner;
+
 public class metodos1 {
     
     
