@@ -34,7 +34,8 @@ public class MainEj7 {
         try{
 			//BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionario.dat"));
 			//BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionario2.dat"));
-			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
+			//BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
 
 			String linea = br.readLine();
 	
@@ -112,7 +113,8 @@ public class MainEj7 {
 		while(opcionMenu!=0);
 
 		try{
-			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
+			//BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionarioPrueba.dat"));
 
 			for (Map.Entry pareja: diccionario.entrySet()) {
 				bw.write(pareja.getKey()+","+pareja.getValue());

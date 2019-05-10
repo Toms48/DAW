@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fb4e70c-cb73-422a-a4f4-7db165e5be14" name="Default Changelist" comment="" />
+    <list default="true" id="8fb4e70c-cb73-422a-a4f4-7db165e5be14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Ej7/Main/MainEj7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej7/Main/MainEj7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ej8/Clases/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej8/Clases/Articulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ej8/Main/MainGestesimalV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ej8/Main/MainGestesimalV2.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,30 +17,61 @@
     <session id="1126859871">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="568" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="568" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Ej7/Main/MainEj7.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Ej8/Main/MainGestesimalV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+            <state relative-caret-position="126">
+              <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Ej8/Clases/Articulo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="300" column="89" selection-start-line="300" selection-start-column="89" selection-end-line="300" selection-end-column="89" />
+              <folding>
+                <element signature="method#mostrarListado#0;class#Articulo#0" />
+                <element signature="method#alta#0;class#Articulo#0" />
+                <element signature="method#volcarDatos#0;class#Articulo#0" />
+                <element signature="method#baja#0;class#Articulo#0" />
+                <element signature="method#modificacion#0;class#Articulo#0" />
+                <element signature="method#aniadirMercancia#0;class#Articulo#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +80,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Ej7/Main/MainEj7.java" />
+        <option value="$PROJECT_DIR$/src/Ej8/Main/MainGestesimalV2.java" />
+        <option value="$PROJECT_DIR$/src/Ej8/Clases/Articulo.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
@@ -56,7 +100,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,15 +118,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Boletin2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boletin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ej8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boletin2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boletin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ej8" type="462c0819:PsiDirectoryNode" />
+              <item name="Clases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Boletin2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Boletin2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Ej8" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557301972557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483253930" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -96,6 +160,44 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGestesimalV2">
+    <configuration name="MainEj7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ej7.Main.MainEj7" />
+      <module name="Boletin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ej7.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGestesimalV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ej8.Main.MainGestesimalV2" />
+      <module name="Boletin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ej8.Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainEj7" />
+      <item itemvalue="Application.MainGestesimalV2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGestesimalV2" />
+        <item itemvalue="Application.MainEj7" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,31 +215,32 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.84590167" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -146,8 +249,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Ej7/Main/MainEj7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+        <state relative-caret-position="-548">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ej8/Main/MainGestesimalV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="151" column="29" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ej8/Clases/Articulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="300" column="89" selection-start-line="300" selection-start-column="89" selection-end-line="300" selection-end-column="89" />
+          <folding>
+            <element signature="method#mostrarListado#0;class#Articulo#0" />
+            <element signature="method#alta#0;class#Articulo#0" />
+            <element signature="method#volcarDatos#0;class#Articulo#0" />
+            <element signature="method#baja#0;class#Articulo#0" />
+            <element signature="method#modificacion#0;class#Articulo#0" />
+            <element signature="method#aniadirMercancia#0;class#Articulo#0" />
+          </folding>
         </state>
       </provider>
     </entry>

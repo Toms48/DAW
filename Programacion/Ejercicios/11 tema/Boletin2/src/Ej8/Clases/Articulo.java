@@ -16,6 +16,9 @@
 
 package Ej8.Clases;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -23,6 +26,8 @@ import java.util.Scanner;
 public class Articulo {
 
 	//Atributos
+	private static int numeroFactura = 1;
+	
 	private static int codigoUnico;
 
 	private int codigoArticulo;
@@ -249,7 +254,11 @@ public class Articulo {
 	public static void eliminarMercancia(ArrayList<Articulo> arrayArticulos){
 
 		char respuesta = ' ';
+		char respuestaGuardar = ' ';
 
+		String articuloFactura = "";
+		double valorVentaFactura = 0;
+		
 		final double IVA = 21;
 		int codigoArticulo = 0;
 		boolean encontrado = false;
@@ -307,6 +316,34 @@ public class Articulo {
 		System.out.println("=============================================");
 		System.out.println("Gracias por comprar aquí!");
 		System.out.println();
+		
+		do{
+			System.out.print("Quiere guardar la factura? (s/n): ");
+			respuestaGuardar = Character.toLowerCase(tecladoS.next().charAt(0));
+		}
+		while(respuestaGuardar!='s' && respuestaGuardar!='n');
+		
+		if(respuestaGuardar=='s'){
+			try{
+				//BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
+				BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\factura"+numeroFactura+".dat"));
+				
+				bw.write("================== FACTURA ==================");
+				bw.newLine();
+				bw.write("Su total a pagar es " +(totalFinal+(totalFinal*(IVA/100))) +"€");
+				bw.newLine();
+				bw.write("=============================================");
+				bw.newLine();
+				bw.write("Gracias por comprar aquí!");
+				
+				numeroFactura++;
+				
+				bw.close();
+			}
+			catch(IOException e){
+				System.out.println(e.getMessage());
+			}
+		}
 
 	}
 

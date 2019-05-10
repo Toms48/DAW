@@ -59,32 +59,33 @@ Tema 6
 	- Generar partitura al azar		    ---> T6Ej15
 	- Máquina tragaperras			    ---> T6Ej16
 
-Tema 7 Parte 1
-	- Mostra array en orden inverso         ---> t7Ej3
-	- Arrays calculados (cuadrado y cubo)   ---> t7Ej4
-	- Máximo y mínimo  		        ---> t7Ej5
-	- Rotar una posicion		        ---> t7Ej6
-	- Cambiar un mismo numero por otro      ---> t7Ej7
-	- Diagrama de barras horizontales       ---> t7Ej8
-	- Números pares e impares de un array   ---> t7Ej9
-	- Método de ordenación pares-impares    ---> t7Ej10
-	- Método de ordenación primos	        ---> t7Ej11
-	- Colocar un un numero en otra posicion ---> t7Ej12
-	- Destacar máximo o mínimo de un array  ---> t7Ej13
-	- Método de ordenación de palabras 	---> t7Ej14 (En el ejercicio se hace con colores y no colores)
-	- La app de ordenación del restaurante  ---> t7Ej15
-	- Resaltar multiplos de 5 o 7 		---> t7Ej16
+Tema 7
+	- Parte 1
+		- Mostra array en orden inverso         ---> t7Ej3
+		- Arrays calculados (cuadrado y cubo)   ---> t7Ej4
+		- Máximo y mínimo  		        ---> t7Ej5
+		- Rotar una posicion		        ---> t7Ej6
+		- Cambiar un mismo numero por otro      ---> t7Ej7
+		- Diagrama de barras horizontales       ---> t7Ej8
+		- Números pares e impares de un array   ---> t7Ej9
+		- Método de ordenación pares-impares    ---> t7Ej10
+		- Método de ordenación primos	        ---> t7Ej11
+		- Colocar un un numero en otra posicion ---> t7Ej12
+		- Destacar máximo o mínimo de un array  ---> t7Ej13
+		- Método de ordenación de palabras 	---> t7Ej14 (En el ejercicio se hace con colores y no colores)
+		- La app de ordenación del restaurante  ---> t7Ej15
+		- Resaltar multiplos de 5 o 7 		---> t7Ej16
 
-	- for each				---> t7Ej7
+		- for each				---> t7Ej7
 
-Tema 7 Parte 2
-	- Sumatorios de filas, columnas y total ---> t7Ej2P2
-	- Rango aleatorio entre 100 y 999       ---> t7Ej3P2
-	- Thread.sleep(2000);			---> t7Ej4P2
-	- Máx y Mín en un array bidimensional   ---> t7Ej5P2
-	- Que no se repitan números		---> t7Ej6P2
-	- Comprobar casillas al rededor		---> t7Ej7P2
-	- Movimiento del alfil			---> t7Ej8P2
+	- Parte 2
+		- Sumatorios de filas, columnas y total ---> t7Ej2P2
+		- Rango aleatorio entre 100 y 999       ---> t7Ej3P2
+		- Thread.sleep(2000);			---> t7Ej4P2
+		- Máx y Mín en un array bidimensional   ---> t7Ej5P2
+		- Que no se repitan números		---> t7Ej6P2
+		- Comprobar casillas al rededor		---> t7Ej7P2
+		- Movimiento del alfil			---> t7Ej8P2
 
 Tema 8 Calculadora ---> Gestora8IJ
 	- Número capicua
@@ -198,8 +199,10 @@ Tema 11
 		- Ocurrencias de una palabra en un fichero	     ---> Ej6
 
 	- Boletin2
-		- Leer fichero separado por coma ---> Ej7
-		- 
+		- Leer fichero separado por coma (HashMap)     			  ---> Ej7
+		- Escribir fichero separado por coma (HashMap) 			  ---> Ej7
+		- Leer fichero separado por comas (ArrayList, guardar objeto)     ---> Ej8 (GestesimalV2)
+		- Escribir fichero separado por comas (ArrayList, guardar objeto) ---> Ej8 (GestesimalV2)
 
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 

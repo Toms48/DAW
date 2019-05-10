@@ -4,7 +4,6 @@ import Ej8.Clases.Articulo;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.Scanner;
 
 public class MainGestesimalV2 {
@@ -43,9 +42,8 @@ public class MainGestesimalV2 {
 
             //Cargar el archivo de articulos en el array
             try{
-                //BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionario.dat"));
-                //BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej7\\Main\\diccionario2.dat"));
-                BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
+                //BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
+                BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
 
                 String linea = br.readLine();
 
@@ -151,12 +149,13 @@ public class MainGestesimalV2 {
                         Articulo.eliminarMercancia(arrayArticulos);
                         break;
                 }
-                //Fin_Sengun
+                //Fin_Sengunt
             }
             while(opcionMenu!=7);   //Mientras la opcion no sea salir(7)
 
             try{
-                BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
+                //BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
+                BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Desktop\\GitHub\\DAW\\Programacion\\Ejercicios\\11 tema\\Boletin2\\src\\Ej8\\Main\\articulo.dat"));
 
                 for (Articulo dato: arrayArticulos) {
                     bw.write(dato.getCodigoArticulo()+","+dato.getDescripcion()+","+dato.getPrecioCompra()+","+dato.getPrecioVenta()+","+dato.getStock());
