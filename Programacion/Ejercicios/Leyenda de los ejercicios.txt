@@ -204,6 +204,11 @@ Tema 11
 		- Leer fichero separado por comas (ArrayList, guardar objeto)     ---> Ej8 (GestesimalV2)
 		- Escribir fichero separado por comas (ArrayList, guardar objeto) ---> Ej8 (GestesimalV2)
 
+	- Calculadora
+		- Crear una excepcion propia
+		- Lanzar excepcion propia (GestoraCalculadora)
+		- Recoger excepciones propias/no propias y manejarlas
+
 printf("%{CaracterRelleno}{TamañoDelFormato}d",(variable));
 
 Math ---> java.lang.Math
