@@ -4,6 +4,7 @@
     Author     : t-m-1
 --%>
 
+<%@page import="java.text.DecimalFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +13,22 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>CONVERSOR Pst-Eu</h1>
-        
+        <center>
+            <img src="pesetas-euros.jpg" width="423" height="226" alt="Imagen"/>
+            <h1>CONVERSOR Pst-Eu</h1>
+            <br/>
+            <%
+                String opcion = request.getParameter("opcion");
+                Double dinero = Double.parseDouble(request.getParameter("dinero"));
+                DecimalFormat df = new DecimalFormat("0.00");
+                
+                if(opcion.equals("Pesetas - Euros")){
+                    out.println(dinero +"Pst son: " +df.format(dinero/166) +"€");
+                }
+                else{
+                    out.println(dinero +"€ son: " +df.format(dinero*166) +"Pst");
+                }
+              %>  
+        </center>
     </body>
 </html>

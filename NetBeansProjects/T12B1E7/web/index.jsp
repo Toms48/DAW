@@ -13,14 +13,15 @@
     </head>
     <body>
         <center>
+            <img src="pesetas-euros.jpg" width="423" height="226" alt="Imagen"/>
             <h1>CONVERSOR Pst-Eu</h1>
             <form action="conversorMoneda.jsp" method="POST">
-                
                 <select name="opcion">
                     <option>Pesetas - Euros</option>
                     <option>Euros - Pesetas</option>
                 </select>
-                <input type="submit" value="CONVERTIR" name="convertir" />
+                <p><input type="text" name="dinero"/></p>
+                <p><input type="submit" value="CONVERTIR"/></p>
             </form>
         </center>
     </body>
