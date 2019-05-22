@@ -1,7 +1,888 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbbeb15e-66b1-4ac4-9e7f-df9790ea9d08" name="Default Changelist" comment="" />
+    <list default="true" id="bbbeb15e-66b1-4ac4-9e7f-df9790ea9d08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/src/calculadora/Calculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/src/calculadora/Calculadora2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/src/calculadora/mainCalculadora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/test/calculadora/Calculadora2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/test/calculadora/Calculadora2TestPara.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/test/calculadora/CalculadoraSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Calculadora2/test/calculadora/CalculadoraTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/build/web/resultado.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/DosVariables/web/resultado.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/classes/metodosExamen/Cadenas1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/classes/metodosExamen/Cadenas2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/test/classes/metodosExamen/Cadenas1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/test/classes/metodosExamen/Cadenas2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/build/test/classes/metodosExamen/TestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/src/metodosExamen/Cadenas1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/src/metodosExamen/Cadenas2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/test/metodosExamen/Cadenas1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/test/metodosExamen/Cadenas2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenEntornoJUnit/test/metodosExamen/TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/classes/examentarde/metodos1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/classes/examentarde/metodos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/examentarde/TestParaMetodo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/examentarde/TestSuiteMetodos1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/examentarde/metodos1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/build/test/classes/examentarde/metodos2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/src/examentarde/metodos1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/src/examentarde/metodos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/test/examentarde/TestParaMetodo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/test/examentarde/TestSuiteMetodos1_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/test/examentarde/metodos1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ExamenTarde/test/examentarde/metodos2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/animales.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/caracol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/gato.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/gato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/web/animales.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/web/caracol.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/web/gato.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/web/gato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/FotoAnimales/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/WEB-INF/classes/daw1/Gato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/estiloGatosConClase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/garfield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/gato.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/gato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/build/web/tom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/src/java/daw1/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/estiloGatosConClase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/garfield.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/gato.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/gato.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/GatosConClase/web/tom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/generated/classes/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/generated/src/org/apache/jsp/index_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/generated/src/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Hola/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/incrementa5.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/web/incrementa5.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Incremento/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication1/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication1/src/PracticaTestParametrizadoTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication1/src/javaapplication1/JavaApplication1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build/classes/Pruebas/prueba1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build/classes/matematicas/Geometria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/build/classes/matematicas/Varias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/src/Pruebas/prueba1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/src/matematicas/Geometria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication2/src/matematicas/Varias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/build/classes/javaapplication8/JavaApplication8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/JavaApplication8/src/javaapplication8/JavaApplication8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PRUEBAFORM/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/classes/org/apache/jsp/frase_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/classes/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/src/org/apache/jsp/frase_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/src/org/apache/jsp/frase_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/src/org/apache/jsp/index_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/generated/src/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/frase.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/web/frase.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PasoDeCadena/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/classes/Clase/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/classes/Main/ECO1Refactorizado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/build/test/classes/Clase/PersonaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/src/Clase/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/src/Main/ECO1Refactorizado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/Persona/test/Clase/PersonaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/classes/practicatestparametrizadotestsuite/metodos1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/classes/practicatestparametrizadotestsuite/metodos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/practicatestparametrizadotestsuite/TestParametrizadoMetodos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/practicatestparametrizadotestsuite/TestSuitMetodos1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/practicatestparametrizadotestsuite/metodos1Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/build/test/classes/practicatestparametrizadotestsuite/metodos2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/src/practicatestparametrizadotestsuite/metodos1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/src/practicatestparametrizadotestsuite/metodos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/test/practicatestparametrizadotestsuite/TestParametrizadoMetodos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/test/practicatestparametrizadotestsuite/TestSuitMetodos1_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/test/practicatestparametrizadotestsuite/metodos1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PracticaTestParametrizadoTestSuite/test/practicatestparametrizadotestsuite/metodos2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Clases/Estanteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Clases/Pelicula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Enums/enumCE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Enums/enumGenero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Gestoras/GestoraEjercicioPropio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/src/Main/MainEjPropio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/ProyectoPropio/test/Clases/PeliculaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/build/classes/Gestora/GestoraPruebasFunciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/build/classes/Main/MainPruebasFunciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/src/Gestora/GestoraPruebasFunciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/PruebasFunciones/src/Main/MainPruebasFunciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E1/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/build/web/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E10/web/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/creaMes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/web/creaMes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E11/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/classes/org/apache/jsp/creaMes_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/classes/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/src/org/apache/jsp/creaMes_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/src/org/apache/jsp/creaMes_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/src/org/apache/jsp/index_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/generated/src/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/creaMes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/web/creaMes.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E12/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/build/web/infiel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E13/web/infiel.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/fibonacci.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/web/fibonacci.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E14/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/web/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E15/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/dadoNegro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/dadorojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/j.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/puntorojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/build/web/q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/dadoNegro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/dadorojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/j.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/puntorojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E16/web/q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/CB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/CBe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/CN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/MB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/MBe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/MN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/logoTesla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/build/web/teslaMieo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/CB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/CBe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/CN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/MB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/MBe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/MN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/logoTesla.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E17/web/teslaMieo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/icono_pato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/loro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/trile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/vaso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/build/web/vasoBolita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/icono_pato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/loro.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/trile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/vaso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E18/web/vasoBolita.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/generated/classes/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/generated/src/org/apache/jsp/index_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/generated/src/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/apuestaGana.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/web/apuestaGana.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E19/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/cssInfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/web/cssInfo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E2/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/build/web/mostrarNombre.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E3/web/mostrarNombre.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/calculadoraMedia.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/web/calculadoraMedia.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E4/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/conversorMoneda.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/build/web/pesetas-euros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/web/conversorMoneda.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E7/web/pesetas-euros.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/build/web/tablaMultiplicar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E8/web/tablaMultiplicar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/icono_pato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/newcss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/build/web/piramide.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/web/icono_pato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/web/newcss.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/T12B1E9/web/piramide.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/Alumno.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/Asignatura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/build/classes/ProcesaAlumnos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/src/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/src/Asignatura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/alumnos/src/ProcesaAlumnos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/build/classes/calculadoraGrafica/CalculadoraGrafica.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/dist/README.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/dist/calculadoraGrafica.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/private/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/calculadoraGrafica/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/build/classes/hastaLosHuevos/salida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/cosas/src/hastaLosHuevos/salida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/generated/classes/org/apache/jsp/index_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/generated/src/org/apache/jsp/index_jsp.class.smap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/generated/src/org/apache/jsp/index_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/WEB-INF/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/WEB-INF/glassfish-web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/build/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/jaxws-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/javaee-endorsed-api-7.0/jsr181-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/lib/nblibraries.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/ant-deploy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/src/conf/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/holamundo/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/classes/tratamientostring/Tratamientostring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/classes/tratamientostring/metodos1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/classes/tratamientostring/metodos2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/test/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/build/test/classes/.netbeans_update_resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/build-impl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/genfiles.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/private/private.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/private/private.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/nbproject/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/src/tratamientostring/Tratamientostring.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/src/tratamientostring/metodos1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/tratamientostring/src/tratamientostring/metodos2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/util/manifest.mf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../NetBeansProjects/util/src/salida/util.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +902,7 @@
     <session id="2038826666">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
@@ -30,7 +911,7 @@
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
@@ -39,7 +920,7 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,57 +992,7 @@
     <favorites_list name="9IJ" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2814">
-              <caret line="272" column="17" selection-start-line="272" selection-start-column="17" selection-end-line="272" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#alta#0;class#Articulo#0" />
-                <element signature="method#baja#0;class#Articulo#0" />
-                <element signature="method#modificacion#0;class#Articulo#0" />
-                <element signature="method#aniadirMercancia#0;class#Articulo#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej4/Clases/Disco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -238,10 +1069,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="231" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -266,6 +1097,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,13 +1144,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557264312437" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../DAM-2017-2018/Programacion/WorkSpace Eclipse/BuscaMinasJUnit" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -448,9 +1279,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="231" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.25573066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6416819" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" sideWeight="0.3583181" side_tool="true" weight="0.22012103" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -741,7 +1572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -751,7 +1582,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Clases/Articulo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2814">
+        <state relative-caret-position="2010">
           <caret line="272" column="17" selection-start-line="272" selection-start-column="17" selection-end-line="272" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -763,20 +1594,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej4/Clases/Disco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej5/Main/MainGestesimalV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="532">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BoletinPOO3/Ej4/Clases/Disco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
