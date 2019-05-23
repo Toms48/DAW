@@ -269,21 +269,18 @@ public class GestoraBuscaMinas {
  **************************************************************************/
     public void PintarTableroJugador(Casilla[][] tablero){
 
-        for(int i=0; i<tablero.length; i++){
-            if(i>=10){
-                System.out.print(i+1 +" ");
-            }
-            else{
-                System.out.print(" " +(i+1) +" ");
-            }
-        }
-        System.out.print("\n");
+        System.out.print("<table border=\"1\">");
+        System.out.print("<tbody>");
 
+            
+                /*<td></td>
+                    <td></td>*/
+                
+        
+                
         for(int i=0; i<tablero.length; i++){
-            if(i!=0) {
-                System.out.print("\n");
-                //System.out.println(" " +i+1);
-            }
+            
+            System.out.print("<tr>");
 
             for(int j=0; j<tablero.length; j++){
 
@@ -310,11 +307,15 @@ public class GestoraBuscaMinas {
                     }
                 }
                 else{
-                    System.out.print("[■]");
+                    System.out.print("■");
                 }
             }
-            System.out.print(" " +(i+1));
+            
+            System.out.print("</tr>");
         }
+        
+        System.out.print("</tbody>");
+        System.out.print("</table>");
     }
 
 /**************************************************************************
@@ -561,20 +562,13 @@ Interfaz
         Casilla[][] tableroFacil;
         int i;
         int j;
-
-        Scanner teclado = new Scanner(System.in);
+        
         tableroFacil = CrearTableroFacil();
 
         PintarTableroJugador(tableroFacil);
 
         do{
-            do{
-                System.out.print("\n\nIntroduzca la fila: ");
-                i = teclado.nextInt();
-                System.out.print("Introduzca la columna: ");
-                j = teclado.nextInt();
-            }
-            while((i<1 || i>8) || (j<1 || j>8));
+            int
 
             PintarTablero(tableroFacil, i-1, j-1, 7);
         }

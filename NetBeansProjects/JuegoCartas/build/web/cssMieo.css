@@ -1,0 +1,74 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-may-2019, 19:53:18
+    Author     : Familia
+*/
+
+#cuerpo{
+    background-color: #bcdeff;
+}
+
+#imagen{
+    width: 130px;
+    height: auto;
+}
+
+    /*display: inline;*/
+
+#tapete{
+    background-image: url(imagenes/tapete.jpg);
+    padding: 20px;
+    border: 10px solid black;
+    border-image: url(imagenes/border.png) 40 round;
+}
+
+#marcador{
+    padding: 15px;
+    background-color: white;
+    float: left;
+    vertical-align: middle;
+    box-shadow: 13px 13px 7px 0px rgba(0,0,0,0.64);
+    border-radius: 5px;
+}
+
+#ganador{
+    background: #FFD700;
+    background-image: linear-gradient(to bottom, #FFD700, #bd9e00);
+    border-radius: 12px;
+    text-shadow: 3px 3px 4px #666666;
+    color: #363636;
+    font-size: 30px;
+    padding: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    display: inline;
+}
+
+#empate{
+    background: #8c8c8c;
+    background-image: linear-gradient(to bottom, #8c8c8c, #636363);
+    border-radius: 12px;
+    text-shadow: 3px 3px 4px #666666;
+    /*color: #363636;*/
+    color: black;
+    font-size: 30px;
+    padding: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+    display: inline;
+}
+
+#puntos{
+    padding: 15px;
+    background-color: white;
+    float: left;
+    vertical-align: middle;
+    box-shadow: 13px 13px 7px 0px rgba(0,0,0,0.64);
+    border-radius: 5px;
+}

@@ -71,17 +71,6 @@ public class Casilla implements Cloneable {
 		this. dibujo = dibujo;
 	}
 
-
-	//Constructor copia
-	public Casilla(Casilla casillaCopia){
-		this.mina = casillaCopia.getMina();
-		this.bandera = casillaCopia.getBandera();
-		this.descubierto = casillaCopia.getDescubierto();
-		this.numero = casillaCopia.getNumero();
-		this.dibujo = casillaCopia.getDibujo();
-	}
-
-
 	//Gets
 	public boolean getMina(){
 		return mina;

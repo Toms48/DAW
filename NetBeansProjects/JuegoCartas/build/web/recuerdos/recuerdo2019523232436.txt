@@ -1,0 +1,10 @@
+  RESULTADOS  
+==============
+GANADOR  ===> JUGADOR 2
+PERDEDOR ===> JUGADOR 1
+
+
+  PUNTUACION  
+==============
+JUGADOR 1 ===> 33
+JUGADOR 2 ===> 37

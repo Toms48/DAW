@@ -3,7 +3,6 @@ package org.apache.jsp;
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
-import java.util.Scanner;
 
 public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
@@ -45,57 +44,51 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("\n");
       out.write("\n");
-      out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");
-      out.write("    <head>\n");
-      out.write("        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
-      out.write("        <title>JSP Page</title>\n");
-      out.write("    </head>\n");
-      out.write("    <body>\n");
-      out.write("        <center>\n");
-      out.write("            <hr/>\n");
-      out.write("            <h1><b>Apuesta y Gana</b></h1>\n");
-      out.write("            <hr/>\n");
-      out.write("            \n");
-      out.write("            ");
-
-                String resp = "s";
-                int dinero = 1000;
-                
-                if(resp.equals("s")){
-                    out.print("<form action=\"index.jsp\">");
-                        out.print("<input type=\"text\" name=\"resp\" id=\"myText\" value=\"\">");
-                        out.print("<input type=\"Submit\" value=\"Click to Submit\">");
-                    out.print("</form>");
-
-                    resp = request.getParameter("resp");
-                }
-                
-                if (resp == null) {
-                    resp = "s";
-                }
-                else { 
-                    if (resp.length() == 0) {
-                        out.print("<b>Texto vacío</b>");
-                    }
-                    else {
-      out.write("\n");
-      out.write("                        <p><b>Los escrito arriba es: ");
-      out.print( resp );
-      out.write("</b></p>\n");
-      out.write("                        <p><b>Dinero: ");
-      out.print( dinero );
-      out.write("</b></p>\n");
-      out.write("                    ");
-}
-                }
-            
-      out.write("\n");
-      out.write("            \n");
-      out.write("        </center>\n");
-      out.write("    </body>\n");
+      out.write("  <head>\n");
+      out.write("    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n");
+      out.write("    <title>Relación 12 - Ejercicio 19</title>\n");
+      out.write("    <link href=\"css/estilos.css\" rel=\"stylesheet\" type=\"text/css\" />\n");
+      out.write("  </head>\n");
+      out.write("  <body>\n");
+      out.write("    <h1>Apuesta y gana</h1>\n");
+      out.write("    <div id=\"principal\">\n");
+      out.write("    <form method=\"post\" action=\"juego.jsp\">\n");
+      out.write("      <p>Por favor, introduzca la cantidad que quiere apostar:</p>\n");
+      out.write("      <input type=\"number\" min=\"1\" name=\"dinero\">€<br>\n");
+      out.write("      <input type=\"submit\" value=\"Aceptar\">\n");
+      out.write("    </form>\n");
+      out.write("    </div>\n");
+      out.write("  </body>\n");
       out.write("</html>\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
       out.write("\n");
       out.write("\n");
       out.write("\n");

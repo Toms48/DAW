@@ -4,6 +4,7 @@
     Author     : t-m-1
 --%>
 
+<%@page import="Gestora.GestoraBuscaMinas"%>
 <%@page import="java.util.Random"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="Clases.Casilla"%>
@@ -16,64 +17,31 @@
     </head>
     <body>
         <center>
-
-            <table border="2" cellpadding="5">
+            <table border="1">
                 <thead>
                     <tr>
                         <th></th>
-                        <th>1</th>
-                        <th>2</th>
-                        <th>3</th>
-                        <th>4</th>
-                        <th>5</th>
-                        <th>6</th>
-                        <th>7</th>
-                        <th>8</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
-                    <%
-                        for(int i=1; i<=8; i++){ //Filas
-                            out.print("<tr>");
-                            for(int j=1; j<=8; j++){ //Columnas
-                                if(j==1){
-                                    out.print("<th>" +i +"</th>");
-                                }
-                                out.println("<th><input type=\"submit\" value=\"\" /></th>");
-                            }
-                            out.print("</tr>");
-                        }
-                    %>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
                 </tbody>
             </table>
 
-            
-            <%/*
-                public void NivelFacil(){
-
-                    Casilla[][] tableroFacil;
-                    int i;
-                    int j;
-
-                    tableroFacil = CrearTableroFacil();
-
-                    PintarTableroJugador(tableroFacil);
-
-                    do{
-
-                        PintarTablero(tableroFacil, i-1, j-1, 7);
-                    }
-                    while((DescubrirCasilla(tableroFacil, i-1, j-1, 7) != -1) && (ContadorNoDescubierto(tableroFacil) != 10));
-
-                    if(DescubrirCasilla(tableroFacil, i-1, j-1, 7) == -1){
-                        System.out.println("\nPa tu casa.");
-                    }
-
-                    if(ContadorNoDescubierto(tableroFacil) == 10){
-                        System.out.println("\nMieo, has ganao");
-                    }
-                }
-            */%>
+            <%
+                
+                 GestoraBuscaMinas gestora = new GestoraBuscaMinas();
+                
+                gestora.NivelFacil();
+            %>
         </center>
     </body>
 </html>
