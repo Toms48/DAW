@@ -31,22 +31,11 @@
             <br/>
             
             <%
-                LocalDateTime now = LocalDateTime.now();
-                int year = now.getYear();
-                int month = now.getMonthValue();
-                int day = now.getDayOfMonth();
-                int hour = now.getHour();
-                int minute = now.getMinute();
-                int second = now.getSecond();
-                
                 ArrayList<Carta> manoJugador = new ArrayList();
                 ArrayList<Carta> manoRival = new ArrayList();
                 
                 String nJ1 = request.getParameter("nJ1");
                 String nJ2 = request.getParameter("nJ2");
-                
-                int puntuacionJugador = 0;
-                int puntuacionRival = 0;
                 
                 Baraja baraja = new Baraja();
                 baraja.barajar();
@@ -59,7 +48,6 @@
                 out.print("<div id=\"tapete\">");
                 for(Carta dato : manoJugador){
                     out.println(dato.toString());
-                    puntuacionJugador += dato.getValor();
                 }
                 out.print("<div id=\"marcador\"><b>" +nJ1 +"</b></div>");
                 out.print("</div>");
@@ -69,70 +57,39 @@
                 out.print("<div id=\"tapete\">");
                 for(Carta dato : manoRival){
                     out.println(dato.toString());
-                    puntuacionRival += dato.getValor();
                 }
                 out.print("<div id=\"marcador\"><b>" +nJ2 +"</b></div>");
                 out.print("</div>");
                 
-                out.print("<br/><br/><br/>");
+                out.print("<br/><br/><br/>");%>
+                <p><div id="marcador"><b> <%=nJ1%> </b></div>
+                <div id="marcador"><b> <%=nJ2%> </b></div></p>
+    
+                <form action="tresNuevasCartas.jsp" method="POST">
+                    <select  name = "cambiaCartaJ1" multiple = "multiple">
+                            <option value=0> 0 </option>
+                            <option value=1> 1 </option>
+                            <option value=2> 2 </option>
+                            <option value=3> 3 </option>
+                            <option value=4> 4 </option>
+                            <option value=5> 5 </option>
+                    </select>
+                    
+                    <select  name = "cambiaCartaJ2" multiple = "multiple">
+                            <option value=0> 0 </option>
+                            <option value=1> 1 </option>
+                            <option value=2> 2 </option>
+                            <option value=3> 3 </option>
+                            <option value=4> 4 </option>
+                            <option value=5> 5 </option>
+                    </select>
+                    <input type="hidden" name="nJ1" value=<%=nJ1%>>
+                    <input type="hidden" name="nJ2" value=<%=nJ2%>>
+                <p><input type="submit" value="Cambiar" /></p>
+                </form>
+        
                 
-                out.print("<div id=\"puntos\">");
-                out.print("<p>PUNTOS</p>");
-                out.print("<br/>");
-                out.print("<p>" +nJ1 +" ===> " +puntuacionJugador +"   |||||   " +puntuacionRival +" <=== " +nJ2 +"</p>");
-                out.print("</div>");
-                
-                out.print("<br/><br/><br/>");
-                
-                try{
-                    BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
-                    //BufferedWriter bw = new BufferedWriter(new FileWriter("recuerdos\\recuerdo1.txt"));
-                    
-                    bw.write("  RESULTADOS  ");
-                    bw.newLine();
-                    bw.write("==============");
-                    bw.newLine();
-                    
-                    if(puntuacionJugador > puntuacionRival){
-                        out.print("<div id=\"ganador\">GANADOR ===> " +nJ1 +"</div>");
-                        bw.write("GANADOR  ===> " +nJ1);
-                        bw.newLine();
-                        bw.write("PERDEDOR ===> " +nJ2);
-                    }
-                    else{
-                        if(puntuacionJugador < puntuacionRival){
-                            out.print("<div id=\"ganador\">GANADOR ===> " +nJ2 +"</div>");
-                            bw.write("GANADOR  ===> " +nJ2);
-                            bw.newLine();
-                            bw.write("PERDEDOR ===> " +nJ1);
-                        }
-                        else{
-                            out.print("<div id=\"empate\">EMPATE</div>");
-                            bw.write("EMPATE");
-                        }
-                    }
-                    
-                    bw.newLine();
-                    bw.newLine();
-                    bw.newLine();
-                    
-                    bw.write("  PUNTUACION  ");
-                    bw.newLine();
-                    bw.write("==============");
-                    bw.newLine();
-                    bw.write(nJ1 +" ===> " +puntuacionJugador);
-                    bw.newLine();
-                    bw.write(nJ2 +" ===> " +puntuacionRival);
-                    
-                    bw.close();
-		}
-		catch (FileNotFoundException e){
-			out.println("No se ha encontrado el fichero");
-		}
-		catch (IOException e){
-			out.println("No se ha podido escribir en el fichero");
-		}
-                
+                <%out.print("<br/><br/><br/>");
             %>
         </center>
     </body>

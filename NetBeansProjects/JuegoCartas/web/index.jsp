@@ -22,9 +22,9 @@
 
             <br/>
             
-            <form action="tresCartas.jsp" method="POST">
-                <p>Nombre J1 <input type="text" name="nJ1" value="JUGADOR 1" /></p>
-                <p>Nombre J2 <input type="text" name="nJ2" value="JUGADOR 2" /></p>
+            <form action="5cartas.jsp" method="POST">
+                <p>Nombre J1 <input type="text" name="nJ1" value="Jugador1" /></p>
+                <p>Nombre J2 <input type="text" name="nJ2" value="Jugador2" /></p>
                 <p><input type="submit" value="¡JUGAR!" /></p>
             </form>
             

@@ -1,5 +1,5 @@
 <%-- 
-    Document   : tresCartas
+    Document   : 5Cartas
     Created on : 22-may-2019, 16:16:13
     Author     : Familia
 --%>
@@ -66,7 +66,7 @@
                 <div id="marcador"><b> <%=nJ2%> </b></div></p>
     
                 <form action="tresNuevasCartas.jsp" method="POST">
-                    <select  name = "cambiaCartaJ1" multiple = "multiple">
+                    <select  name = "cambiaCartaJ1">
                             <option value=0> 0 </option>
                             <option value=1> 1 </option>
                             <option value=2> 2 </option>
@@ -75,7 +75,7 @@
                             <option value=5> 5 </option>
                     </select>
                     
-                    <select  name = "cambiaCartaJ2" multiple = "multiple">
+                    <select  name = "cambiaCartaJ2">
                             <option value=0> 0 </option>
                             <option value=1> 1 </option>
                             <option value=2> 2 </option>
@@ -85,9 +85,9 @@
                     </select>
                     <input type="hidden" name="nJ1" value=<%=nJ1%>>
                     <input type="hidden" name="nJ2" value=<%=nJ2%>>
+                    
                 <p><input type="submit" value="Cambiar" /></p>
                 </form>
-        
                 
                 <%out.print("<br/><br/><br/>");
             %>
