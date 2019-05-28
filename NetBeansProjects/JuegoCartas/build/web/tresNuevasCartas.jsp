@@ -31,6 +31,7 @@
             <br/>
             
             <%
+                //Declaraciones de variables
                 LocalDateTime now = LocalDateTime.now();
                 int year = now.getYear();
                 int month = now.getMonthValue();
@@ -39,56 +40,85 @@
                 int minute = now.getMinute();
                 int second = now.getSecond();
                 
-                ArrayList<Carta> manoJugador =  
-                (ArrayList<Carta>)request.getAttribute("arrayJ1"); 
-                for(Carta s : manoJugador){
-                    out.println(s.toString());
-                }
-                
-                /*if (request.getAttribute("arrayJ1") != null) {
-                    ArrayList manoJugador = (ArrayList) request.getAttribute("arrayJ1");
-                    out.println(manoJugador);
-                    out.println(manoJugador.size());
-                    for (int i=0; i < manoJugador.size(); i++) {
-                        out.println(manoJugador.get(i));
-                    }
-                }
-                else {
-                    out.println("no data in array");
-                }*/
-                
-                ArrayList<Carta> manoRival = new ArrayList();
+                ArrayList<Carta> manoJugador1 = new ArrayList();
+                ArrayList<Carta> manoJugador2 = new ArrayList();
                 
                 String nJ1 = request.getParameter("nJ1");
                 String nJ2 = request.getParameter("nJ2");
                 
-                int cJ1 = 0;
-                int cJ2 = 0;
+                int cambioCartaJ1 = Integer.parseInt(request.getParameter("cambiaCartaJ1"))-1;
+                int cambioCartaJ2 = Integer.parseInt(request.getParameter("cambiaCartaJ2"))-1;
                 
-                if(request.getParameter("cambiaCartaJ1") != null){
-                    cJ1 = Integer.parseInt(request.getParameter("cambiaCartaJ1"));
-                }
+                String palosJ1 = request.getParameter("palosJ1");
+                String valoresJ1 = request.getParameter("valoresJ1");
+                String palosJ2 = request.getParameter("palosJ2");
+                String valoresJ2 = request.getParameter("valoresJ2");
                 
-                if(request.getParameter("cambiaCartaJ2") != null){
-                    cJ2 = Integer.parseInt(request.getParameter("cambiaCartaJ2"));
-                }
                 int puntuacionJugador = 0;
                 int puntuacionRival = 0;
+                
+                int posicionComa = 0;
+                int palo = 0;
+                int valor = 0;
                 
                 Baraja baraja = new Baraja();
                 baraja.barajar();
                 
-                /*for(int i=0; i<=4; i++){
-                    manoJugador.add(baraja.getCartaDeArriba());
-                    manoRival.add(baraja.getCartaDeArriba());
-                }*/
-                out.print("Jugador1: " +cJ1);
-                out.print("Jugador2: " +cJ2);
+                //Inicio
+                for(int i=0; i<=4; i++){
+                    posicionComa = palosJ1.indexOf(',');
+                    palo = Integer.parseInt(palosJ1.substring(0,posicionComa));
+                    //out.println(palo);
+                    palosJ1 = palosJ1.substring(posicionComa+1);
+                    
+                    posicionComa = valoresJ1.indexOf(',');
+                    valor = Integer.parseInt(valoresJ1.substring(0,posicionComa));
+                    //out.println(valor);
+                    valoresJ1 = valoresJ1.substring(posicionComa+1);
+                    
+                    Carta cartaJ1 = new Carta(valor,palo);
+                    manoJugador1.add(cartaJ1);
+                }
+                
+                for(int i=0; i<=4; i++){
+                    posicionComa = palosJ2.indexOf(',');
+                    palo = Integer.parseInt(palosJ2.substring(0,posicionComa));
+                    //out.println(palo);
+                    palosJ2 = palosJ2.substring(posicionComa+1);
+                    
+                    posicionComa = valoresJ2.indexOf(',');
+                    valor = Integer.parseInt(valoresJ2.substring(0,posicionComa));
+                    //out.println(valor);
+                    valoresJ2 = valoresJ2.substring(posicionComa+1);
+                    
+                    Carta cartaJ2 = new Carta(valor,palo);
+                    manoJugador2.add(cartaJ2);
+                }
+                
+                for(int i=0; i<=4; i++){
+                    baraja.quitarDeLaBaraja(manoJugador1.get(i));
+                }
+                
+                for(int i=0; i<=4; i++){
+                    baraja.quitarDeLaBaraja(manoJugador2.get(i));
+                }
+                
+                for(int i=0; i<=4; i++){
+                    if(cambioCartaJ1 == i){
+                        manoJugador1.set(i, baraja.getCartaDeArriba());
+                    }
+                    
+                    if(cambioCartaJ2 == i){
+                        manoJugador2.set(i, baraja.getCartaDeArriba());
+                    }
+                }
+                
                 out.print("<div id=\"tapete\">");
-                /*for(Carta dato : manoJugador){
+                for(Carta dato : manoJugador1){
                     out.println(dato.toString());
                     puntuacionJugador += dato.getValor();
-                }*/
+                }
+                
                 out.print("<div id=\"marcador\"><b>" +nJ1 +"</b></div>");
                 out.print("</div>");
                 
@@ -97,7 +127,8 @@
                 
                 
                 out.print("<div id=\"tapete\">");
-                for(Carta dato : manoRival){
+                
+                for(Carta dato : manoJugador2){
                     out.println(dato.toString());
                     puntuacionRival += dato.getValor();
                 }
@@ -115,8 +146,8 @@
                 out.print("<br/><br/><br/>");
                 
                 try{
-                    BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
-                    //BufferedWriter bw = new BufferedWriter(new FileWriter("recuerdos\\recuerdo1.txt"));
+                    //BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
+                    BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
                     
                     bw.write("  RESULTADOS  ");
                     bw.newLine();

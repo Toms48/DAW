@@ -1,0 +1,10 @@
+  RESULTADOS  
+==============
+GANADOR  ===> Tomas
+PERDEDOR ===> Jorge
+
+
+  PUNTUACION  
+==============
+Tomas ===> 35
+Jorge ===> 22

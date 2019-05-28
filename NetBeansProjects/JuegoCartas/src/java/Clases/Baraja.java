@@ -37,6 +37,14 @@ public class Baraja {
 	}
 	
 	//Métodos añadidos
+        public void quitarDeLaBaraja(Carta carta){
+            for(int i=0; i<=baraja.size()-1; i++){
+                if(baraja.get(i).compareTo(carta)==0){
+                    baraja.remove(i);
+                }
+            }
+        }
+        
 	public void ordenarBaraja(){
 		baraja.sort(Carta::compareTo);
 	}

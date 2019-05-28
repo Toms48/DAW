@@ -31,22 +31,32 @@
             <br/>
             
             <%
-                ArrayList<Carta> manoJugador = new ArrayList();
-                ArrayList<Carta> manoRival = new ArrayList();
+                ArrayList<Carta> manoJugador1 = new ArrayList();
+                ArrayList<Carta> manoJugador2 = new ArrayList();
                 
                 String nJ1 = request.getParameter("nJ1");
                 String nJ2 = request.getParameter("nJ2");
+                
+                String palosJ1 = "";
+                String valoresJ1 = "";
+                String palosJ2 = "";
+                String valoresJ2 = "";
                 
                 Baraja baraja = new Baraja();
                 baraja.barajar();
                 
                 for(int i=0; i<=4; i++){
-                    manoJugador.add(baraja.getCartaDeArriba());
-                    manoRival.add(baraja.getCartaDeArriba());
+                    manoJugador1.add(baraja.getCartaDeArriba());
+                    palosJ1 = palosJ1 + manoJugador1.get(i).getPalo() +",";
+                    valoresJ1 = valoresJ1 + manoJugador1.get(i).getValor() +",";
+                    
+                    manoJugador2.add(baraja.getCartaDeArriba());
+                    palosJ2 = palosJ2 + manoJugador2.get(i).getPalo() +",";
+                    valoresJ2 = valoresJ2 + manoJugador2.get(i).getValor() +",";
                 }
                 
                 out.print("<div id=\"tapete\">");
-                for(Carta dato : manoJugador){
+                for(Carta dato : manoJugador1){
                     out.println(dato.toString());
                 }
                 out.print("<div id=\"marcador\"><b>" +nJ1 +"</b></div>");
@@ -55,7 +65,7 @@
                 out.print("<br/><br/><br/>");
                 
                 out.print("<div id=\"tapete\">");
-                for(Carta dato : manoRival){
+                for(Carta dato : manoJugador2){
                     out.println(dato.toString());
                 }
                 out.print("<div id=\"marcador\"><b>" +nJ2 +"</b></div>");
@@ -83,8 +93,14 @@
                             <option value=4> 4 </option>
                             <option value=5> 5 </option>
                     </select>
+                    
                     <input type="hidden" name="nJ1" value=<%=nJ1%>>
                     <input type="hidden" name="nJ2" value=<%=nJ2%>>
+                    
+                    <input type="hidden" name="palosJ1" value=<%=palosJ1%>>
+                    <input type="hidden" name="valoresJ1" value=<%=valoresJ1%>>
+                    <input type="hidden" name="palosJ2" value=<%=palosJ2%>>
+                    <input type="hidden" name="valoresJ2" value=<%=valoresJ2%>>
                     
                 <p><input type="submit" value="Cambiar" /></p>
                 </form>
