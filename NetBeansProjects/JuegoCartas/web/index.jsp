@@ -16,7 +16,8 @@
         <center>
             <hr/>
             <hr/>
-            <h1><img src="imagenes/logoCartas.png" height="142px" width="auto"/></h1>
+            <%--<h1><img src="imagenes/logoCartas.png" height="142px" width="auto"/></h1>--%>
+            <h1>CARTAS</h1>
             <hr/>
             <hr/>
 

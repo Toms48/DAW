@@ -24,7 +24,8 @@
         <center>
             <hr/>
             <hr/>
-            <h1><img src="imagenes/logoCartas.png" height="142px" width="auto"/></h1>
+            <%--<h1><img src="imagenes/logoCartas.png" height="142px" width="auto"/></h1>--%>
+            <h1>CARTAS</h1>
             <hr/>
             <hr/>
 
@@ -146,8 +147,8 @@
                 out.print("<br/><br/><br/>");
                 
                 try{
-                    //BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
-                    BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
+                    BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\t-m-1\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
+                    //BufferedWriter bw = new BufferedWriter(new FileWriter("C:\\Users\\Familia\\Documents\\NetBeansProjects\\JuegoCartas\\build\\web\\recuerdos\\recuerdo" +year +month +day +hour +minute+ second +".txt"));
                     
                     bw.write("  RESULTADOS  ");
                     bw.newLine();
